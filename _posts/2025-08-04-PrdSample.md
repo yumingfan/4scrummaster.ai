@@ -7,81 +7,41 @@ layout: post
 mermaid: true
 ---
 # SingaHai Travel Buddy
-## 📌 目的與背景 | Purpose & Background
-本專案目的是做一款幫助旅客在新加坡和上海自由行時變得更方便的 App。現代人都很忙，沒空做功課，所以這個 App 會一次搞定吃住玩交通，讓行程變得簡單又有趣。	
-這款 App 要看起來智慧、時尚、要讓人一打開就覺得好用，像是他們的旅遊靈魂伴侶。未來也可能拓展到其他城市。	
+## 📌 目的与背景 | Purpose & Background
+本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
+这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。	
 The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
 The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.
 
-## 🧍‍♂️ 用戶角色 | User Personas
-角色描述	 Persona Description
-- **小艾（22歲，大學生）**  ：喜歡自由行，不想排隊又怕踩雷，喜歡深夜活動。	
-Ai (22, student): Likes freeform travel, avoids queues and tourist traps, prefers nightlife.
-- **阿邦（29歲，工程師）**：時間寶貴，希望行程有效率，偏好安靜住宿。	
-Bong (29, software engineer): Time-conscious, prefers efficient itineraries and quiet hotels.
-- **萱萱（25歲，美食部落客）**：每天都要吃特色美食，講究擺盤與氣氛。	
-Xuan (25, food blogger): Eats photogenic, local dishes every day. Prefers stylish environments.
-- **Unicorn User**：內向外向都行，想自由也想被規劃，沒錢但想奢華，有選擇障礙又要求很多。	
-Unicorn User: Introverted and extroverted, wants freedom and structure, low budget but high expectations, indecisive yet picky.
+## 🧾 初步想法 First Draft Thoughts
 
-## 🛠 功能需求 | Functional Requirements
-### 📍 行程規劃 | Itinerary Planning
-**需求	 Requirement**
-- 可以滑動、拖拉式的行程安排功能，像 Notion 一樣好操作。	
-Swipeable, drag-and-drop itinerary planner—similar to Notion.
-- 每個活動要顯示交通方式、費用、距離與時間。	
-Each activity should display transport options, rough cost, distance, and travel time.
-- 希望可以「一鍵排好」，除非用戶想自己微調。	
-Ideally, users can auto-generate itineraries and edit them later if desired.
-- 行程可以分享、改編、複製別人行程。	
-Users should be able to copy or remix others' itineraries.
+- 我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。	
+We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.
+- App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。	
+The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.
+- 行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。	
+There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.
+- 最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。	
+There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.
+- 吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。	
+Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.
+- 住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。	
+Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.
+- 地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。	
+Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.
+- 这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。	
+The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.
+- 最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。	
+The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.
 
-### 🧠 個性推薦 | Personality-Based AI
-**需求	 Requirement**
-- 第一次使用時做心理測驗，要像 16型人格。	
-First-time users take a personality quiz (like 16Personalities).
-- 出現結果後立即生成專屬行程，如「神秘夜行者」風格。	
-After the result (e.g., “Mystic Night Owl”), the app builds a matching itinerary.
-- 行程每天不一樣，要有靈魂，不能太制式。	
-Each day should feel unique and “crafted,” not templated.
-
-### 🏨 住宿匹配 | Accommodation Matcher
-**需求	 Requirement**
-- 能用價格、交通、偏好來篩選（如安靜、有窗等）。	
-Filter accommodations by price, proximity, and user preferences (e.g., quiet, natural light).
-- 根據行程與人格自動推薦飯店。	
-Suggest hotels based on the user’s plan and personality.
-以卡片形式顯示，畫面乾淨、不業配。	
-Display hotel results as clean, card-based UI—no commercial clutter.
-- 最好能串接 
-Agoda 或 Booking.com。	Ideally integrate with Agoda/Booking.com for booking.
-
-### 🍜 美食推薦引擎 | Food Discovery Engine
-**需求	 Requirement**
-- 分類：多人餐、IG 美食、當地小吃。	
-Categories: group dining, Instagrammable food, local picks.
-- 篩選條件：素食、清真、無豬、無辣等。	
-Filters for vegetarian, halal, pork-free, non-spicy, etc.
-- 顯示熱門指數與大家都點的餐。	
-Show popularity scores and common picks.
-- 菜單翻譯＋emoji 表示（辣🌶️、大份量🍽️）。	
-Menus should include translations and emojis (e.g., 🌶️ spicy, 🍽️ large).
-
-### 🎨 設計要求 | Design Requirements
-**需求	 Requirement**
-- 色系使用 twilight blue 與薰衣草色，安靜但不無聊。	
-Use twilight blue and lavender colors—calming yet interesting.
-
-- 要有 Dark Mode，也可以切換日系或美式風格。	
-Support Dark Mode and switchable UI themes (e.g., Japanese minimal vs American magazine).
-- 音效要療癒，不能太吵。	
-Background sounds should be soothing, not noisy.
-
-### 🧪 加值功能 | Bonus (Nice-to-Have) Features
-**需求	 Requirement**
-- 「今日推薦」根據天氣與心情推薦地點。	
-“Today’s Vibe” feature: recommends places based on weather/mood.
-- 開啟旅伴配對，找一樣人格的人同行。	
-Travel buddy matchmaking for similar personality types.
-- 成就系統：連吃五天夜市、避開觀光區等。	
-Achievement badges (e.g., "5-night food streak", "Avoided all tourist spots").
+## 💡 备注 Notes
+- 我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。	
+I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.
+- 最好设计一点不要太多按钮，但也不能没有功能。	
+Fewer buttons are better, but also can’t have too few functions.
+- 最好可以推荐行程，也让人可以自己改，不然大家都问客服。	
+Recommend stuff, but let people change it too. Otherwise they keep asking customer service.
+- 啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。	
+Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.
+- 最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。	
+Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”
