@@ -1,0 +1,528 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head><meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>PRD Sample · 4ScrumMaster.ai</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming.
+"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="HE Tao"><link rel="stylesheet" href="/content/assets/gitbook/style.css">
+<link rel="stylesheet" href="/content/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<link rel="stylesheet" href="/content/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
+<link rel="stylesheet" href="/content/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="/content/assets/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="/content/assets/gitbook/gitbook-plugin-splitter/splitter.css">
+
+<link rel="stylesheet" href="/content/assets/gitbook/rouge/colorful.css">
+
+<link rel="stylesheet" href="/content/assets/gitbook/custom.css">
+<link rel="stylesheet" href="/content/assets/gitbook/custom-local.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/content/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/content//assets/gitbook/images/favicon.ico" type="image/x-icon">
+
+
+
+
+            <link rel="prev" href="/content/" />
+        
+
+        
+    </head>
+    <body>
+        <div class="book"><div class="book-summary">
+    <script type="text/javascript">
+        // Fixes the page links scroll problem on both desktop and mobile browsers
+        function pageScrollToTop(element) {
+            // both mobile and non-mobile
+            $('div.body-inner').animate({scrollTop: 0});
+            $(element).parent().find('li>ul>li').removeClass('active');
+            return true;  // propagate
+        }
+        // Fixes the anchor links scroll problem on mobile browsers
+        function mobilePageScrollToAnchor(element) {
+            $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            $(element).parent().addClass('active');
+            if ($(document).width() <= 1240) {
+                let target = $($(element).attr('href'));
+                if (target.length) {
+                    $('div.body-inner').animate({
+                        scrollTop: target.get(0).offsetTop,
+                    });
+                }
+            }
+            return true;
+        }
+    </script>
+
+    <nav role="navigation">
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
+        <div id="book-search-input-link" role="search">
+            <a href="/content/assets/search.html">Click to Search</a>
+        </div>
+        <ul class="summary">
+            
+            <li class="chapter" data-level="1.1" data-path="/content">
+            
+                <a href="/content/" onclick="pageScrollToTop(this)">
+                    4ScrumMaster.ai
+                </a>
+                
+                    
+                
+            </li>
+
+            <li class="divider"></li>
+
+            
+                
+                    
+                    <!-- <p>posts</p> -->
+                    
+                        
+
+                        
+                            
+                            <li class="chapter active" data-level="1.2" data-path="/content/prd/2025-08-04-PrdSample.html">
+                            
+                                <a href="/content/prd/2025-08-04-PrdSample.html" onclick="pageScrollToTop(this)">
+                                    PRD Sample
+                                </a>
+                                
+                                    
+                                        <ul><li><a href="#singahai-travel-buddy" onclick="mobilePageScrollToAnchor(this)" >SingaHai Travel Buddy</a><ul><li><a href="#-目的與背景--purpose--background" onclick="mobilePageScrollToAnchor(this)" >📌 目的與背景 | Purpose &amp; Background</a></li><li><a href="#️-用戶角色--user-personas" onclick="mobilePageScrollToAnchor(this)" >🧍‍♂️ 用戶角色 | User Personas</a></li><li><a href="#-功能需求--functional-requirements" onclick="mobilePageScrollToAnchor(this)" >🛠 功能需求 | Functional Requirements</a><ul><li><a href="#-行程規劃--itinerary-planning" onclick="mobilePageScrollToAnchor(this)" >📍 行程規劃 | Itinerary Planning</a></li><li><a href="#-個性推薦--personality-based-ai" onclick="mobilePageScrollToAnchor(this)" >🧠 個性推薦 | Personality-Based AI</a></li><li><a href="#-住宿匹配--accommodation-matcher" onclick="mobilePageScrollToAnchor(this)" >🏨 住宿匹配 | Accommodation Matcher</a></li><li><a href="#-美食推薦引擎--food-discovery-engine" onclick="mobilePageScrollToAnchor(this)" >🍜 美食推薦引擎 | Food Discovery Engine</a></li><li><a href="#-設計要求--design-requirements" onclick="mobilePageScrollToAnchor(this)" >🎨 設計要求 | Design Requirements</a></li><li><a href="#-加值功能--bonus-nice-to-have-features" onclick="mobilePageScrollToAnchor(this)" >🧪 加值功能 | Bonus (Nice-to-Have) Features</a></li></ul></li></ul></li></ul>
+
+                                    
+                                
+                            </li>
+                        
+
+                        
+                            <li class="divider"></li>
+                        
+                    
+                
+                    
+                    <!-- <p>pages</p> -->
+                    
+                        
+
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/content/pages/about/">
+                            
+                                <a href="/content/pages/about/" onclick="pageScrollToTop(this)">
+                                    About
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/content/pages/contact/">
+                            
+                                <a href="/content/pages/contact/" onclick="pageScrollToTop(this)">
+                                    Contact
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/content/pages/design/draft/">
+                            
+                                <a href="/content/pages/design/draft/" onclick="pageScrollToTop(this)">
+                                    Design Draft
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+
+                        
+                            <li class="divider"></li>
+                        
+                    
+                
+                    
+                    <!-- <p>others</p> -->
+                    
+                        
+
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/content/others/about/">
+                            
+                                <a href="/content/others/about/" onclick="pageScrollToTop(this)">
+                                    About others
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+
+                        
+                            <li class="divider"></li>
+                        
+                    
+                
+            
+        </ul>
+    </nav>
+</div>
+<div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        
+                            <a href="." >PRD Sample</a>
+                        
+                    </h1>
+                </div>
+
+                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+    
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    
+                        <h1 id="/prd/PrdSample">PRD Sample</h1>
+                    
+
+                    <h1 id="singahai-travel-buddy">SingaHai Travel Buddy</h1>
+<h2 id="-目的與背景--purpose--background">📌 目的與背景 | Purpose &amp; Background</h2>
+<p>本專案目的是做一款幫助旅客在新加坡和上海自由行時變得更方便的 App。現代人都很忙，沒空做功課，所以這個 App 會一次搞定吃住玩交通，讓行程變得簡單又有趣。	
+這款 App 要看起來智慧、時尚、要讓人一打開就覺得好用，像是他們的旅遊靈魂伴侶。未來也可能拓展到其他城市。	
+The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
+The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.</p>
+
+<h2 id="️-用戶角色--user-personas">🧍‍♂️ 用戶角色 | User Personas</h2>
+<p>角色描述	 Persona Description</p>
+<ul>
+  <li><strong>小艾（22歲，大學生）</strong>  ：喜歡自由行，不想排隊又怕踩雷，喜歡深夜活動。	
+Ai (22, student): Likes freeform travel, avoids queues and tourist traps, prefers nightlife.</li>
+  <li><strong>阿邦（29歲，工程師）</strong>：時間寶貴，希望行程有效率，偏好安靜住宿。	
+Bong (29, software engineer): Time-conscious, prefers efficient itineraries and quiet hotels.</li>
+  <li><strong>萱萱（25歲，美食部落客）</strong>：每天都要吃特色美食，講究擺盤與氣氛。	
+Xuan (25, food blogger): Eats photogenic, local dishes every day. Prefers stylish environments.</li>
+  <li><strong>Unicorn User</strong>：內向外向都行，想自由也想被規劃，沒錢但想奢華，有選擇障礙又要求很多。	
+Unicorn User: Introverted and extroverted, wants freedom and structure, low budget but high expectations, indecisive yet picky.</li>
+</ul>
+
+<h2 id="-功能需求--functional-requirements">🛠 功能需求 | Functional Requirements</h2>
+<h3 id="-行程規劃--itinerary-planning">📍 行程規劃 | Itinerary Planning</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>可以滑動、拖拉式的行程安排功能，像 Notion 一樣好操作。	
+Swipeable, drag-and-drop itinerary planner—similar to Notion.</li>
+  <li>每個活動要顯示交通方式、費用、距離與時間。	
+Each activity should display transport options, rough cost, distance, and travel time.</li>
+  <li>希望可以「一鍵排好」，除非用戶想自己微調。	
+Ideally, users can auto-generate itineraries and edit them later if desired.</li>
+  <li>行程可以分享、改編、複製別人行程。	
+Users should be able to copy or remix others’ itineraries.</li>
+</ul>
+
+<h3 id="-個性推薦--personality-based-ai">🧠 個性推薦 | Personality-Based AI</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>第一次使用時做心理測驗，要像 16型人格。	
+First-time users take a personality quiz (like 16Personalities).</li>
+  <li>出現結果後立即生成專屬行程，如「神秘夜行者」風格。	
+After the result (e.g., “Mystic Night Owl”), the app builds a matching itinerary.</li>
+  <li>行程每天不一樣，要有靈魂，不能太制式。	
+Each day should feel unique and “crafted,” not templated.</li>
+</ul>
+
+<h3 id="-住宿匹配--accommodation-matcher">🏨 住宿匹配 | Accommodation Matcher</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>能用價格、交通、偏好來篩選（如安靜、有窗等）。	
+Filter accommodations by price, proximity, and user preferences (e.g., quiet, natural light).</li>
+  <li>根據行程與人格自動推薦飯店。	
+Suggest hotels based on the user’s plan and personality.
+以卡片形式顯示，畫面乾淨、不業配。	
+Display hotel results as clean, card-based UI—no commercial clutter.</li>
+  <li>最好能串接 
+Agoda 或 Booking.com。	Ideally integrate with Agoda/Booking.com for booking.</li>
+</ul>
+
+<h3 id="-美食推薦引擎--food-discovery-engine">🍜 美食推薦引擎 | Food Discovery Engine</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>分類：多人餐、IG 美食、當地小吃。	
+Categories: group dining, Instagrammable food, local picks.</li>
+  <li>篩選條件：素食、清真、無豬、無辣等。	
+Filters for vegetarian, halal, pork-free, non-spicy, etc.</li>
+  <li>顯示熱門指數與大家都點的餐。	
+Show popularity scores and common picks.</li>
+  <li>菜單翻譯＋emoji 表示（辣🌶️、大份量🍽️）。	
+Menus should include translations and emojis (e.g., 🌶️ spicy, 🍽️ large).</li>
+</ul>
+
+<h3 id="-設計要求--design-requirements">🎨 設計要求 | Design Requirements</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>
+    <p>色系使用 twilight blue 與薰衣草色，安靜但不無聊。	
+Use twilight blue and lavender colors—calming yet interesting.</p>
+  </li>
+  <li>要有 Dark Mode，也可以切換日系或美式風格。	
+Support Dark Mode and switchable UI themes (e.g., Japanese minimal vs American magazine).</li>
+  <li>音效要療癒，不能太吵。	
+Background sounds should be soothing, not noisy.</li>
+</ul>
+
+<h3 id="-加值功能--bonus-nice-to-have-features">🧪 加值功能 | Bonus (Nice-to-Have) Features</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>「今日推薦」根據天氣與心情推薦地點。	
+“Today’s Vibe” feature: recommends places based on weather/mood.</li>
+  <li>開啟旅伴配對，找一樣人格的人同行。	
+Travel buddy matchmaking for similar personality types.</li>
+  <li>成就系統：連吃五天夜市、避開觀光區等。	
+Achievement badges (e.g., “5-night food streak”, “Avoided all tourist spots”).</li>
+</ul>
+</section>
+            </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div></div>
+    </div>
+</div>
+
+<!-- introduce mathjax support -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script
+  type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+<!-- introduce per-page mermaid support -->
+
+    <script>
+    function render_mermaid() {
+        mermaid.initialize({
+            startOnLoad: false,
+            theme: "default",
+        });
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+
+    function initialize_mermaid() {
+        if (document.readyState === "loading") {
+            // Loading hasn't finished yet
+            document.addEventListener("DOMContentLoaded", render_mermaid);
+        } else {
+            // `DOMContentLoaded` has already fired
+            render_mermaid();
+        }
+    }
+
+    if (window.mermaid_script && window.mermaid) {
+        initialize_mermaid();
+    } else {
+        window.mermaid_script = document.createElement("script");
+        mermaid_script.onload = initialize_mermaid;
+        document.head.appendChild(mermaid_script);
+        mermaid_script.defer = true;
+        mermaid_script.id = 'mermaid-script';
+        mermaid_script.src = 'https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js';
+    }
+</script>
+
+
+
+<!-- introduce mathjax support -->
+<script>
+    function fixes_chrome_anchors() {
+        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && chrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        // Loading hasn't finished yet
+        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
+    } else {
+        // `DOMContentLoaded` has already fired
+        fixes_chrome_anchors();
+    }
+</script>
+
+
+                        <a href="/content/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 4ScrumMaster.ai">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
+
+                    
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({
+    "page": {
+        "title": "Introduction",
+        "level": "1.1",
+        "depth": 1,
+        
+        "dir": "ltr"
+    },    "config": {
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "styles": {
+            "ebook": "styles/ebook.css",
+            "epub": "styles/epub.css",
+            "mobi": "styles/mobi.css",
+            "pdf": "styles/pdf.css",
+            "print": "styles/print.css",
+            "website": "styles/website.css"
+        },
+        "pluginsConfig": {
+            "expandable-chapter-small2": {
+                "articlesExpand": true,
+            },
+            "fontsettings": {
+                "family": "sans",
+                "size": 2,
+                "theme": "white"
+            },
+            "highlight": {},
+            "livereload": {},
+            "lunr": {
+                "ignoreSpecialCharacters": false,
+                "maxIndexSize": 1000000
+            },
+            "search": {},            "sharing": {
+                "facebook": true,
+
+                "google": false,
+
+                "github": true,
+              
+                "github_link": "https://github.com",
+              
+
+                "telegram": false,
+                "telegram_link": "https://t.me",
+
+                "instapaper": false,
+
+                "twitter": true,
+              
+
+                "vk": false,
+
+                "weibo": false,
+
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
+            },
+"theme-default": {
+                "showLevel": false,
+                "styles": {
+                    "ebook": "styles/ebook.css",
+                    "epub": "styles/epub.css",
+                    "mobi": "styles/mobi.css",
+                    "pdf": "styles/pdf.css",
+                    "print": "styles/print.css",
+                    "website": "styles/website.css"
+                }
+            },
+        },
+        "theme": "default",
+        "author": "Tao He",
+        "pdf": {
+            "pageNumbers": true,
+            "fontSize": 12,
+            "fontFamily": "Arial",
+            "paperSize": "a4",
+            "chapterMark": "pagebreak",
+            "pageBreaksBefore": "/",
+            "margin": {
+                "right": 62,
+                "left": 62,
+                "top": 56,
+                "bottom": 56
+            }
+        },
+        "structure": {
+            "langs": "LANGS.md",
+            "readme": "README.md",
+        },
+        "variables": {},
+        "title": "4ScrumMaster.ai",
+        "language": "en",
+        "gitbook": "*"
+    },
+    "file": {
+        "path": "_posts/2025-08-04-PrdSample.md",
+        "mtime": "2025-08-04 00:00:00 +0800",
+        "type": "markdown"
+    },
+    "gitbook": {
+        "version": "3.2.3",
+        "time": "2025-08-04 08:25:21 +0800"
+    },
+    "basePath": "/content",
+    "book": {
+        "language": ""
+    }
+});
+            });
+            </script>
+        </div><script src="/content/assets/gitbook/gitbook.js"></script>
+<script src="/content/assets/gitbook/theme.js"></script>
+
+<script src="/content/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+<script src="/content/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+<script src="/content/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js"></script>
+<script src="/content/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/content/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+<script src="/content/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
+<script src="/content/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+<script src="/content/assets/gitbook/gitbook-plugin-splitter/splitter.js"></script>
+
+<!--
+<script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search.js"></script>
+-->
+
+<script src="/content/assets/gitbook/custom.js"></script>
+<script src="/content/assets/gitbook/custom-local.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/content/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/content/" rel="alternate" type="text/html" /><updated>2025-08-04T08:25:21+08:00</updated><id>http://localhost:4000/content/feed.xml</id><title type="html">4ScrumMaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming.
+</subtitle><author><name>HE Tao</name></author><entry><title type="html">PRD Sample</title><link href="http://localhost:4000/content/prd/2025-08-04-PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/content/prd/PrdSample</id><content type="html" xml:base="http://localhost:4000/content/prd/2025-08-04-PrdSample.html"><![CDATA[<h1 id="singahai-travel-buddy">SingaHai Travel Buddy</h1>
+<h2 id="-目的與背景--purpose--background">📌 目的與背景 | Purpose &amp; Background</h2>
+<p>本專案目的是做一款幫助旅客在新加坡和上海自由行時變得更方便的 App。現代人都很忙，沒空做功課，所以這個 App 會一次搞定吃住玩交通，讓行程變得簡單又有趣。	
+這款 App 要看起來智慧、時尚、要讓人一打開就覺得好用，像是他們的旅遊靈魂伴侶。未來也可能拓展到其他城市。	
+The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
+The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.</p>
+
+<h2 id="️-用戶角色--user-personas">🧍‍♂️ 用戶角色 | User Personas</h2>
+<p>角色描述	 Persona Description</p>
+<ul>
+  <li><strong>小艾（22歲，大學生）</strong>  ：喜歡自由行，不想排隊又怕踩雷，喜歡深夜活動。	
+Ai (22, student): Likes freeform travel, avoids queues and tourist traps, prefers nightlife.</li>
+  <li><strong>阿邦（29歲，工程師）</strong>：時間寶貴，希望行程有效率，偏好安靜住宿。	
+Bong (29, software engineer): Time-conscious, prefers efficient itineraries and quiet hotels.</li>
+  <li><strong>萱萱（25歲，美食部落客）</strong>：每天都要吃特色美食，講究擺盤與氣氛。	
+Xuan (25, food blogger): Eats photogenic, local dishes every day. Prefers stylish environments.</li>
+  <li><strong>Unicorn User</strong>：內向外向都行，想自由也想被規劃，沒錢但想奢華，有選擇障礙又要求很多。	
+Unicorn User: Introverted and extroverted, wants freedom and structure, low budget but high expectations, indecisive yet picky.</li>
+</ul>
+
+<h2 id="-功能需求--functional-requirements">🛠 功能需求 | Functional Requirements</h2>
+<h3 id="-行程規劃--itinerary-planning">📍 行程規劃 | Itinerary Planning</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>可以滑動、拖拉式的行程安排功能，像 Notion 一樣好操作。	
+Swipeable, drag-and-drop itinerary planner—similar to Notion.</li>
+  <li>每個活動要顯示交通方式、費用、距離與時間。	
+Each activity should display transport options, rough cost, distance, and travel time.</li>
+  <li>希望可以「一鍵排好」，除非用戶想自己微調。	
+Ideally, users can auto-generate itineraries and edit them later if desired.</li>
+  <li>行程可以分享、改編、複製別人行程。	
+Users should be able to copy or remix others’ itineraries.</li>
+</ul>
+
+<h3 id="-個性推薦--personality-based-ai">🧠 個性推薦 | Personality-Based AI</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>第一次使用時做心理測驗，要像 16型人格。	
+First-time users take a personality quiz (like 16Personalities).</li>
+  <li>出現結果後立即生成專屬行程，如「神秘夜行者」風格。	
+After the result (e.g., “Mystic Night Owl”), the app builds a matching itinerary.</li>
+  <li>行程每天不一樣，要有靈魂，不能太制式。	
+Each day should feel unique and “crafted,” not templated.</li>
+</ul>
+
+<h3 id="-住宿匹配--accommodation-matcher">🏨 住宿匹配 | Accommodation Matcher</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>能用價格、交通、偏好來篩選（如安靜、有窗等）。	
+Filter accommodations by price, proximity, and user preferences (e.g., quiet, natural light).</li>
+  <li>根據行程與人格自動推薦飯店。	
+Suggest hotels based on the user’s plan and personality.
+以卡片形式顯示，畫面乾淨、不業配。	
+Display hotel results as clean, card-based UI—no commercial clutter.</li>
+  <li>最好能串接 
+Agoda 或 Booking.com。	Ideally integrate with Agoda/Booking.com for booking.</li>
+</ul>
+
+<h3 id="-美食推薦引擎--food-discovery-engine">🍜 美食推薦引擎 | Food Discovery Engine</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>分類：多人餐、IG 美食、當地小吃。	
+Categories: group dining, Instagrammable food, local picks.</li>
+  <li>篩選條件：素食、清真、無豬、無辣等。	
+Filters for vegetarian, halal, pork-free, non-spicy, etc.</li>
+  <li>顯示熱門指數與大家都點的餐。	
+Show popularity scores and common picks.</li>
+  <li>菜單翻譯＋emoji 表示（辣🌶️、大份量🍽️）。	
+Menus should include translations and emojis (e.g., 🌶️ spicy, 🍽️ large).</li>
+</ul>
+
+<h3 id="-設計要求--design-requirements">🎨 設計要求 | Design Requirements</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>
+    <p>色系使用 twilight blue 與薰衣草色，安靜但不無聊。	
+Use twilight blue and lavender colors—calming yet interesting.</p>
+  </li>
+  <li>要有 Dark Mode，也可以切換日系或美式風格。	
+Support Dark Mode and switchable UI themes (e.g., Japanese minimal vs American magazine).</li>
+  <li>音效要療癒，不能太吵。	
+Background sounds should be soothing, not noisy.</li>
+</ul>
+
+<h3 id="-加值功能--bonus-nice-to-have-features">🧪 加值功能 | Bonus (Nice-to-Have) Features</h3>
+<p><strong>需求	 Requirement</strong></p>
+<ul>
+  <li>「今日推薦」根據天氣與心情推薦地點。	
+“Today’s Vibe” feature: recommends places based on weather/mood.</li>
+  <li>開啟旅伴配對，找一樣人格的人同行。	
+Travel buddy matchmaking for similar personality types.</li>
+  <li>成就系統：連吃五天夜市、避開觀光區等。	
+Achievement badges (e.g., “5-night food streak”, “Avoided all tourist spots”).</li>
+</ul>]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[SingaHai Travel Buddy 📌 目的與背景 | Purpose &amp; Background 本專案目的是做一款幫助旅客在新加坡和上海自由行時變得更方便的 App。現代人都很忙，沒空做功課，所以這個 App 會一次搞定吃住玩交通，讓行程變得簡單又有趣。 這款 App 要看起來智慧、時尚、要讓人一打開就覺得好用，像是他們的旅遊靈魂伴侶。未來也可能拓展到其他城市。 The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once. The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.]]></summary></entry></feed>
