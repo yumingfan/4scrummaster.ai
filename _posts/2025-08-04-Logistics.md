@@ -2,7 +2,7 @@
 title: Logistics
 author: Yuming
 date: 2025-08-04
-category: PRD
+category: default
 layout: post
 mermaid: true
 ---
