@@ -10,6 +10,13 @@ layout: post
 
 ---
 
+## 课程资料下载
+
+
+> **PRD Sample文件**：[下载PRD Sample](https://docs.google.com/document/d/1mbkW4OP3bsjIzx0cH-OxifRixYsiTBVX7oXAI59BZaQ/export?format=docx){:download="PRD-Sample.docx"} - 本培训课程使用的示例产品需求文档
+
+---
+
 ## 课程概述
 
 本培训课程将系统性地介绍SPARK提示词模型，通过三个循序渐进的步骤，帮助您掌握如何编写高效、结构化的AI提示词。

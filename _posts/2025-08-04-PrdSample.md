@@ -7,10 +7,6 @@ layout: post
 mermaid: true
 ---
 
-[Download PRD file](https://raw.githubusercontent.com/yumingfan/4scrummaster.ai/refs/heads/main/_posts/2025-08-04-PrdSample.md "download")
-
-
-
 
 # SingaHai Travel Buddy
 ## 📌 Purpose & Background
