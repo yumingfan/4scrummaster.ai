@@ -1,1599 +1,872 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-05T09:15:34+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://localhost:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://localhost:4000/default/2025/08/04/Logistics.html"><![CDATA[<h1 id="pre-class-survey-to-gather-your-personal-details-for-certification-registration">Pre-Class Survey (to gather your personal details for certification registration):</h1>
-<p>https://forms.gle/YEubE8p5Ef1bPxLX7</p>
-<h1 id="zoom-for-screen-sharing-during-exercises">Zoom (for screen sharing during exercises):</h1>
-<p>Zoom ID: 966 696 6699
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-06T07:29:14+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://0.0.0.0:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://0.0.0.0:4000/default/2025/08/04/Logistics.html"><![CDATA[# Pre-Class Survey (to gather your personal details for certification registration):
+https://forms.gle/YEubE8p5Ef1bPxLX7
+# Zoom (for screen sharing during exercises):
+Zoom ID: 966 696 6699
 PSWD:   446688
-https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666</p>
-<h1 id="miro-for-the-exercises-and-accessing-slides-">Miro (for the exercises and accessing slides ):</h1>
-<p>https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663</p>]]></content><author><name>Yuming</name></author><category term="default" /><summary type="html"><![CDATA[Pre-Class Survey (to gather your personal details for certification registration): https://forms.gle/YEubE8p5Ef1bPxLX7 Zoom (for screen sharing during exercises): Zoom ID: 966 696 6699 PSWD: 446688 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666 Miro (for the exercises and accessing slides ): https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></summary></entry><entry><title type="html">PRD Sample</title><link href="http://localhost:4000/prd/2025/08/04/PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prd/2025/08/04/PrdSample</id><content type="html" xml:base="http://localhost:4000/prd/2025/08/04/PrdSample.html"><![CDATA[<h1 id="singahai-travel-buddy">SingaHai Travel Buddy</h1>
-<h2 id="-purpose--background">📌 Purpose &amp; Background</h2>
-
-<p>The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
-The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.</p>
-
-<h2 id="--first-draft-thoughts">🧾  First Draft Thoughts</h2>
-
-<ul>
-  <li>We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.</li>
-  <li>The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.</li>
-  <li>There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.</li>
-  <li>There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.</li>
-  <li>Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.</li>
-  <li>Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.</li>
-  <li>Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.</li>
-  <li>The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.</li>
-  <li>The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.</li>
-</ul>
-
-<h2 id="--notes">💡  Notes</h2>
-<ul>
-  <li>I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.</li>
-  <li>Fewer buttons are better, but also can’t have too few functions.</li>
-  <li>Recommend stuff, but let people change it too. Otherwise they keep asking customer service.</li>
-  <li>Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.</li>
-  <li>Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”</li>
-</ul>
-
-<hr />
-
-<h1 id="singahai-travel-buddy-1">SingaHai Travel Buddy</h1>
-<h2 id="-目的与背景">📌 目的与背景</h2>
-<p>本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
-这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。</p>
-
-<h2 id="-初步想法">🧾 初步想法</h2>
-
-<ul>
-  <li>我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。</li>
-  <li>App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。</li>
-  <li>行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。</li>
-  <li>最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。</li>
-  <li>吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。</li>
-  <li>住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。</li>
-  <li>地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。</li>
-  <li>这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。</li>
-  <li>最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。</li>
-</ul>
-
-<h2 id="-备注">💡 备注</h2>
-<ul>
-  <li>我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。</li>
-  <li>最好设计一点不要太多按钮，但也不能没有功能。</li>
-  <li>最好可以推荐行程，也让人可以自己改，不然大家都问客服。</li>
-  <li>啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。</li>
-  <li>最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。</li>
-</ul>]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[SingaHai Travel Buddy 📌 Purpose &amp; Background]]></summary></entry><entry><title type="html">Prompt Pattern1-PRD to Story</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt Pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[<h1 id="prompt-pattern-1">Prompt Pattern-1</h1>
-
-<h1 id="cn">CN</h1>
-<p>请将以下产品需求或构想转化成一组符合 INVEST 原则的 User Stories。重点是确保每个 Story 至少具有 Value（为用户或业务带来明确价值）与 Testable（可以验收）。</p>
-
-<h2 id="背景">背景：</h2>
-
-<p>{粘贴完整背景和构想}</p>
-
-<h2 id="要求">要求：</h2>
-
-<ul>
-  <li>每个 User Story 使用标准格式书写：“作为一名 [角色]，我想要 [目标]，从而 [获益]”</li>
-  <li>每条 Story 应清晰表述其价值（Value）与可测试性（Testable）</li>
-  <li>将模糊、情感化的语言（如“好玩”“有感觉”）转化为行为和功能导向的内容</li>
-  <li>仅生成user story即可</li>
-  <li>User Story 必须具体且可执行</li>
-  <li>确保User Story覆盖全部背景需求</li>
-</ul>
-
-<h2 id="invest-原则检查表">INVEST 原则检查表</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>原则代号</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>I – Independent</strong></td>
-      <td>Story 应能独立完成，不依赖其他故事</td>
-    </tr>
-    <tr>
-      <td><strong>N – Negotiable</strong></td>
-      <td>可协商，不应是规格书</td>
-    </tr>
-    <tr>
-      <td><strong>V – Valuable</strong></td>
-      <td>必须对使用者或业务有价值</td>
-    </tr>
-    <tr>
-      <td><strong>E – Estimable</strong></td>
-      <td>团队能估算其工作量</td>
-    </tr>
-    <tr>
-      <td><strong>S – Small</strong></td>
-      <td>足够小，能在一个 Sprint 内完成</td>
-    </tr>
-    <tr>
-      <td><strong>T – Testable</strong></td>
-      <td>具有可验证的条件与标准</td>
-    </tr>
-  </tbody>
-</table>
-
-<blockquote>
-  <p><strong>注</strong>：User Story 并非每项 INVEST 都完美符合，但至少应具备 <strong>V（Value）</strong> 与 <strong>T（Testable）</strong></p>
-</blockquote>
-
-<h1 id="cn-prompt-pattern-介绍">CN Prompt Pattern 介绍</h1>
-<p>一个好的提示词的原则：
-1.　Be Specific and Clear  具体明确
-2.　Provide Context  提供背景资料</p>
-
-<p>上面的提示词，包含了几个部分
-1.　目标
-2.　背景
-3.　要求
-4.　额外的资讯(这个案例是INVEST 原则检查表)</p>
-<blockquote>
-  <p>透过结构化的描述可以让让模型能辨识哪些资讯是「背景语义」，哪些是「生成任务」</p>
-</blockquote>
-
-<h2 id="目标">目标</h2>
-<p>请将以下产品需求或构想转化成一组符合 INVEST 原则的 User Stories。重点是确保每个 Story 至少具有 Value（为用户或业务带来明确价值）与 Testable（可以验收）</p>
-
-<blockquote>
-  <p>明确指出「输入是构想」「输出是 User Story」，帮助模型聚焦任务转换
-强调 INVEST 中的 V + T 是最低要求，避免模型生成无验证标准或缺乏商业价值的故事</p>
-</blockquote>
-
-<h2 id="背景粘贴完整背景和构想">背景：{粘贴完整背景和构想}</h2>
-
-<blockquote>
-  <p>这是一个 明确的上下文栏位位子，让模型能辨识哪些资讯是「背景语义」，哪些是「生成任务」
-LLM 在撷取语义线索时会优先比对「最近且具结构标记」的内容，这个明确分隔能降低误判</p>
-</blockquote>
-
-<h2 id="要求-1">要求：</h2>
-<p>这一区的条列设计非常关键，逐项规范了生成风格，帮助 LLM 对输出内容进行行为约束与风格默认。</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>条目</th>
-      <th>为何对 LLM 有效</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>每个 User Story 使用标准格式书写：“作为一名 [角色]，我想要 [目标]，从而 [获益]”</td>
-      <td>提供明确输出模板，语言模型可重复套用语法模板以稳定格式</td>
-    </tr>
-    <tr>
-      <td>每条 Story 应清晰表述其价值与可测试性</td>
-      <td>建立「内容合格」的语义框架，避免模型生成只是功能描述而无验收基准的内容</td>
-    </tr>
-    <tr>
-      <td>将模糊、情感化的语言转化为行为和功能导向的内容</td>
-      <td>指导模型避免使用非具体词（如“很酷”“感觉良好”），进而提升商业可落地性</td>
-    </tr>
-    <tr>
-      <td>仅生成user story即可</td>
-      <td>消除额外赘词或说明性叙述，提升输出清晰度与可读性</td>
-    </tr>
-    <tr>
-      <td>User Story 必须具体且可执行</td>
-      <td>加强 LLM 的故事拆解粒度，避免生成太大的 Epic 或概念性输出</td>
-    </tr>
-    <tr>
-      <td>确保User Story覆盖全部背景需求</td>
-      <td>促使模型进行「语意范围比对」与覆盖检查（语意闭合性），降低漏项风险</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="invest-原则检查表-1">INVEST 原则检查表</h2>
-<p>透过提供标准让模型可以有判断依据</p>
-<blockquote>
-  <p>注明：「至少包含 V 与 T」是重要的提示细节，会被 LLM 解读为 minimum acceptance gate。</p>
-</blockquote>
-
-<h2 id="总结">总结：</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>语境清晰</strong></td>
-      <td>分隔背景与任务指令，帮助 LLM 精准对齐任务</td>
-    </tr>
-    <tr>
-      <td><strong>格式约束明确</strong></td>
-      <td>范文句型与栏位提示帮助模型稳定输出</td>
-    </tr>
-    <tr>
-      <td><strong>内容要求具体</strong></td>
-      <td>明确规范语气与内容（避免模糊词），提升实用性</td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="en">EN</h1>
-<p>Please convert the following product requirements or ideas into a set of User Stories that comply with the INVEST principles. Each story must clearly demonstrate Value (for users or the business) and be Testable (with clear acceptance criteria).</p>
-
-<h2 id="background">Background:</h2>
-<p>{Paste full background and product concept here}</p>
-
-<h2 id="requirements">Requirements:</h2>
-<ul>
-  <li>Each User Story should follow the standard format:
-“As a [role], I want [goal], so that [benefit]”</li>
-  <li>Each story must clearly describe its value (Valuable) and ensure it is testable (Testable)</li>
-  <li>Replace vague or emotional language (e.g., “fun,” “cool-looking”) with behavior- or feature-oriented descriptions</li>
-  <li>Only generate the user stories</li>
-  <li>User Stories must be specific and actionable</li>
-  <li>Ensure the User Stories cover all aspects of the background requirements.</li>
-</ul>
-
-<h2 id="invest-principles-checklist">INVEST Principles Checklist</h2>
-<p>| Code | Description |
-|———|——|
-| <strong>I – Independent</strong> |The story should be self-contained and not dependent on other stories|
-| <strong>N – Negotiable</strong> | The story should be open to discussion and not a fixed specification|
-| <strong>V – Valuable</strong> | The story must deliver value to the user or the business|
-| <strong>E – Estimable</strong> | The team should be able to estimate the effort required |
-| <strong>S – Small</strong> | The story should be small enough to complete within a single Sprint |
-| <strong>T – Testable</strong> | The story should have clear acceptance criteria to verify completion|</p>
-
-<blockquote>
-  <p><strong>Note</strong>： A story may not perfectly meet every INVEST attribute, but it must at least fulfill <strong>V (Valuable)</strong> and <strong>T (Testable)</strong>.</p>
-</blockquote>
-
-<h1 id="en-prompt-pattern-introduction">EN Prompt Pattern Introduction</h1>
-
-<p>Principles of a good prompt:</p>
-
-<ol>
-  <li><strong>Be Specific and Clear</strong></li>
-  <li><strong>Provide Context</strong></li>
-</ol>
-
-<p>The prompt above consists of several parts:</p>
-
-<ol>
-  <li><strong>Objective</strong></li>
-  <li><strong>Background</strong></li>
-  <li><strong>Requirements</strong></li>
-  <li><strong>Additional Information</strong> (in this case, an INVEST principle checklist)</li>
-</ol>
-
-<blockquote>
-  <p>A structured description helps the model distinguish between “contextual semantics” and “generation tasks.”</p>
-</blockquote>
-
-<hr />
-
-<h2 id="objective">Objective</h2>
-
-<p>Please transform the following product ideas or requirements into a set of User Stories that follow the INVEST principles. Make sure each story includes at least <strong>Value (brings clear value to the user or business)</strong> and <strong>Testable (can be accepted or validated).</strong></p>
-
-<blockquote>
-  <p>Clearly state that “the input is a concept” and “the output is a User Story” to help the model focus on the transformation task.
-Emphasize that <strong>V + T</strong> from INVEST are the minimum standard to avoid generating stories without validation criteria or business value.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="background-paste-full-background-and-concept-here">Background: {paste full background and concept here}</h2>
-
-<blockquote>
-  <p>This is a clearly defined context section, helping the model distinguish “contextual semantics” from “generation tasks.”
-LLMs prioritize structurally marked and recent context when capturing semantic cues — this clear separation helps reduce misinterpretation.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="requirements-1">Requirements:</h2>
-
-<p>This section’s bullet points are critical. They regulate the output style item by item, helping the LLM apply behavioral constraints and default formatting.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Why It Works for LLMs</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Each User Story must follow the format: “As a [role], I want to [goal], so that [benefit]”</td>
-      <td>Provides a clear output template; the model can apply and repeat the grammar structure consistently</td>
-    </tr>
-    <tr>
-      <td>Each Story must clearly state its value and testability</td>
-      <td>Establishes a “content qualified” semantic frame; avoids stories with no acceptance criteria</td>
-    </tr>
-    <tr>
-      <td>Turn vague, emotional language into action- and function-oriented content</td>
-      <td>Guides the model to avoid non-specific words (e.g., “cool,” “feels nice”) and improves practical usability</td>
-    </tr>
-    <tr>
-      <td>Only generate the User Story</td>
-      <td>Eliminates extra explanations or redundant text, improving clarity and readability</td>
-    </tr>
-    <tr>
-      <td>User Story must be specific and actionable</td>
-      <td>Reinforces the model’s granularity, avoiding overly broad epics or conceptual outputs</td>
-    </tr>
-    <tr>
-      <td>Ensure all background requirements are covered</td>
-      <td>Encourages the model to perform “semantic coverage check” to avoid missing parts</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="invest-principle-checklist">INVEST Principle Checklist</h2>
-
-<p>Providing standards helps the model evaluate its own output.</p>
-
-<blockquote>
-  <p>Note: “At least include V and T” is a crucial prompt detail, interpreted by the LLM as the minimum acceptance gate.</p>
-</blockquote>
-
-<hr />
-
-<h2 id="additional-tips-prompt-writing-strategies">Additional Tips: Prompt Writing Strategies</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Strength</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Clear Context</strong></td>
-      <td>Separates background from instructions to align the model precisely with the task</td>
-    </tr>
-    <tr>
-      <td><strong>Explicit Format</strong></td>
-      <td>Sentence template and section cues help stabilize output</td>
-    </tr>
-    <tr>
-      <td><strong>Concrete Content</strong></td>
-      <td>Specifies tone and content clearly (avoids vague wording), enhancing practical value</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Prompt Pattern-1]]></summary></entry><entry><title type="html">Prompt Pattern2-Order the Stories</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt Pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[<h1 id="prompt-pattern-2">Prompt Pattern-2</h1>
-
-<p>请根据以下需求，对这组 User Story 进行排序，排序逻辑需考量以下两大原则：</p>
-
-<hr />
-
-<h3 id="-排序目标">🎯 排序目标</h3>
-
-<ol>
-  <li><strong>使用者价值（User Value）</strong>：优先满足使用者在旅游规划中最核心的痛点或需求，特别是能直接提升任务效率、情绪体验或降低阻力的功能。</li>
-  <li><strong>最小可行产品（MVP）原则</strong>：优先满足使用者「核心需求」的最小功能组合，能让产品尽早上线并验证价值假设</li>
-</ol>
-
-<hr />
-
-<h3 id="-任务说明">📌 任务说明：</h3>
-
-<p>请你扮演一位精通敏捷以及精益创业的产品负责人，针对下列一组User Stories，根据「先解决痛点、再加强体验」的逻辑进行排序。</p>
-
-<p>排序结果请列出：</p>
-
-<ul>
-  <li>每一条 User Story 的排序顺位</li>
-  <li>简要说明排序原因（例如：依赖其他功能、技术难度高、属于加值体验等）</li>
-</ul>
-
-<hr />
-
-<h3 id="user-story">User Story：</h3>
-
-<p>{User Story}</p>
-
-<hr />
-
-<h3 id="输出格式">输出格式：</h3>
-
-<p>请按照下列格式回覆结果：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. [User Story 内容]  
- 排序原因（例如：属于核心痛点、可独立完成）
+https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&omn=87459833666
+# Miro (for the exercises and accessing slides ): 
+https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></content><author><name>Yuming</name></author><category term="default" /><summary type="html"><![CDATA[Pre-Class Survey (to gather your personal details for certification registration): https://forms.gle/YEubE8p5Ef1bPxLX7 Zoom (for screen sharing during exercises): Zoom ID: 966 696 6699 PSWD: 446688 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666 Miro (for the exercises and accessing slides ): https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></summary></entry><entry><title type="html">PRD Sample</title><link href="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prd/2025/08/04/PrdSample</id><content type="html" xml:base="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html"><![CDATA[[Download PRD file](https://raw.githubusercontent.com/yumingfan/4scrummaster.ai/refs/heads/main/_posts/2025-08-04-PrdSample.md "download")
+
+
+
+
+# SingaHai Travel Buddy
+## 📌 Purpose & Background
+
+The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
+The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.
+
+## 🧾  First Draft Thoughts
+
+- 	We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.
+- The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.
+- There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.
+- There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.
+- Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.
+- Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.
+- Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.
+- The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.
+- The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.
+
+## 💡  Notes
+- I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.
+- Fewer buttons are better, but also can’t have too few functions.
+- Recommend stuff, but let people change it too. Otherwise they keep asking customer service.
+- Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.
+- Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”
+
+---
+
+# SingaHai Travel Buddy
+## 📌 目的与背景 
+本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
+这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。	
+
+## 🧾 初步想法 
+
+- 我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。	
+- App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。	
+- 行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。	
+- 最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。	
+- 吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。	
+- 住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。	
+- 地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。	
+- 这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。	
+- 最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。	
+
+## 💡 备注 
+- 我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。	
+- 最好设计一点不要太多按钮，但也不能没有功能。	
+- 最好可以推荐行程，也让人可以自己改，不然大家都问客服。	
+- 啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。	
+- 最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[Download PRD file]]></summary></entry><entry><title type="html">Prompt Pattern1-PRD to Story</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt Pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[> Sample Prompt
+
+```
+## S - Situation（情境）
+请阅读以下产品构想，背景为一款旅游类 App，目标是帮助用户轻松规划自由行所需的行程安排、住宿、餐饮与交通，提供智慧、时尚且可定制的旅游体验。
+
+背景内容：
+{粘贴完整背景和构想}
+
+---
+
+## P - Purpose（目标）
+请将上述构想内容转化为一组符合 INVEST 原则的 User Stories。
+- **重点：每条 Story 至少包含 V（Value）与 T（Testable）**
+- 你的任务是将产品构想内涵转化为结构化的开发故事条目
+
+---
+
+## A - Action Role（角色指派）
+你是一位资深敏捷产品经理，擅长将模糊的构想转化为可执行的 User Story，确保开发团队具备明确目标、价值与验收依据。
+
+---
+
+## R - Rule（任务规则）
+请遵循以下行为与风格规范：
+
+要求条目                                              
+- 使用标准格式：“作为一名 [角色]，我想要 [目标]，从而 [获益]”  
+- 每条 Story 明确表达其价值（V）与可测试性（T）              
+- 将模糊、情感化语言（如“好玩”、“有感觉”）转化为行为或功能导向
+- 仅输出 User Story 内容，勿生成多余说明                        
+- User Story 粒度必须具体、可执行                              
+- 覆盖背景构想中提及的所有关键功能或情境                       
+---
+
+## K - Knowledge Format（输出格式）
+请将结果整理为编号清单格式，每条 Story 使用标准句型书写：
+
+1. 作为一名……，我想要……，从而……
+2. 作为一名……，我想要……，从而……
+
+---
+
+## INVEST 原则检查表（附录）
+
+用于回顾每则 Story 的合格性标准（**至少需满足 V 与 T**）：
+
+| 原则代号 | 说明                                 |
+| -------- | ------------------------------------ |
+| **I – Independent** | Story 应能独立完成，不依赖其他故事             |
+| **N – Negotiable**  | 可协商，不应是固定规格说明                     |
+| **V – Valuable**    | 对使用者或业务必须具备明确价值                  |
+| **E – Estimable**   | 能估算其工作量或复杂度                         |
+| **S – Small**       | 足够小，能在一个 Sprint 内完成                |
+| **T – Testable**    | 具备可验证的验收标准或条件                    |
+
+ **提示**：虽然不是每条 Story 都需完全符合所有 INVEST 要素，但**必须至少满足 V（Valuable） 与 T（Testable）**。
+```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">Prompt Pattern2-Order the Stories</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt Pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[```
+## S - **Situation（情境）**
+
+请阅读以下产品构想与 User Stories。背景为一款旅游类 App，目标是帮助用户轻松规划自由行的行程、住宿、餐饮与交通，提供智慧、时尚且可定制的旅游体验。
+
+你将面对一组已撰写好的 User Stories，接下来的任务是根据其价值与上线优先顺序，进行合理排序。
+
+提供的 User Story 列表如下：
+
+{User Story}
+
+
+---
+
+## P - **Purpose（目标）**
+
+你的任务是：
+**根据使用者价值与 MVP 原则，为上述 User Story 进行排序，并说明排序原因。**
+
+排序判断需兼顾两大目标：
+
+1. **使用者价值（User Value）**：优先满足旅游规划中最核心的痛点，能提升效率、降低焦虑或带来关键帮助。
+2. **最小可行产品（MVP）原则**：找出构成 V1.0 的最小功能组合，以便尽早上线验证产品假设。
+
+---
+
+## A - **Action Role（角色指派）**
+
+你是一位**精通敏捷开发与精益创业的产品负责人**，擅长判断功能优先级、拆解上线节奏，并能从用户价值角度快速识别痛点与成长期价值。
+
+---
+
+## R - **Rule（任务规则）**
+
+请遵循以下规范完成排序：
+
+* 每条 User Story 需分配一个明确的排序顺位（1\~N）
+* 每条 Story 下方需补充一句**排序原因**
+
+* 例如：「核心痛点」、「需先产生行程资料」、「为次要体验」等
+* 若某些功能具备**前置依赖**，请标注依赖说明
+* 请指出哪些 User Story 可构成**MVP（V1.0）版本的最小组合**
+* 请避免输出多余解释，仅输出排序与理由
+
+---
+
+## K - **Knowledge Format（输出格式）**
+
+请用以下格式进行输出：
+
+
+1. [User Story 内容]  
+排序原因：（例如：核心痛点、用户首要需求、可独立完成）
 
 2. [User Story 内容]  
- 排序原因（...）
+排序原因：（例如：建立于 Story 1 基础上、为次要体验）
 
 ...
 
 15. [User Story 内容]  
- 排序原因（属于次要体验，依赖其他模组完成）
-</code></pre></div></div>
+排序原因：（例如：依赖其他模组、非必要功能）
 
-<hr />
+---
+最小可行版本（MVP）包含：第 1～5 项功能
+---
 
-<h3 id="要求">要求</h3>
-<ul>
-  <li>如功能之间有依赖性，请标明（例如：调整行程需先产生行程）</li>
-  <li>请特别指出哪些功能<strong>可以形成最小可行版本</strong>（例如排序第 1～5 可构成 V1.0）</li>
-</ul>
 
-<h1 id="cn-prompt-pattern-介绍">CN Prompt Pattern 介绍</h1>
+```
 
-<h2 id="区块介绍">区块介绍</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>区块名称</th>
-      <th>功能</th>
-      <th>建议写法重点</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. 语意引导段</td>
-      <td>说明排序任务的本质与重要性</td>
-      <td>用一句话清楚定义目标与考量面向</td>
-    </tr>
-    <tr>
-      <td>2.  排序目标</td>
-      <td>明确指出排序依据</td>
-      <td>切记要<strong>具体且可操作</strong>，避免抽象词</td>
-    </tr>
-    <tr>
-      <td>3.  任务说明</td>
-      <td>建立 AI 的角色扮演与行为逻辑</td>
-      <td>模拟真实情境，赋予 AI 背景角色（如 PM）</td>
-    </tr>
-    <tr>
-      <td>4. User Story 区块</td>
-      <td>放入具体要排序的素材</td>
-      <td>格式统一、语句清楚、有标准 User Story 结构</td>
-    </tr>
-    <tr>
-      <td>5. 输出格式区块</td>
-      <td>定义回覆结果的格式标准</td>
-      <td>条列式、有层次、搭配说明文字</td>
-    </tr>
-    <tr>
-      <td>6. 额外要求区块</td>
-      <td>补充排序的进阶判断标准</td>
-      <td>例如依赖关系、MVP 分界、技术成本等</td>
-    </tr>
-  </tbody>
-</table>
+#  **SPARK 模型提示词教学说明书：User Story 排序版**
 
-<hr />
+---
 
-<h2 id="各区块撰写与设计教学">各区块撰写与设计教学</h2>
+##  S - **Situation（情境）**
 
-<hr />
+###  功能说明：
 
-<h3 id="1️-开场说明段请根据以下需求">1️ 开场说明段（请根据以下需求…）</h3>
+本区块用于设定任务背景与输入内容，建立 AI 的**问题空间与语境**。
 
-<p><strong>目的</strong>：建立任务上下文，让 AI 明确知道「要做什么」。</p>
+### 撰写建议：
 
-<p><strong>撰写建议</strong>：</p>
+* 提供简明的产品构想（项目目标、主要用户场景）
+* 明确指出「你将面对的输入」是什么（例如一组 User Story）
+* 用使用者的语言写实表达，避免太抽象
 
-<ul>
-  <li>使用「请根据以下需求…」作为自然语句开头</li>
-  <li>明确点出任务动作（例如：「对这组 User Story 进行排序」）</li>
-</ul>
+###  注意事项：
 
-<p><strong>错误示范</strong>：「请帮我看看这些 User Story 哪个重要」→ 太模糊，无法触发正确逻辑</p>
+* 避免将任务目标或产出格式提前写入此区块（应放入 P 与 K）
+* 确保情境背景与 User Story 内容有关，避免无关叙述造成模型偏离
 
-<hr />
+---
 
-<h3 id="2️⃣-排序目标段排序逻辑需考量">2️⃣ 排序目标段（排序逻辑需考量…）</h3>
+##  P - **Purpose（目标）**
 
-<p><strong>目的</strong>：明确列出排序的<strong>逻辑依据与判断准则</strong></p>
+###  功能说明：
 
-<p><strong>撰写建议</strong>：</p>
+本区块用来指明**要 AI 做什么事**，即：排序并说明排序原因。
 
-<ul>
-  <li>使用标题提升辨识性</li>
-  <li>建议条列两到三项，避免过度复杂</li>
-  <li>避免使用如「请考虑实用性」等抽象词，改为具体可推理的语言</li>
-</ul>
+###  撰写建议：
 
-<p><strong>范例</strong>：</p>
+* 用一句“你的任务是……”切入，清楚界定产出任务
+* 可附加说明排序依据（如：价值、依赖、最小上线单元）
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 使用者价值（User Value）：优先解决高频痛点、能立即改善使用者效率或情绪体验的功能
-2. 最小可行产品（MVP）原则：构成核心旅游规划体验的最基本功能集合，可尽快验证市场反应
-</code></pre></div></div>
+###  常用目标补充模板：
 
-<hr />
+* 根据 **用户价值** 进行排序
+* 找出 **最小可行产品（MVP）** 所需的功能组合
+* 兼顾 **痛点优先** 与 **独立可交付性**
 
-<h3 id="任务说明段请你扮演一位">任务说明段（请你扮演一位…）</h3>
+### 注意事项：
 
-<p><strong>目的</strong>：让 AI 进入正确的专业角色，使用符合该角色的思维排序</p>
+* 不要只是说「请排序」；要说清楚**排序的标准与目标逻辑**
+* 避免出现模糊词汇（如：“重要”、“好用”），应转化为可操作标准（如：“是否解决主要痛点”）
 
-<p><strong>撰写建议</strong>：</p>
+---
 
-<ul>
-  <li>明确指定角色（如：「产品负责人」「懂精益创业的 PM」）</li>
-  <li>搭配任务策略，例如「先解决痛点、再强化体验」</li>
-  <li>语气务必专业清晰，避免指令过多造成混乱</li>
-</ul>
+##  A - **Action Role（角色指派）**
 
-<p><strong>好写法范例</strong>：</p>
+###  功能说明：
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>请你扮演一位精通敏捷以及精益创业的产品负责人，针对下列一组 User Stories，根据「先解决痛点、再加强体验」的逻辑进行排序。
-</code></pre></div></div>
+指定 AI 应该扮演的**专业角色**，影响其语言逻辑与判断标准。
 
-<hr />
+###  撰写建议：
 
-<h3 id="user-story-区块user-story">User Story 区块（{User Story}）</h3>
+* 指定角色时可加入专业背景说明，例如“熟悉精益创业的产品经理”
+* 建议角色包含判断能力，例如“判断优先级、识别痛点”
 
-<p><strong>目的</strong>：提供排序素材，供 AI 分析内容与价值</p>
+###  注意事项：
 
-<p><strong>撰写建议</strong>：</p>
+* 不要写「你是一个 AI」，而应指定与任务相关的人类专业角色
+* 角色越具体，输出越稳定；避免“泛用型专家”这种空泛设定
 
-<ul>
-  <li>使用标准 User Story 格式：<code class="language-plaintext highlighter-rouge">作为一位... 我希望... 从而...</code></li>
-  <li>多条建议置于 <code class="language-plaintext highlighter-rouge">{}</code> 中或明确段落，格式一致</li>
-  <li>使用者视角要清楚，避免过多系统内部描述</li>
-</ul>
+---
 
-<p><strong>错误示范</strong>：「使用者希望功能稳定」→ 无具体情境或行为，不易判断价值</p>
+##  R - **Rule（任务规则）**
 
-<hr />
+###  功能说明：
 
-<h3 id="输出格式区块请按照下列格式回覆">输出格式区块（请按照下列格式回覆…）</h3>
+明确列出 AI 执行任务时应**遵守的规则**与**行为限制**，以确保产出结构稳定、内容精准。
 
-<p><strong>目的</strong>：让 AI 回答时<strong>有逻辑、有层次、有结构</strong></p>
+###  撰写建议：
 
-<p><strong>撰写建议</strong>：</p>
+* 使用清单（条列式）呈现任务规范
+* 规范包括：
 
-<ul>
-  <li>使用数字排序搭配段落（例如：1.、2.）</li>
-  <li>每项搭配一段简要「排序原因」</li>
-  <li>可使用程序区块 ` ``` ` 包起来，提升可复制性与清晰度</li>
-</ul>
+  * 是否要写排序编号
+  * 是否要补充排序原因
+  * 是否需要指出依赖或组成 MVP
+  * 是否禁止输出说明、闲聊内容
 
-<p><strong>建议范式</strong>：</p>
+### 示例要求：
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> [User Story]  
- 排序原因（属于核心痛点、使用率高）
-<span class="p">
-2.</span> [User Story]  
- 排序原因（依赖功能尚未开发，建议推迟）
+* 每条 User Story 需分配一个排序顺位
+* 每条需补充一句排序原因
+* 标注依赖关系（如有）
+* 指出哪些功能构成 MVP
+* 不生成多余解释或闲谈
+
+###  注意事项：
+
+* 不要写模糊规则，例如“排序要合理”，应提供清楚的规则
+* 若产出格式复杂，务必在规则中说明各部分结构要求
+
+---
+
+##  K - **Knowledge Format（输出格式）**
+
+###  功能说明：
+
+定义输出结构，确保模型生成的内容**格式一致、便于使用或复制**。
+
+###  撰写建议：
+
+* 指明使用清单、编号、表格或段落
+* 若需包含多个要素（如内容 + 原因 + 备注），要说明清楚格式顺序
+* 提供范例输出格式供模仿
+
+### 示例格式：
+
+```
+1. [User Story 内容]  
+排序原因：（核心痛点、可独立完成）
 
 ...
-<span class="p">
-15.</span> [User Story]  
- 排序原因（属于体验优化，MVP 可不纳入）
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="要求补充区块例如如有依赖关系">要求补充区块（例如：如有依赖关系…）</h3>
-<p><strong>目的</strong>：强化排序逻辑的深度与可解释性</p>
-
-<p><strong>撰写建议</strong>：</p>
-
-<ul>
-  <li>提醒 AI 处理依赖关系（如「功能 A 需先于功能 B」）</li>
-  <li>建议标示 MVP v1.0 的范围（例如前 5 项）</li>
-  <li>保持条列简洁，不要再加太多复杂逻辑</li>
-</ul>
-
-<p><strong>范例</strong>：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* 如功能之间有依赖性，请标明（例如：调整行程需先产生行程）
-* 请特别指出哪些功能**可以形成最小可行版本**（例如排序第 1～5 可构成 V1.0）
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="补充建议提示词撰写小技巧">补充建议：提示词撰写小技巧</h2>
 
-<h3 id="pattern-1">Pattern 1</h3>
+最小可行版本（MVP）包含：第 1～5 项功能
+```
 
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>语境清晰</strong></td>
-      <td>分隔背景与任务指令，帮助 LLM 精准对齐任务</td>
-    </tr>
-    <tr>
-      <td><strong>格式约束明确</strong></td>
-      <td>范文句型与栏位提示帮助模型稳定输出</td>
-    </tr>
-    <tr>
-      <td><strong>内容要求具体</strong></td>
-      <td>明确规范语气与内容（避免模糊词），提升实用性</td>
-    </tr>
-  </tbody>
-</table>
+###  注意事项：
 
-<h3 id="pattern-2">Pattern 2</h3>
+* 格式越清晰，结果越稳定。范例格式**不是可选项，是必要项**。
+* 若未来用于自动读取（如丢入 Airtable、Notion、Excel），请提前规划好字段样式。
 
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>指派角色</strong></td>
-      <td>让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong>明确任务目标</strong></td>
-      <td>「排序」、「评估」、「列出优先顺序」需明确出现在开场句</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong>避免模糊语言</strong></td>
-      <td>例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<p>以下是将你提供的排序任务提示翻译成英文，并保留格式一致的英文版本：</p>
-
-<hr />
-
-<h1 id="prompt-pattern-3">Prompt Pattern-3</h1>
-
-<h1 id="en">EN</h1>
-
-<p>Please prioritize the following User Stories based on the criteria below. Your sorting logic should consider the following two core principles:</p>
-
-<hr />
-
-<h3 id="-prioritization-goals">🎯 Prioritization Goals</h3>
-
-<ol>
-  <li><strong>User Value</strong>: Prioritize features that address the most critical pain points in the travel planning process—especially those that directly improve task efficiency, emotional experience, or reduce friction.</li>
-  <li><strong>Minimum Viable Product (MVP) Principle</strong>: Prioritize the smallest functional set that fulfills core user needs, enabling the product to launch early and validate its value hypothesis.</li>
-</ol>
-
-<hr />
+---]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[``` S - Situation（情境）]]></summary></entry><entry><title type="html">Prompt Pattern3-Story to AC</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" rel="alternate" type="text/html" title="Prompt Pattern3-Story to AC" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern3%20-%20Story%20to%20AC</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"><![CDATA[> Sample Prompt
 
-<h3 id="-task-instructions">📌 Task Instructions:</h3>
+```
+##  S - **Situation（情境）**
 
-<p>You are a product owner skilled in Agile and Lean Startup methodologies. Review the following list of User Stories and sort them based on the logic of “solving pain points first, enhancing experience later.”</p>
+请阅读以下 User Story。本任务背景为一款旅游类 App，旨在帮助用户轻松规划自由行中的行程、住宿、餐饮与交通，并提供可自定义的智慧化体验。
 
-<p>Your prioritization should include:</p>
+你将基于这些 User Story，为产品开发团队撰写结构化的验收标准，用于明确开发完成的判断标准，并协助测试验证功能是否可交付。
 
-<ul>
-  <li>The ranking of each User Story</li>
-  <li>A brief explanation for each ranking (e.g., feature dependency, technical complexity, value level)</li>
-</ul>
+提供的 User Story 如下：
 
-<hr />
 
-<h3 id="user-story-1">User Story:</h3>
+{粘贴完整 User Story，可多个}
 
-<p>{User Story}</p>
 
-<hr />
+---
 
-<h3 id="output-format">Output Format:</h3>
+##  P - **Purpose（目标）**
 
-<p>Please reply using the following structure:</p>
+请为上述每条 User Story 撰写详细的 **验收标准（Acceptance Criteria）**。
+重点在于清楚定义「在什么情况下该需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**。
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. [User Story content]  
-Reason for prioritization (e.g., addresses core pain point, can be implemented independently)
+每个 User Story 至少列出 **3 种情境**，涵盖：
 
-2. [User Story content]  
-Reason for prioritization (...)
+*  正常流程（Happy Path）
+*  边界情境（如空值、极限输入）
+*  异常情境（如权限不足、格式错误）
 
-...
+---
 
-15. [User Story content]  
-Reason for prioritization (secondary experience, depends on other modules)
-</code></pre></div></div>
+##  A - **Action Role（角色指派）**
 
-<hr />
+你是一位**熟悉业务需求与用户旅程的资深产品经理**，擅长用非技术语言清楚描述系统行为，确保团队对功能完成标准有一致理解。
 
-<h3 id="requirements">Requirements</h3>
+---
 
-<ul>
-  <li>If there are dependencies between features, please indicate them (e.g., “Adjust itinerary” requires “Itinerary generation” first)</li>
-  <li>Clearly specify which features <strong>can form the Minimum Viable Product (MVP)</strong> (e.g., items 1–5 can compose V1.0)</li>
-</ul>
+##  R - **Rule（任务规则）**
 
-<hr />
+请遵循以下规范进行撰写：
 
-<h1 id="en-prompt-pattern-overview">EN Prompt Pattern Overview</h1>
+* 使用 **Given-When-Then**（Gherkin）格式表达每个验收情境
+* 语言请保持 **商业用语，避免技术术语**
+* 每个场景标题请以「场景：」开头，简要描述该情境
+* 若 Story 涉及以下情境，请优先考虑：
 
-<h2 id="section-overview">Section Overview</h2>
+  *  权限控制（是否已登录、是否有操作权限）
+  *  跨装置或浏览器差异（手机 / 桌机、iOS / Android）
 
-<table>
-  <thead>
-    <tr>
-      <th>Section Name</th>
-      <th>Function</th>
-      <th>Key Writing Focus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Semantic Intro</td>
-      <td>Clarify the essence and value of the sorting task</td>
-      <td>One clear sentence defining objective and evaluation criteria</td>
-    </tr>
-    <tr>
-      <td>2. Prioritization Goals</td>
-      <td>Specify decision-making basis</td>
-      <td>Must be <strong>concrete and actionable</strong></td>
-    </tr>
-    <tr>
-      <td>3. Task Instructions</td>
-      <td>Set AI’s role and sorting behavior</td>
-      <td>Simulate a real-world scenario and role like PM</td>
-    </tr>
-    <tr>
-      <td>4. User Story Block</td>
-      <td>Provide material for prioritization</td>
-      <td>Consistent format, clear user-centric language</td>
-    </tr>
-    <tr>
-      <td>5. Output Format</td>
-      <td>Define a clear reply structure</td>
-      <td>Bullet list with explanations</td>
-    </tr>
-    <tr>
-      <td>6. Additional Requirements</td>
-      <td>Add advanced logic for refinement</td>
-      <td>Dependency, MVP boundary, technical effort, etc.</td>
-    </tr>
-  </tbody>
-</table>
+---
 
-<hr />
+##  K - **Knowledge Format（输出格式）**
 
-<h2 id="section-writing-guidelines">Section Writing Guidelines</h2>
+请用以下格式撰写，每个场景为一个区块：
 
-<hr />
-
-<h3 id="1️⃣-semantic-intro-please-prioritize-the-following">1️⃣ Semantic Intro (“Please prioritize the following…”)</h3>
-
-<p><strong>Goal</strong>: Establish task context so the AI clearly understands the required action.</p>
-
-<p><strong>Tips</strong>:</p>
-
-<ul>
-  <li>Start naturally with “Please prioritize the following…”</li>
-  <li>Clearly state the action (e.g., “prioritize the User Stories”)</li>
-</ul>
-
-<p><strong>Bad Example</strong>: “Please help check which one is important” → too vague for proper reasoning.</p>
-
-<hr />
-
-<h3 id="2️⃣-prioritization-goals">2️⃣ Prioritization Goals</h3>
-
-<p><strong>Goal</strong>: Define the logical evaluation criteria for sorting.</p>
-
-<p><strong>Tips</strong>:</p>
-
-<ul>
-  <li>Use a header for visual separation</li>
-  <li>Keep it to 2–3 criteria to avoid overcomplexity</li>
-  <li>Avoid vague terms like “consider practicality”—use precise language</li>
-</ul>
-
-<p><strong>Example</strong>:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. User Value: Prioritize high-frequency pain points that improve user efficiency or emotional experience.  
-2. MVP Principle: Prioritize core travel planning features to quickly validate market response.
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="3️⃣-task-instructions-you-are-a-product-owner">3️⃣ Task Instructions (“You are a product owner…”)</h3>
-
-<p><strong>Goal</strong>: Put the AI into the correct professional mindset for decision-making.</p>
-
-<p><strong>Tips</strong>:</p>
-
-<ul>
-  <li>Explicitly assign a role (e.g., Product Owner, Lean PM)</li>
-  <li>Tie in a decision strategy (e.g., “pain points first”)</li>
-  <li>Keep it professional and directive, avoid overwhelming complexity</li>
-</ul>
-
-<p><strong>Good Example</strong>:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You are a product owner experienced in Agile and Lean Startup. Please prioritize the following User Stories based on the logic of "solve pain points first, enhance experience later."
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="4️⃣-user-story-block-user-story">4️⃣ User Story Block ({User Story})</h3>
-
-<p><strong>Goal</strong>: Provide structured material for AI to assess value and order.</p>
-
-<p><strong>Tips</strong>:</p>
-
-<ul>
-  <li>Use standard User Story format: <code class="language-plaintext highlighter-rouge">As a [user], I want to [goal], so that [benefit]</code></li>
-  <li>Use consistent formatting and separate stories clearly</li>
-  <li>Avoid vague or overly technical statements</li>
-</ul>
-
-<p><strong>Bad Example</strong>: “The user wants stable performance” → lacks scenario or behavior for value assessment.</p>
-
-<hr />
-
-<h3 id="5️⃣-output-format-block-please-reply-using-the-following-structure">5️⃣ Output Format Block (“Please reply using the following structure”)</h3>
-
-<p><strong>Goal</strong>: Ensure the AI produces responses that are logical, structured, and easy to follow.</p>
-
-<p><strong>Tips</strong>:</p>
-
-<ul>
-  <li>Use numbered list format (1., 2., …)</li>
-  <li>Include a short reason per item</li>
-  <li>Enclose in a code block <code class="language-plaintext highlighter-rouge">markdown</code> if needed for clarity and copyability</li>
-</ul>
-
-<p><strong>Sample Pattern</strong>:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> [User Story]  
-Reason: Addresses core pain point, high user need
-<span class="p">
-2.</span> [User Story]  
-Reason: Depends on another feature, should be implemented later
-
-...
-<span class="p">
-15.</span> [User Story]  
-Reason: Optional experience enhancement, not required for MVP
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="6️⃣-additional-requirements-block-eg-if-dependencies-exist">6️⃣ Additional Requirements Block (“e.g., If dependencies exist…”)</h3>
-
-<p><strong>Goal</strong>: Deepen the logic of prioritization and clarify deliverable boundaries</p>
-
-<p><strong>Tips</strong>:</p>
-
-<ul>
-  <li>Remind the AI to analyze feature dependencies (e.g., “A must precede B”)</li>
-  <li>Ask for MVP boundary to be marked (e.g., “Items 1–5 form MVP v1.0”)</li>
-  <li>Keep it concise—don’t introduce unnecessary complexity</li>
-</ul>
-
-<p><strong>Example</strong>:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* If dependencies exist between features, please indicate (e.g., adjusting itinerary requires itinerary generation)  
-* Clearly indicate which features **can form the MVP (v1.0)** (e.g., items 1–5)
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="additional-tips-prompt-writing-strategies">Additional Tips: Prompt Writing Strategies</h2>
-
-<h3 id="pattern-1-1">Pattern 1</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Strategy</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Clear Context</strong></td>
-      <td>Separate background and instruction for accuracy</td>
-    </tr>
-    <tr>
-      <td><strong>Explicit Formatting</strong></td>
-      <td>Sample templates and labels help stabilize output</td>
-    </tr>
-    <tr>
-      <td><strong>Concrete Requirements</strong></td>
-      <td>Specify tone and content to ensure practicality</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="pattern-2-1">Pattern 2</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Strategy</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Role Assignment</strong></td>
-      <td>Helps the AI simulate more professional logic (e.g., PM, designer, consultant)</td>
-    </tr>
-    <tr>
-      <td><strong>Clear Task Objectives</strong></td>
-      <td>Make sure terms like “prioritize,” “evaluate,” or “list in order of importance” appear explicitly in the opening</td>
-    </tr>
-    <tr>
-      <td><strong>Avoid Vague Language</strong></td>
-      <td>For example, “Please prioritize based on importance” is less effective than “Please prioritize based on user value”</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Prompt Pattern-2]]></summary></entry><entry><title type="html">Prompt Pattern3-Story to AC</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" rel="alternate" type="text/html" title="Prompt Pattern3-Story to AC" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern3%20-%20Story%20to%20AC</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"><![CDATA[<h1 id="prompt-pattern-3">Prompt Pattern-3</h1>
-
-<h1 id="cn">CN</h1>
-<p>请为以下 User Story 撰写详细的 <strong>验收标准（Acceptance Criteria）</strong>，重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦<strong>使用者行为与系统回应</strong>，以利后续开发、测试与共识建立。</p>
-
-<hr />
-
-<h2 id="背景">背景：</h2>
-
-<p>{粘贴完整 User Story，可多个}</p>
-
-<hr />
-
-<h2 id="要求">要求：</h2>
-
-<ul>
-  <li>使用 <strong>Given-When-Then</strong>（Gherkin）格式表达每个情境</li>
-  <li>语言请务必保持 <strong>商业用语，避免技术术语</strong></li>
-  <li>
-    <p>每条 User Story 至少提供 <strong>3 种场景</strong>，包含：</p>
-
-    <ul>
-      <li>✅ 正常流程（Happy Path）</li>
-      <li>⚠️ 边界条件（例如：空值、极限输入）</li>
-      <li>❌ 异常情境（例如：权限不足、格式错误）</li>
-    </ul>
-  </li>
-  <li>
-    <p>如有登录、表单、存取等动作，请额外考虑：</p>
-
-    <ul>
-      <li>🔒 权限与安全控制</li>
-      <li>📱 不同装置／浏览器表现</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="输出格式">输出格式：</h2>
-
-<p>请按下列格式输出，每个场景一个区块：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>场景：简要说明情境名称  
+gherkin
+场景：简要说明情境名称  
 Given 某些前置条件成立  
-And 某些系统状态存在  
+And 某些系统状态存在（如有）  
 When 使用者执行某个动作  
-And （若有）额外操作或输入  
+And （额外操作或输入）  
 Then 系统应有的回应  
-And 额外的验证点或状态变更
-</code></pre></div></div>
+And （额外验证点或状态变更）
+
+
+每条 User Story 至少撰写三组情境。请确保内容**具体、可验证、贴近使用者语言**。
+```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">SPARK提示词模型培训课程</title><link href="http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course.html" rel="alternate" type="text/html" title="SPARK提示词模型培训课程" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course</id><content type="html" xml:base="http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course.html"><![CDATA[<h1 id="spark提示词模型培训课程">SPARK提示词模型培训课程</h1>
 
 <hr />
 
-<h2 id="范例">范例：</h2>
+<h2 id="课程概述">课程概述</h2>
 
-<p><strong>User Story：</strong>
-作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。</p>
+<p>本培训课程将系统性地介绍SPARK提示词模型，通过三个循序渐进的步骤，帮助您掌握如何编写高效、结构化的AI提示词。</p>
 
-<p><strong>生成的验收标准：</strong></p>
+<h3 id="spark模型核心要素">SPARK模型核心要素</h3>
 
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">场景：使用者成功调整推荐行程</span>  
-<span class="nf">Given </span>使用者已登录并建立个人旅程  
-<span class="nf">And </span>系统已显示一组推荐行程  
-<span class="nf">When </span>使用者点击「调整行程」按钮  
-<span class="nf">And </span>修改其中一项景点时间  
-<span class="nf">Then </span>系统应更新该项目时间  
-<span class="nf">And </span>显示「修改成功」讯息
+<table>
+  <thead>
+    <tr>
+      <th>要素</th>
+      <th>功能</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S - Situation（情境）</strong></td>
+      <td>提供背景与脉络</td>
+      <td>建立AI的问题空间与语境</td>
+    </tr>
+    <tr>
+      <td><strong>P - Purpose（目标）</strong></td>
+      <td>明确任务产出目标</td>
+      <td>让AI聚焦输出内容</td>
+    </tr>
+    <tr>
+      <td><strong>A - Action Role（角色指派）</strong></td>
+      <td>设定专业角色</td>
+      <td>模拟贴近实际业务需求的思维方式</td>
+    </tr>
+    <tr>
+      <td><strong>R - Rule（任务规则）</strong></td>
+      <td>制定行为与风格规范</td>
+      <td>确保产出内容的一致性、专业性与实用性</td>
+    </tr>
+    <tr>
+      <td><strong>K - Knowledge Format（输出格式）</strong></td>
+      <td>定义产出格式</td>
+      <td>帮助模型维持输出一致性</td>
+    </tr>
+  </tbody>
+</table>
 
-<span class="err">场景：输入不合理时间（边界条件）</span>  
-<span class="nf">Given </span>使用者正在调整行程  
-<span class="nf">When </span>使用者将景点时间调整为「凌晨 3 点」  
-<span class="nf">Then </span>系统应提示「输入时间不在可访时间内」  
-<span class="nf">And </span>禁止提交行程变更
+<hr />
 
-<span class="err">场景：未登录状态调整行程（异常情况）</span>  
-<span class="nf">Given </span>使用者尚未登录  
-<span class="nf">When </span>尝试进入「推荐行程调整页」  
-<span class="nf">Then </span>系统应导向登录页面  
-<span class="nf">And </span>显示「请先登录以使用此功能」的讯息
-</code></pre></div></div>
+<h2 id="第一步prd转user-story---需求转化技能">第一步：PRD转User Story - 需求转化技能</h2>
 
-<h1 id="cn-prompt-pattern-介绍">CN Prompt Pattern 介绍</h1>
+<blockquote>
+  <p><strong>相关案例</strong>：<a href="/prompt/2025/08/04/Prompt-pattern1-PRD-to-Story.html">Prompt Pattern1-PRD to Story</a></p>
+</blockquote>
 
-<h2 id="区块介绍">区块介绍</h2>
+<h3 id="教学要点">教学要点</h3>
+
+<h4 id="1-情境设定s的重要性">1. 情境设定（S）的重要性</h4>
+
+<p><strong>功能</strong>：建立AI的问题空间与语境</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>使用真实项目语言描述问题</li>
+  <li>采用”产品目的+用户痛点+解决方式”三段式结构</li>
+  <li>避免混入任务指令</li>
+</ul>
+
+<p><strong>示例特点</strong>：旅游App背景，完整的产品构想描述</p>
+
+<hr />
+
+<h4 id="2-目标明确化p的技巧">2. 目标明确化（P）的技巧</h4>
+
+<p><strong>功能</strong>：让AI聚焦输出内容</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>用一句话概括任务目标</li>
+  <li>加入重点要求说明（如INVEST原则）</li>
+  <li>使用动词导向的指令</li>
+</ul>
+
+<p><strong>示例特点</strong>：明确要求转化为User Story，强调V和T原则</p>
+
+<hr />
+
+<h4 id="3-角色设定a的专业性">3. 角色设定（A）的专业性</h4>
+
+<p><strong>功能</strong>：模拟贴近实际业务需求的思维方式</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指定具备任务相关技能的专业角色</li>
+  <li>强调该角色的擅长领域</li>
+</ul>
+
+<p><strong>示例特点</strong>：资深敏捷产品经理，擅长转化构想</p>
+
+<hr />
+
+<h4 id="4-规则制定r的精确性">4. 规则制定（R）的精确性</h4>
+
+<p><strong>功能</strong>：确保产出内容的一致性、专业性与实用性</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>使用清单方式列出具体行为要求</li>
+  <li>涵盖内容范围、语言转化、输出边界</li>
+  <li>避免模糊词汇，转化为行为指令</li>
+</ul>
+
+<p><strong>示例特点</strong>：明确User Story格式、INVEST原则要求</p>
+
+<hr />
+
+<h4 id="5-格式定义k的规范性">5. 格式定义（K）的规范性</h4>
+
+<p><strong>功能</strong>：帮助模型维持输出一致性</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>明确使用编号清单格式</li>
+  <li>提供范例句型</li>
+  <li>注明句型模板</li>
+</ul>
+
+<p><strong>示例特点</strong>：标准User Story格式：”作为一名[角色]，我想要[目标]，从而[获益]”</p>
+
+<hr />
+
+<h3 id="spark特别用法">SPARK特别用法</h3>
 
 <table>
   <thead>
     <tr>
       <th>区块</th>
-      <th>用途</th>
-      <th>本次案例包含</th>
-      <th>设计重点</th>
+      <th>特别技巧</th>
+      <th>说明</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1. 语意引导段</td>
-      <td>引导 AI 聚焦任务本质</td>
-      <td>强调「什么叫做完成」、使用者行为、系统回应</td>
-      <td>用语务必<strong>清楚明确</strong>、<strong>非技术化</strong></td>
+      <td><strong>S区块</strong></td>
+      <td>变量占位符技巧</td>
+      <td>使用<code class="language-plaintext highlighter-rouge">{粘贴完整背景和构想}</code>作为占位符，让用户动态填充具体内容，提高模板复用性</td>
     </tr>
     <tr>
-      <td>2. 背景区块</td>
-      <td>提供上下文</td>
-      <td>一条或多条 User Story（标准格式）</td>
-      <td>格式稳定、清楚标示</td>
+      <td><strong>P区块</strong></td>
+      <td>INVEST原则嵌入</td>
+      <td>在目标中明确要求”每条Story至少包含V（Value）与T（Testable）”，将质量检查标准直接融入目标设定</td>
     </tr>
     <tr>
-      <td>3. 任务规则区块</td>
-      <td>限定产出格式与品质</td>
-      <td>Gherkin 语法、场景类型、语言风格、异常考量</td>
-      <td>条列式，使用 Emoji 与分类，帮助快速理解</td>
-    </tr>
-    <tr>
-      <td>4. 输出格式区块</td>
-      <td>提供生成参考样板</td>
-      <td>标准 Gherkin 的输出架构</td>
-      <td>简短、可复制、变量化，让 AI 模仿</td>
-    </tr>
-    <tr>
-      <td>5. 范例区块</td>
-      <td>训练 AI 如何写</td>
-      <td>写好的一组范例供模仿（含正常＋异常＋边界）</td>
-      <td>范例真实且完整，避免过于简略</td>
+      <td><strong>R区块</strong></td>
+      <td>模糊语言转化</td>
+      <td>明确要求”避免模糊语句，如「请尽量清楚描述」→ 改为「每条User Story至少提供3种场景」”，将抽象要求转化为具体行为指令</td>
     </tr>
   </tbody>
 </table>
 
 <hr />
 
-<h2 id="各区块撰写教学">各区块撰写教学</h2>
-
-<h3 id="1-语意引导段">1. 语意引导段</h3>
-
-<p><strong>目标：建立意图明确的开场语句</strong>
-避免直接说「请帮我写 Gherkin」，而要引导 AI 知道「我希望你根据需求、使用者行为与预期回应，产出符合验收条件的内容」。</p>
-
-<p><strong>写法范例：</strong></p>
+<h2 id="第二步user-story排序---优先级判断技能">第二步：User Story排序 - 优先级判断技能</h2>
 
 <blockquote>
-  <p>请为以下 User Story 撰写详细的验收标准（Acceptance Criteria），重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦<strong>使用者行为与系统回应</strong>，以利后续开发、测试与共识建立。</p>
+  <p><strong>相关案例</strong>：<a href="/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html">Prompt Pattern2-Order the Stories</a></p>
 </blockquote>
 
-<hr />
+<h3 id="教学要点-1">教学要点</h3>
 
-<h3 id="2-背景区块">2. 背景区块</h3>
+<h4 id="1-情境设定s的输入导向">1. 情境设定（S）的输入导向</h4>
 
-<p><strong>目标：提供上下文让 AI 能理解需求语境</strong></p>
+<p><strong>功能</strong>：设定任务背景与输入内容</p>
 
-<p><strong>注意：</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>支持贴上多条 User Story</li>
-  <li>每条最好使用标准格式（As a… I want… So that…）</li>
+  <li>提供简明的产品构想</li>
+  <li>明确指出面对的输入内容</li>
+  <li>用使用者语言写实表达</li>
 </ul>
 
-<p><strong>写法范例：</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 背景：
-
-作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。
-</code></pre></div></div>
+<p><strong>示例特点</strong>：明确说明将面对一组已撰写好的User Stories</p>
 
 <hr />
 
-<h3 id="3--任务规则区块最关键">3. 📋 任务规则区块（最关键）</h3>
+<h4 id="2-目标设定p的双重导向">2. 目标设定（P）的双重导向</h4>
 
-<p><strong>目标：定义 AI 输出的格式与质量标准</strong></p>
+<p><strong>功能</strong>：兼顾使用者价值与MVP原则</p>
 
-<p><strong>设计技巧：</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>使用条列式写法搭配 Emoji（✅ ⚠️ ❌ 🔐 📱）以视觉化分类</li>
-  <li>明确列出输出的范围（例如要 3 种情境）</li>
-  <li>避免模糊语句，如「请尽量清楚描述」→ 改为「每条 User Story 至少提供 3 种场景」</li>
+  <li>明确排序任务</li>
+  <li>说明排序依据（价值、依赖、最小上线单元）</li>
+  <li>避免模糊词汇，转化为可操作标准</li>
 </ul>
 
-<p><strong>范例段落：</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 要求：
-
-* 使用 **Given-When-Then**（Gherkin）格式表达每个情境  
-* 语言请务必保持 **商业用语，避免技术术语**  
-* 每条 User Story 至少提供 **3 种场景**，包含：  
-  * ✅ 正常流程（Happy Path）  
-  * ⚠️ 边界条件（例如：空值、极限输入）  
-  * ❌ 异常情境（例如：权限不足、格式错误）  
-* 如有登录、表单、存取等动作，请额外考虑：  
-  * 🔒 权限与安全控制  
-  * 📱 不同装置／浏览器表现
-</code></pre></div></div>
+<p><strong>示例特点</strong>：兼顾使用者价值与MVP原则，要求说明排序原因</p>
 
 <hr />
 
-<h3 id="4--输出格式区块">4.  输出格式区块</h3>
+<h4 id="3-角色设定a的判断能力">3. 角色设定（A）的判断能力</h4>
 
-<p><strong>目标：提供 AI 模仿的格式模版</strong></p>
+<p><strong>功能</strong>：影响语言逻辑与判断标准</p>
 
-<p><strong>设计建议：</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>使用程序区块标记 ```gherkin（语法高亮用）**</li>
-  <li>标题行要简单：「场景：XXX」</li>
-  <li>建议保留「And」段，鼓励丰富细节</li>
+  <li>指定具备判断能力的专业角色</li>
+  <li>加入专业背景说明</li>
 </ul>
 
-<p><strong>范例格式：</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">场景：简要说明情境名称</span>  
-<span class="nf">Given </span>某些前置条件成立  
-<span class="nf">And </span>某些系统状态存在  
-<span class="nf">When </span>使用者执行某个动作  
-<span class="nf">And </span>（若有）额外操作或输入  
-<span class="nf">Then </span>系统应有的回应  
-<span class="nf">And </span>额外的验证点或状态变更
-</code></pre></div></div>
+<p><strong>示例特点</strong>：精通敏捷开发与精益创业的产品负责人</p>
 
 <hr />
 
-<h3 id="5-范例区块">5. 范例区块</h3>
+<h4 id="4-规则制定r的结构化要求">4. 规则制定（R）的结构化要求</h4>
 
-<p><strong>目标：让 AI 学会「好内容长怎样」</strong></p>
+<p><strong>功能</strong>：确保产出结构稳定、内容精准</p>
 
-<p>📌 <strong>注意事项：</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>范例至少要涵盖：正常流程 + 边界条件 + 错误情境</li>
-  <li>每段都要清楚对应到前面的格式范本</li>
-  <li>一次只给一条 User Story，让 AI 专注模仿</li>
+  <li>使用清单呈现任务规范</li>
+  <li>明确各部分结构要求</li>
+  <li>避免模糊规则</li>
 </ul>
 
-<p>📌 <strong>写法范例：</strong></p>
+<p><strong>示例特点</strong>：要求分配排序顺位、补充排序原因、标注依赖关系</p>
 
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">场景：使用者成功调整推荐行程</span>  
-<span class="nf">Given </span>使用者已登录并建立个人旅程  
-<span class="nf">And </span>系统已显示一组推荐行程  
-<span class="nf">When </span>使用者点击「调整行程」按钮  
-<span class="nf">And </span>修改其中一项景点时间  
-<span class="nf">Then </span>系统应更新该项目时间  
-<span class="nf">And </span>显示「修改成功」讯息
-</code></pre></div></div>
+<hr />
 
-<h3 id="总结">总结：</h3>
+<h4 id="5-格式定义k的实用性">5. 格式定义（K）的实用性</h4>
 
-<h3 id="pattern-1">Pattern 1</h3>
+<p><strong>功能</strong>：确保格式一致、便于使用</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指明使用编号清单格式</li>
+  <li>说明格式顺序（内容+原因+备注）</li>
+  <li>提供范例输出格式</li>
+</ul>
+
+<p><strong>示例特点</strong>：明确排序格式，包含MVP组合说明</p>
+
+<hr />
+
+<h3 id="spark特别用法-1">SPARK特别用法</h3>
 
 <table>
   <thead>
     <tr>
-      <th>策略</th>
+      <th>区块</th>
+      <th>特别技巧</th>
       <th>说明</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>语境清晰</strong></td>
-      <td>分隔背景与任务指令，帮助 LLM 精准对齐任务</td>
+      <td><strong>S区块</strong></td>
+      <td>双重输入设计</td>
+      <td>先提供产品背景，再明确输入内容”你将面对一组已撰写好的User Stories”，让AI清楚知道要处理什么</td>
     </tr>
     <tr>
-      <td><strong>格式约束明确</strong></td>
-      <td>范文句型与栏位提示帮助模型稳定输出</td>
+      <td><strong>P区块</strong></td>
+      <td>双重目标设定</td>
+      <td>同时要求”使用者价值”和”MVP原则”，在目标层面就建立平衡机制</td>
     </tr>
     <tr>
-      <td><strong>内容要求具体</strong></td>
-      <td>明确规范语气与内容（避免模糊词），提升实用性</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="pattern-2">Pattern 2</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>指派角色</strong></td>
-      <td>让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）</td>
-    </tr>
-    <tr>
-      <td><strong>明确任务目标</strong></td>
-      <td>「排序」、「评估」、「列出优先顺序」需明确出现在开场句</td>
-    </tr>
-    <tr>
-      <td><strong>避免模糊语言</strong></td>
-      <td>例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="pattern-3">Pattern 3</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>行为导向指令</strong></td>
-      <td>所有要求皆以「使用者行为」与「系统回应」为中心，不使用模糊词（如：合理、美观、清楚等）</td>
-    </tr>
-    <tr>
-      <td><strong>场景分类清楚</strong></td>
-      <td>明确要求 3 种场景（正常流程、边界条件、错误情境），使用 Emoji 区分视觉上清晰</td>
-    </tr>
-    <tr>
-      <td><strong>单点聚焦，避免多任务混杂</strong></td>
-      <td>每次提示只聚焦一个功能（如生成验收标准），避免一次生成多角色/多格式/多语言的复合任务</td>
-    </tr>
-    <tr>
-      <td><strong>提供格式范例</strong></td>
-      <td>AI 模仿能力强，格式越清晰，产出越稳定</td>
+      <td><strong>K区块</strong></td>
+      <td>MVP组合输出</td>
+      <td>在格式要求中明确”请指出哪些User Story可构成MVP（V1.0）版本的最小组合”，将决策结果直接纳入输出格式</td>
     </tr>
   </tbody>
 </table>
 
 <hr />
 
-<p>如您也有第二个提示词（如排序 User Story）也想要做类似总结，可以延用这个格式，只需调整策略与说明即可。是否需要我也帮您补一份？✅</p>
-
-<h1 id="prompt-pattern-3-1">Prompt Pattern-3</h1>
-
-<h1 id="en">EN</h1>
-
-<p>Please write detailed <strong>Acceptance Criteria</strong> for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing <strong>user behavior and system response</strong> to support development, testing, and team alignment.</p>
-
-<hr />
-
-<h2 id="background">Background:</h2>
-
-<p>{Paste full User Story here; multiple stories allowed}</p>
-
-<hr />
-
-<h2 id="requirements">Requirements:</h2>
-
-<ul>
-  <li>Express each scenario using <strong>Given-When-Then</strong> (Gherkin) format</li>
-  <li>Ensure the language remains <strong>business-oriented and avoids technical jargon</strong></li>
-  <li>
-    <p>Provide <strong>at least 3 scenarios per User Story</strong>, including:</p>
-
-    <ul>
-      <li>✅ Happy Path (normal flow)</li>
-      <li>⚠️ Boundary Conditions (e.g., null values, extreme input)</li>
-      <li>❌ Exception Scenarios (e.g., insufficient permissions, format errors)</li>
-    </ul>
-  </li>
-  <li>
-    <p>If login, forms, or data access actions are involved, also consider:</p>
-
-    <ul>
-      <li>🔒 Permission and security controls</li>
-      <li>📱 Behavior across devices/browsers</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="output-format">Output Format:</h2>
-
-<p>Please use the following structure, with one block per scenario:</p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> Brief description of the situation  
-<span class="nf">Given </span>certain preconditions are met  
-<span class="nf">And </span>specific system states exist  
-<span class="nf">When </span>the user performs a particular action  
-<span class="nf">And </span>(if any) additional actions or inputs  
-<span class="nf">Then </span>expected system response  
-<span class="nf">And </span>additional verification point or state change
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="example">Example:</h2>
-
-<p><strong>User Story:</strong>
-As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.</p>
-
-<p><strong>Generated Acceptance Criteria:</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> User successfully adjusts recommended itinerary  
-<span class="nf">Given </span>the user is logged in and has created a personal itinerary  
-<span class="nf">And </span>the system has displayed a recommended itinerary  
-<span class="nf">When </span>the user clicks the <span class="s">"Adjust Itinerary"</span> button  
-<span class="nf">And </span>modifies the timing of an attraction  
-<span class="nf">Then </span>the system should update the timing for that item  
-<span class="nf">And </span>display a <span class="s">"Modification Successful"</span> message
-
-<span class="kn">Scenario</span><span class="p">:</span> Inputting an unreasonable time (boundary condition)  
-<span class="nf">Given </span>the user is adjusting the itinerary  
-<span class="err">When the user sets the time of an attraction to "3</span><span class="p">:</span><span class="err">00</span> <span class="err">AM"</span>  
-<span class="nf">Then </span>the system should display a message <span class="s">"Time is outside visitable hours"</span>  
-<span class="nf">And </span>block submission of itinerary changes
-
-<span class="kn">Scenario</span><span class="p">:</span> Adjusting itinerary while not logged in (exception case)  
-<span class="nf">Given </span>the user is not logged in  
-<span class="nf">When </span>attempting to access the <span class="s">"Recommended Itinerary Adjustment Page"</span>  
-<span class="nf">Then </span>the system should redirect to the login page  
-<span class="nf">And </span>display a message <span class="s">"Please log in to use this feature"</span>
-</code></pre></div></div>
-
-<hr />
-
-<h1 id="prompt-pattern-introduction">Prompt Pattern Introduction</h1>
-
-<h2 id="-five-key-sections-of-a-high-quality-prompt">🧱 Five Key Sections of a High-Quality Prompt</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Section</th>
-      <th>Purpose</th>
-      <th>Present in This Template</th>
-      <th>Design Focus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Semantic Lead</td>
-      <td>Directs AI to the task’s core</td>
-      <td>Emphasizes “what is considered done,” user behavior, system response</td>
-      <td>Language must be <strong>clear and non-technical</strong></td>
-    </tr>
-    <tr>
-      <td>2. Background</td>
-      <td>Provides context</td>
-      <td>One or more User Stories (standard format)</td>
-      <td>Stable format with clear labels</td>
-    </tr>
-    <tr>
-      <td>3. Task Rules</td>
-      <td>Constrains output style and quality</td>
-      <td>Gherkin syntax, scenario types, tone, edge cases</td>
-      <td>Bullet format, uses emojis for readability</td>
-    </tr>
-    <tr>
-      <td>4. Output Format</td>
-      <td>Offers a structural template</td>
-      <td>Standard Gherkin output structure</td>
-      <td>Simple, copyable, templated for imitation</td>
-    </tr>
-    <tr>
-      <td>5. Example</td>
-      <td>Trains AI with quality reference</td>
-      <td>Complete sample with normal + exception + boundary</td>
-      <td>Realistic and complete, not overly brief</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="writing-instructions-for-each-section">Writing Instructions for Each Section</h2>
-
-<h3 id="1-semantic-lead">1. Semantic Lead</h3>
-
-<p><strong>Goal: Set a clearly intentional opening statement</strong>
-Avoid simply saying “write Gherkin.” Instead, guide the AI by stating, “I want you to write criteria based on user behavior and expected system response.”</p>
-
-<p><strong>Sample Wording:</strong></p>
+<h2 id="第三步user-story转验收标准---测试设计技能">第三步：User Story转验收标准 - 测试设计技能</h2>
 
 <blockquote>
-  <p>Please write detailed Acceptance Criteria for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing <strong>user behavior and system response</strong> to support development, testing, and team alignment.</p>
+  <p><strong>相关案例</strong>：<a href="/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html">Prompt Pattern3-Story to AC</a></p>
 </blockquote>
 
-<hr />
+<h3 id="教学要点-2">教学要点</h3>
 
-<h3 id="2-background-section">2. Background Section</h3>
+<h4 id="1-情境设定s的测试导向">1. 情境设定（S）的测试导向</h4>
 
-<p><strong>Goal: Provide context for AI to understand the task</strong></p>
+<p><strong>功能</strong>：帮助模型理解任务背景与输入内容</p>
 
-<p><strong>Tips:</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>Support multiple User Stories</li>
-  <li>Preferably use the standard format: “As a… I want… So that…”</li>
+  <li>提供清楚的背景介绍</li>
+  <li>明确指出要撰写的User Story</li>
+  <li>避免在此区块放入任务指令</li>
 </ul>
 
-<p><strong>Sample Format:</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Background:
-
-As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.
-</code></pre></div></div>
+<p><strong>示例特点</strong>：明确说明为产品开发团队撰写验收标准</p>
 
 <hr />
 
-<h3 id="3--task-rules-section-most-critical">3. 📋 Task Rules Section (Most Critical)</h3>
+<h4 id="2-目标设定p的验证导向">2. 目标设定（P）的验证导向</h4>
 
-<p><strong>Goal: Define output format and quality standards for the AI</strong></p>
+<p><strong>功能</strong>：说明要交付什么、为什么写</p>
 
-<p><strong>Design Tips:</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>Use bullet format with emojis (✅ ⚠️ ❌ 🔐 📱) to visually categorize</li>
-  <li>Clearly state output scope (e.g., 3 scenarios required)</li>
-  <li>Avoid vague phrases like “describe clearly” → use “at least 3 scenarios per User Story”</li>
+  <li>明确写出撰写验收标准的目的</li>
+  <li>指出重点要求（如Gherkin格式、多种情境）</li>
+  <li>强调商业目的</li>
 </ul>
 
-<p><strong>Example Paragraph:</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Requirements:
-
-* Express each scenario using **Given-When-Then** (Gherkin) format  
-* Ensure the language remains **business-oriented and avoids technical jargon**  
-* Provide **at least 3 scenarios per User Story**, including:  
-  * ✅ Happy Path (normal flow)  
-  * ⚠️ Boundary Conditions (e.g., null values, extreme input)  
-  * ❌ Exception Scenarios (e.g., insufficient permissions, format errors)  
-* If login, forms, or data access actions are involved, also consider:  
-  * 🔒 Permission and security controls  
-  * 📱 Behavior across devices/browsers
-</code></pre></div></div>
+<p><strong>示例特点</strong>：要求至少列出3种情境，涵盖正常、边界、异常流程</p>
 
 <hr />
 
-<h3 id="4-output-format-section">4. Output Format Section</h3>
+<h4 id="3-角色设定a的业务导向">3. 角色设定（A）的业务导向</h4>
 
-<p><strong>Goal: Provide an output template for AI to mimic</strong></p>
+<p><strong>功能</strong>：提升内容专业性与语气匹配度</p>
 
-<p><strong>Design Tips:</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>Use code block and <code class="language-plaintext highlighter-rouge">gherkin</code> for syntax highlighting</li>
-  <li>Keep the title line simple: “Scenario: XXX”</li>
-  <li>Include “And” lines to encourage detailed steps</li>
+  <li>指派能写验收标准的角色</li>
+  <li>说明该角色的专长与视角</li>
+  <li>避免设定开发者或AI助理角色</li>
 </ul>
 
-<p><strong>Sample Format:</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> Brief description of the situation  
-<span class="nf">Given </span>certain preconditions are met  
-<span class="nf">And </span>specific system states exist  
-<span class="nf">When </span>the user performs a particular action  
-<span class="nf">And </span>(if any) additional actions or inputs  
-<span class="nf">Then </span>expected system response  
-<span class="nf">And </span>additional verification point or state change
-</code></pre></div></div>
+<p><strong>示例特点</strong>：熟悉业务需求与用户旅程的资深产品经理</p>
 
 <hr />
 
-<h3 id="5-example-section">5. Example Section</h3>
+<h4 id="4-规则制定r的测试导向">4. 规则制定（R）的测试导向</h4>
 
-<p><strong>Goal: Teach the AI what good output looks like</strong></p>
+<p><strong>功能</strong>：约定输出规则，让结果更稳定与可操作</p>
 
-<p>📌 <strong>Notes:</strong></p>
-
+<p><strong>撰写技巧</strong>：</p>
 <ul>
-  <li>Example must include: Happy Path + Boundary Condition + Exception</li>
-  <li>Each scenario should follow the format above precisely</li>
-  <li>Provide one User Story at a time to help the AI stay focused</li>
+  <li>指定使用Gherkin语法</li>
+  <li>明确语言风格要求</li>
+  <li>要求多种场景类型</li>
 </ul>
 
-<p>📌 <strong>Sample:</strong></p>
+<p><strong>示例特点</strong>：使用Given-When-Then格式，保持商业用语</p>
 
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> User successfully adjusts recommended itinerary  
-<span class="nf">Given </span>the user is logged in and has created a personal itinerary  
-<span class="nf">And </span>the system has displayed a recommended itinerary  
-<span class="nf">When </span>the user clicks the <span class="s">"Adjust Itinerary"</span> button  
-<span class="nf">And </span>modifies the timing of an attraction  
-<span class="nf">Then </span>the system should update the timing for that item  
-<span class="nf">And </span>display a <span class="s">"Modification Successful"</span> message
-</code></pre></div></div>
+<hr />
 
-<h2 id="additional-tips-prompt-writing-strategies">Additional Tips: Prompt Writing Strategies</h2>
-<h3 id="pattern-1-1">Pattern 1</h3>
+<h4 id="5-格式定义k的结构化">5. 格式定义（K）的结构化</h4>
+
+<p><strong>功能</strong>：清楚定义输出形式，利于阅读、复制、沟通</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指定使用区块格式</li>
+  <li>提供格式范例</li>
+  <li>要求使用者语言自然</li>
+</ul>
+
+<p><strong>示例特点</strong>：每个场景一个Gherkin结构，便于测试用例生成</p>
+
+<hr />
+
+<h3 id="spark特别用法-2">SPARK特别用法</h3>
 
 <table>
   <thead>
     <tr>
-      <th>Strategy</th>
-      <th>Description</th>
+      <th>区块</th>
+      <th>特别技巧</th>
+      <th>说明</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Clear Context</strong></td>
-      <td>Separate background from task instructions to help the LLM align precisely with the task</td>
+      <td><strong>S区块</strong></td>
+      <td>测试导向设计</td>
+      <td>明确说明”为产品开发团队撰写结构化的验收标准”，在情境中就定位了输出用途</td>
     </tr>
     <tr>
-      <td><strong>Explicit Format Constraints</strong></td>
-      <td>Template examples and section labels help stabilize output structure</td>
+      <td><strong>P区块</strong></td>
+      <td>量化要求嵌入</td>
+      <td>在目标中明确”每个User Story至少列出3种情境”，将数量要求直接融入目标设定</td>
     </tr>
     <tr>
-      <td><strong>Concrete Content Requirements</strong></td>
-      <td>Clearly define tone and content (avoid vague terms) to enhance usability</td>
+      <td><strong>R区块</strong></td>
+      <td>Gherkin格式强制</td>
+      <td>明确要求”使用Given-When-Then（Gherkin）格式”，将测试标准格式直接写入规则</td>
+    </tr>
+    <tr>
+      <td><strong>K区块</strong></td>
+      <td>测试用例结构</td>
+      <td>提供完整的Gherkin格式范例，确保输出可直接用于测试用例生成</td>
     </tr>
   </tbody>
 </table>
 
 <hr />
 
-<h3 id="pattern-2-1">Pattern 2</h3>
+<h2 id="提示词写作核心技巧">提示词写作核心技巧</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Strategy</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Role Assignment</strong></td>
-      <td>Helps the AI simulate more professional logic (e.g., PM, designer, consultant)</td>
-    </tr>
-    <tr>
-      <td><strong>Clear Task Objectives</strong></td>
-      <td>Make sure terms like “prioritize,” “evaluate,” or “list in order of importance” appear explicitly in the opening</td>
-    </tr>
-    <tr>
-      <td><strong>Avoid Vague Language</strong></td>
-      <td>For example, “Please prioritize based on importance” is less effective than “Please prioritize based on user value”</td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="1-spark模型写作要领">1. SPARK模型写作要领</h3>
+
+<h4 id="s区块情境的写作技巧">S区块（情境）的写作技巧</h4>
+<ul>
+  <li><strong>变量占位符策略</strong>：使用<code class="language-plaintext highlighter-rouge">{粘贴完整背景}</code>、<code class="language-plaintext highlighter-rouge">{User Story}</code>等占位符，让提示词可重复使用</li>
+  <li><strong>双层背景设计</strong>：先描述产品背景，再说明输入内容类型，让AI清楚知道要处理什么</li>
+  <li><strong>用途明确化</strong>：在情境中就说明输出的用途，如”为产品开发团队撰写验收标准”</li>
+</ul>
+
+<h4 id="p区块目标的写作技巧">P区块（目标）的写作技巧</h4>
+<ul>
+  <li><strong>质量标准嵌入</strong>：将检查标准直接写入目标，如”每条Story至少包含V（Value）与T（Testable）”</li>
+  <li><strong>量化要求明确</strong>：用具体数字替代模糊描述，如”至少列出3种情境”而非”列出多种情境”</li>
+  <li><strong>双重目标平衡</strong>：当任务复杂时，明确列出需要兼顾的多个目标，如”使用者价值”和”MVP原则”</li>
+</ul>
+
+<h4 id="a区块角色的写作技巧">A区块（角色）的写作技巧</h4>
+<ul>
+  <li><strong>技能匹配原则</strong>：根据任务选择最合适的角色，产品任务选”产品经理”，测试任务选”QA专家”</li>
+  <li><strong>专业背景描述</strong>：详细说明角色的专业领域，如”精通敏捷开发与精益创业的产品负责人”</li>
+  <li><strong>业务导向优先</strong>：对于商业任务，避免技术角色，确保输出贴近业务语言</li>
+</ul>
+
+<h4 id="r区块规则的写作技巧">R区块（规则）的写作技巧</h4>
+<ul>
+  <li><strong>模糊语言转化</strong>：将”请尽量清楚”改为”每条Story必须包含具体的验收条件”</li>
+  <li><strong>格式标准强制</strong>：明确指定格式要求，如”使用Given-When-Then（Gherkin）格式”</li>
+  <li><strong>正反面指导</strong>：同时说明”必须做什么”和”避免做什么”，如”使用商业用语，避免技术术语”</li>
+</ul>
+
+<h4 id="k区块格式的写作技巧">K区块（格式）的写作技巧</h4>
+<ul>
+  <li><strong>完整范例提供</strong>：给出完整的输出格式示例，让AI可以直接模仿</li>
+  <li><strong>结构化输出设计</strong>：将决策结果纳入格式要求，如”请指出哪些Story构成MVP”</li>
+  <li><strong>可用性考量</strong>：确保输出格式便于后续使用，如直接可复制到测试用例或项目管理工具</li>
+</ul>
+
+<h3 id="2-提示词写作常见问题与解决技巧">2. 提示词写作常见问题与解决技巧</h3>
+
+<h4 id="问题ai输出格式每次都不一样">问题：AI输出格式每次都不一样</h4>
+<p><strong>SPARK解决策略</strong>：</p>
+<ul>
+  <li><strong>K区块范例化</strong>：提供完整的格式示例，包含所有必要元素</li>
+  <li><strong>R区块格式强制</strong>：在规则中明确”严格按照以下格式输出”</li>
+  <li><strong>代码块技巧</strong>：使用```代码块包围格式示例，提高AI的格式识别准确性</li>
+</ul>
+
+<h4 id="问题ai回答太技术化业务人员看不懂">问题：AI回答太技术化，业务人员看不懂</h4>
+<p><strong>SPARK解决策略</strong>：</p>
+<ul>
+  <li><strong>A区块业务角色</strong>：设定”资深产品经理”而非”系统架构师”</li>
+  <li><strong>R区块语言规范</strong>：明确要求”使用商业语言，避免技术术语”</li>
+  <li><strong>S区块业务背景</strong>：在情境中强调业务目标和用户价值</li>
+</ul>
+
+<h4 id="问题ai输出内容不够完整">问题：AI输出内容不够完整</h4>
+<p><strong>SPARK解决策略</strong>：</p>
+<ul>
+  <li><strong>P区块量化明确</strong>：用具体数字要求，如”每个User Story需要3种测试场景”</li>
+  <li><strong>R区块要素清单</strong>：列出必须包含的所有要素，如”排序原因、依赖关系、MVP标记”</li>
+  <li><strong>检查清单技巧</strong>：在提示词最后加入”请确认以上要求都已满足”</li>
+</ul>
+
+<h3 id="3-高级提示词写作技巧">3. 高级提示词写作技巧</h3>
+
+<h4 id="模板化与复用策略">模板化与复用策略</h4>
+<ul>
+  <li><strong>变量占位符设计</strong>：使用<code class="language-plaintext highlighter-rouge">{}</code>标记需要动态填充的内容</li>
+  <li><strong>模块化组合</strong>：将SPARK各区块设计成可组合的模块</li>
+  <li><strong>版本迭代记录</strong>：记录不同版本的提示词效果，持续优化</li>
+</ul>
+
+<h4 id="上下文控制技巧">上下文控制技巧</h4>
+<ul>
+  <li><strong>信息层次化</strong>：在S区块中按重要性排列背景信息</li>
+  <li><strong>输入格式标准化</strong>：为不同类型输入设计标准格式</li>
+  <li><strong>边界条件处理</strong>：在R区块中说明如何处理特殊情况</li>
+</ul>
+
+<h4 id="输出质量控制">输出质量控制</h4>
+<ul>
+  <li><strong>多轮验证设计</strong>：设计可以多轮精化的提示词结构</li>
+  <li><strong>质量检查嵌入</strong>：将质量标准直接写入提示词各区块</li>
+  <li><strong>反馈循环建立</strong>：设计便于根据输出结果调整提示词的机制</li>
+</ul>
 
 <hr />
 
-<h3 id="pattern-3-1">Pattern 3</h3>
+<h2 id="总结">总结</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Strategy</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Behavior-Driven Instructions</strong></td>
-      <td>All requirements should focus on <strong>user behavior</strong> and <strong>system response</strong>, avoiding vague words like “reasonable,” “clear,” or “beautiful”</td>
-    </tr>
-    <tr>
-      <td><strong>Clearly Categorized Scenarios</strong></td>
-      <td>Explicitly require 3 scenario types (happy path, edge case, error case) and use emojis for visual clarity</td>
-    </tr>
-    <tr>
-      <td><strong>Single-Focus, No Multi-Tasking</strong></td>
-      <td>Each prompt should focus on <strong>only one function</strong> (e.g., generating acceptance criteria), avoiding compound tasks like multi-role, multi-format, or multi-language generation</td>
-    </tr>
-    <tr>
-      <td><strong>Provide Format Examples</strong></td>
-      <td>The clearer the format, the more stable the AI’s output—AI excels at imitation</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Prompt Pattern-3]]></summary></entry></feed>
+<p>SPARK模型提供了一个系统性的框架来编写高效的AI提示词。通过这三个步骤的培训，您将掌握：</p>
+
+<ol>
+  <li><strong>需求转化技能</strong>：将产品构想转化为可执行的User Story</li>
+  <li><strong>优先级判断技能</strong>：基于价值和MVP原则进行功能排序</li>
+  <li><strong>测试设计技能</strong>：为User Story制定详细的验收标准</li>
+</ol>
+
+<p>每个步骤都体现了SPARK模型的核心要素，通过结构化的教学要点和实用技巧，帮助您在实际工作中更好地运用AI工具。</p>]]></content><author><name>Yuming</name></author><category term="Training" /><summary type="html"><![CDATA[SPARK提示词模型培训课程]]></summary></entry></feed>

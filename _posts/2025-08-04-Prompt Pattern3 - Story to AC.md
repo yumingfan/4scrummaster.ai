@@ -6,459 +6,72 @@ category: Prompt
 layout: post
 mermaid: true
 ---
-# Prompt Pattern-3
 
-# CN
-请为以下 User Story 撰写详细的 **验收标准（Acceptance Criteria）**，重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**，以利后续开发、测试与共识建立。
+> Sample Prompt
 
----
+```
+##  S - **Situation（情境）**
 
-## 背景：
+请阅读以下 User Story。本任务背景为一款旅游类 App，旨在帮助用户轻松规划自由行中的行程、住宿、餐饮与交通，并提供可自定义的智慧化体验。
+
+你将基于这些 User Story，为产品开发团队撰写结构化的验收标准，用于明确开发完成的判断标准，并协助测试验证功能是否可交付。
+
+提供的 User Story 如下：
+
 
 {粘贴完整 User Story，可多个}
 
----
-
-## 要求：
-
-* 使用 **Given-When-Then**（Gherkin）格式表达每个情境
-* 语言请务必保持 **商业用语，避免技术术语**
-* 每条 User Story 至少提供 **3 种场景**，包含：
-
-  * ✅ 正常流程（Happy Path）
-  * ⚠️ 边界条件（例如：空值、极限输入）
-  * ❌ 异常情境（例如：权限不足、格式错误）
-* 如有登录、表单、存取等动作，请额外考虑：
-
-  * 🔒 权限与安全控制
-  * 📱 不同装置／浏览器表现
 
 ---
 
-## 输出格式：
+##  P - **Purpose（目标）**
 
-请按下列格式输出，每个场景一个区块：
+请为上述每条 User Story 撰写详细的 **验收标准（Acceptance Criteria）**。
+重点在于清楚定义「在什么情况下该需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**。
 
-```
+每个 User Story 至少列出 **3 种情境**，涵盖：
+
+*  正常流程（Happy Path）
+*  边界情境（如空值、极限输入）
+*  异常情境（如权限不足、格式错误）
+
+---
+
+##  A - **Action Role（角色指派）**
+
+你是一位**熟悉业务需求与用户旅程的资深产品经理**，擅长用非技术语言清楚描述系统行为，确保团队对功能完成标准有一致理解。
+
+---
+
+##  R - **Rule（任务规则）**
+
+请遵循以下规范进行撰写：
+
+* 使用 **Given-When-Then**（Gherkin）格式表达每个验收情境
+* 语言请保持 **商业用语，避免技术术语**
+* 每个场景标题请以「场景：」开头，简要描述该情境
+* 若 Story 涉及以下情境，请优先考虑：
+
+  *  权限控制（是否已登录、是否有操作权限）
+  *  跨装置或浏览器差异（手机 / 桌机、iOS / Android）
+
+---
+
+##  K - **Knowledge Format（输出格式）**
+
+请用以下格式撰写，每个场景为一个区块：
+
+gherkin
 场景：简要说明情境名称  
 Given 某些前置条件成立  
-And 某些系统状态存在  
+And 某些系统状态存在（如有）  
 When 使用者执行某个动作  
-And （若有）额外操作或输入  
+And （额外操作或输入）  
 Then 系统应有的回应  
-And 额外的验证点或状态变更
-```
+And （额外验证点或状态变更）
 
----
 
-## 范例：
-
-**User Story：**
-作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。
-
-**生成的验收标准：**
-
-```gherkin
-场景：使用者成功调整推荐行程  
-Given 使用者已登录并建立个人旅程  
-And 系统已显示一组推荐行程  
-When 使用者点击「调整行程」按钮  
-And 修改其中一项景点时间  
-Then 系统应更新该项目时间  
-And 显示「修改成功」讯息
-
-场景：输入不合理时间（边界条件）  
-Given 使用者正在调整行程  
-When 使用者将景点时间调整为「凌晨 3 点」  
-Then 系统应提示「输入时间不在可访时间内」  
-And 禁止提交行程变更
-
-场景：未登录状态调整行程（异常情况）  
-Given 使用者尚未登录  
-When 尝试进入「推荐行程调整页」  
-Then 系统应导向登录页面  
-And 显示「请先登录以使用此功能」的讯息
+每条 User Story 至少撰写三组情境。请确保内容**具体、可验证、贴近使用者语言**。
 ```
 
 
-# CN Prompt Pattern 介绍
-
-## 区块介绍
-
-| 区块        | 用途           | 本次案例包含                     | 设计重点                    |
-| --------- | ------------ | ------------------------- | ----------------------- |
-| 1. 语意引导段  | 引导 AI 聚焦任务本质 | 强调「什么叫做完成」、使用者行为、系统回应     | 用语务必**清楚明确**、**非技术化**   |
-| 2. 背景区块   | 提供上下文        | 一条或多条 User Story（标准格式）    | 格式稳定、清楚标示               |
-| 3. 任务规则区块 | 限定产出格式与品质    | Gherkin 语法、场景类型、语言风格、异常考量 | 条列式，使用 Emoji 与分类，帮助快速理解 |
-| 4. 输出格式区块 | 提供生成参考样板     | 标准 Gherkin 的输出架构          | 简短、可复制、变量化，让 AI 模仿      |
-| 5. 范例区块   | 训练 AI 如何写    | 写好的一组范例供模仿（含正常＋异常＋边界）     | 范例真实且完整，避免过于简略          |
-
----
-
-## 各区块撰写教学
-
-### 1. 语意引导段
-
-**目标：建立意图明确的开场语句**
-避免直接说「请帮我写 Gherkin」，而要引导 AI 知道「我希望你根据需求、使用者行为与预期回应，产出符合验收条件的内容」。
-
-**写法范例：**
-
-> 请为以下 User Story 撰写详细的验收标准（Acceptance Criteria），重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**，以利后续开发、测试与共识建立。
-
----
-
-### 2. 背景区块
-
-**目标：提供上下文让 AI 能理解需求语境**
-
-**注意：**
-
-* 支持贴上多条 User Story
-* 每条最好使用标准格式（As a... I want... So that...）
-
-**写法范例：**
-
-```
-## 背景：
-
-作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。
-```
-
----
-
-### 3. 📋 任务规则区块（最关键）
-
-**目标：定义 AI 输出的格式与质量标准**
-
-**设计技巧：**
-
-* 使用条列式写法搭配 Emoji（✅ ⚠️ ❌ 🔐 📱）以视觉化分类
-* 明确列出输出的范围（例如要 3 种情境）
-* 避免模糊语句，如「请尽量清楚描述」→ 改为「每条 User Story 至少提供 3 种场景」
-
-**范例段落：**
-
-```
-## 要求：
-
-* 使用 **Given-When-Then**（Gherkin）格式表达每个情境  
-* 语言请务必保持 **商业用语，避免技术术语**  
-* 每条 User Story 至少提供 **3 种场景**，包含：  
-  * ✅ 正常流程（Happy Path）  
-  * ⚠️ 边界条件（例如：空值、极限输入）  
-  * ❌ 异常情境（例如：权限不足、格式错误）  
-* 如有登录、表单、存取等动作，请额外考虑：  
-  * 🔒 权限与安全控制  
-  * 📱 不同装置／浏览器表现
-```
-
----
-
-### 4.  输出格式区块
-
- **目标：提供 AI 模仿的格式模版**
-
-**设计建议：**
-
-* 使用程序区块标记 \`\`\`gherkin（语法高亮用）\*\*
-* 标题行要简单：「场景：XXX」
-* 建议保留「And」段，鼓励丰富细节
-
-**范例格式：**
-
-```gherkin
-场景：简要说明情境名称  
-Given 某些前置条件成立  
-And 某些系统状态存在  
-When 使用者执行某个动作  
-And （若有）额外操作或输入  
-Then 系统应有的回应  
-And 额外的验证点或状态变更
-```
-
----
-
-### 5. 范例区块
-
-**目标：让 AI 学会「好内容长怎样」**
-
-📌 **注意事项：**
-
-* 范例至少要涵盖：正常流程 + 边界条件 + 错误情境
-* 每段都要清楚对应到前面的格式范本
-* 一次只给一条 User Story，让 AI 专注模仿
-
-📌 **写法范例：**
-
-```gherkin
-场景：使用者成功调整推荐行程  
-Given 使用者已登录并建立个人旅程  
-And 系统已显示一组推荐行程  
-When 使用者点击「调整行程」按钮  
-And 修改其中一项景点时间  
-Then 系统应更新该项目时间  
-And 显示「修改成功」讯息
-```
-
-
-###  总结：
-
-### Pattern 1
-
-| 策略          | 说明                       |
-| ----------- | ------------------------ |
-| **语境清晰**    | 分隔背景与任务指令，帮助 LLM 精准对齐任务  |
-| **格式约束明确**  | 范文句型与栏位提示帮助模型稳定输出        |
-| **内容要求具体**  | 明确规范语气与内容（避免模糊词），提升实用性   |
-
-### Pattern 2
-
-| 策略        | 说明                               |
-| -------- | ------------------------------- |
-| **指派角色**   | 让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）      |
-| **明确任务目标** | 「排序」、「评估」、「列出优先顺序」需明确出现在开场句     |
-| **避免模糊语言** | 例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确 |
-
-### Pattern 3 
-
-| 策略               | 说明                                          |
-| ---------------- | ------------------------------------------- |
-| **行为导向指令**       | 所有要求皆以「使用者行为」与「系统回应」为中心，不使用模糊词（如：合理、美观、清楚等） |
-| **场景分类清楚**       | 明确要求 3 种场景（正常流程、边界条件、错误情境），使用 Emoji 区分视觉上清晰 |
-| **单点聚焦，避免多任务混杂** | 每次提示只聚焦一个功能（如生成验收标准），避免一次生成多角色/多格式/多语言的复合任务 |
-| **提供格式范例** | AI 模仿能力强，格式越清晰，产出越稳定    | 
-
----
-
-如您也有第二个提示词（如排序 User Story）也想要做类似总结，可以延用这个格式，只需调整策略与说明即可。是否需要我也帮您补一份？✅
-
-
-
-# Prompt Pattern-3
-
-# EN
-
-Please write detailed **Acceptance Criteria** for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing **user behavior and system response** to support development, testing, and team alignment.
-
----
-
-## Background:
-
-{Paste full User Story here; multiple stories allowed}
-
----
-
-## Requirements:
-
-* Express each scenario using **Given-When-Then** (Gherkin) format
-* Ensure the language remains **business-oriented and avoids technical jargon**
-* Provide **at least 3 scenarios per User Story**, including:
-
-  * ✅ Happy Path (normal flow)
-  * ⚠️ Boundary Conditions (e.g., null values, extreme input)
-  * ❌ Exception Scenarios (e.g., insufficient permissions, format errors)
-* If login, forms, or data access actions are involved, also consider:
-
-  * 🔒 Permission and security controls
-  * 📱 Behavior across devices/browsers
-
----
-
-## Output Format:
-
-Please use the following structure, with one block per scenario:
-
-```gherkin
-Scenario: Brief description of the situation  
-Given certain preconditions are met  
-And specific system states exist  
-When the user performs a particular action  
-And (if any) additional actions or inputs  
-Then expected system response  
-And additional verification point or state change
-```
-
----
-
-## Example:
-
-**User Story:**
-As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.
-
-**Generated Acceptance Criteria:**
-
-```gherkin
-Scenario: User successfully adjusts recommended itinerary  
-Given the user is logged in and has created a personal itinerary  
-And the system has displayed a recommended itinerary  
-When the user clicks the "Adjust Itinerary" button  
-And modifies the timing of an attraction  
-Then the system should update the timing for that item  
-And display a "Modification Successful" message
-
-Scenario: Inputting an unreasonable time (boundary condition)  
-Given the user is adjusting the itinerary  
-When the user sets the time of an attraction to "3:00 AM"  
-Then the system should display a message "Time is outside visitable hours"  
-And block submission of itinerary changes
-
-Scenario: Adjusting itinerary while not logged in (exception case)  
-Given the user is not logged in  
-When attempting to access the "Recommended Itinerary Adjustment Page"  
-Then the system should redirect to the login page  
-And display a message "Please log in to use this feature"
-```
-
----
-
-#  Prompt Pattern Introduction
-
-## 🧱 Five Key Sections of a High-Quality Prompt
-
-| Section          | Purpose                             | Present in This Template                                             | Design Focus                                 |
-| ---------------- | ----------------------------------- | -------------------------------------------------------------------- | -------------------------------------------- |
-| 1. Semantic Lead | Directs AI to the task's core       | Emphasizes “what is considered done,” user behavior, system response | Language must be **clear and non-technical** |
-| 2. Background    | Provides context                    | One or more User Stories (standard format)                           | Stable format with clear labels              |
-| 3. Task Rules    | Constrains output style and quality | Gherkin syntax, scenario types, tone, edge cases                     | Bullet format, uses emojis for readability   |
-| 4. Output Format | Offers a structural template        | Standard Gherkin output structure                                    | Simple, copyable, templated for imitation    |
-| 5. Example       | Trains AI with quality reference    | Complete sample with normal + exception + boundary                   | Realistic and complete, not overly brief     |
-
----
-
-## Writing Instructions for Each Section
-
-### 1. Semantic Lead
-
-**Goal: Set a clearly intentional opening statement**
-Avoid simply saying “write Gherkin.” Instead, guide the AI by stating, “I want you to write criteria based on user behavior and expected system response.”
-
-**Sample Wording:**
-
-> Please write detailed Acceptance Criteria for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing **user behavior and system response** to support development, testing, and team alignment.
-
----
-
-### 2. Background Section
-
-**Goal: Provide context for AI to understand the task**
-
-**Tips:**
-
-* Support multiple User Stories
-* Preferably use the standard format: "As a... I want... So that..."
-
-**Sample Format:**
-
-```
-## Background:
-
-As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.
-```
-
----
-
-### 3. 📋 Task Rules Section (Most Critical)
-
-**Goal: Define output format and quality standards for the AI**
-
-**Design Tips:**
-
-* Use bullet format with emojis (✅ ⚠️ ❌ 🔐 📱) to visually categorize
-* Clearly state output scope (e.g., 3 scenarios required)
-* Avoid vague phrases like “describe clearly” → use “at least 3 scenarios per User Story”
-
-**Example Paragraph:**
-
-```
-## Requirements:
-
-* Express each scenario using **Given-When-Then** (Gherkin) format  
-* Ensure the language remains **business-oriented and avoids technical jargon**  
-* Provide **at least 3 scenarios per User Story**, including:  
-  * ✅ Happy Path (normal flow)  
-  * ⚠️ Boundary Conditions (e.g., null values, extreme input)  
-  * ❌ Exception Scenarios (e.g., insufficient permissions, format errors)  
-* If login, forms, or data access actions are involved, also consider:  
-  * 🔒 Permission and security controls  
-  * 📱 Behavior across devices/browsers
-```
-
----
-
-### 4. Output Format Section
-
-**Goal: Provide an output template for AI to mimic**
-
-**Design Tips:**
-
-* Use code block and `gherkin` for syntax highlighting
-* Keep the title line simple: “Scenario: XXX”
-* Include “And” lines to encourage detailed steps
-
-**Sample Format:**
-
-```gherkin
-Scenario: Brief description of the situation  
-Given certain preconditions are met  
-And specific system states exist  
-When the user performs a particular action  
-And (if any) additional actions or inputs  
-Then expected system response  
-And additional verification point or state change
-```
-
----
-
-### 5. Example Section
-
-**Goal: Teach the AI what good output looks like**
-
-📌 **Notes:**
-
-* Example must include: Happy Path + Boundary Condition + Exception
-* Each scenario should follow the format above precisely
-* Provide one User Story at a time to help the AI stay focused
-
-📌 **Sample:**
-
-```gherkin
-Scenario: User successfully adjusts recommended itinerary  
-Given the user is logged in and has created a personal itinerary  
-And the system has displayed a recommended itinerary  
-When the user clicks the "Adjust Itinerary" button  
-And modifies the timing of an attraction  
-Then the system should update the timing for that item  
-And display a "Modification Successful" message
-```
-
-
-## Additional Tips: Prompt Writing Strategies
-### Pattern 1
-
-| Strategy                          | Description                                                                              |
-| --------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Clear Context**                 | Separate background from task instructions to help the LLM align precisely with the task |
-| **Explicit Format Constraints**   | Template examples and section labels help stabilize output structure                     |
-| **Concrete Content Requirements** | Clearly define tone and content (avoid vague terms) to enhance usability                 |
-
----
-
-### Pattern 2
-
-| Strategy                  | Description                                                                                                         |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Role Assignment**       | Helps the AI simulate more professional logic (e.g., PM, designer, consultant)                                      |
-| **Clear Task Objectives** | Make sure terms like “prioritize,” “evaluate,” or “list in order of importance” appear explicitly in the opening    |
-| **Avoid Vague Language**  | For example, “Please prioritize based on importance” is less effective than “Please prioritize based on user value” |
-
----
-
-### Pattern 3
-
-| Strategy                           | Description                                                                                                                                                                   |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Behavior-Driven Instructions**   | All requirements should focus on **user behavior** and **system response**, avoiding vague words like “reasonable,” “clear,” or “beautiful”                                   |
-| **Clearly Categorized Scenarios**  | Explicitly require 3 scenario types (happy path, edge case, error case) and use emojis for visual clarity                                                                     |
-| **Single-Focus, No Multi-Tasking** | Each prompt should focus on **only one function** (e.g., generating acceptance criteria), avoiding compound tasks like multi-role, multi-format, or multi-language generation |
-| **Provide Format Examples**        | The clearer the format, the more stable the AI's output—AI excels at imitation                                                                                                |

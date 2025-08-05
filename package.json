@@ -1,0 +1,14 @@
+{
+  "name": "4scrummaster-ai-website",
+  "version": "1.0.0",
+  "description": "Jekyll website for Scrum Master AI training",
+  "scripts": {
+    "dev": "./serve.sh",
+    "serve": "bundle exec jekyll serve --livereload --watch --incremental",
+    "build": "bundle exec jekyll build",
+    "clean": "bundle exec jekyll clean",
+    "install": "bundle install"
+  },
+  "keywords": ["jekyll", "scrum", "ai", "training"],
+  "author": "Annie, Ethan, Yuming"
+}

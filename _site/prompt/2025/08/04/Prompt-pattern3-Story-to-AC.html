@@ -8,19 +8,19 @@
 <meta property="og:title" content="Prompt Pattern3-Story to AC" />
 <meta name="author" content="Yuming" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Prompt Pattern-3" />
-<meta property="og:description" content="Prompt Pattern-3" />
-<link rel="canonical" href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" />
-<meta property="og:url" content="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" />
+<meta name="description" content="Sample Prompt" />
+<meta property="og:description" content="Sample Prompt" />
+<link rel="canonical" href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" />
 <meta property="og:site_name" content="4Scrummaster.ai" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-08-04T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Prompt Pattern3-Story to AC" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Yuming"},"dateModified":"2025-08-04T00:00:00+08:00","datePublished":"2025-08-04T00:00:00+08:00","description":"Prompt Pattern-3","headline":"Prompt Pattern3-Story to AC","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"},"url":"http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Yuming"},"dateModified":"2025-08-04T00:00:00+08:00","datePublished":"2025-08-04T00:00:00+08:00","description":"Sample Prompt","headline":"Prompt Pattern3-Story to AC","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"},"url":"http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="4Scrummaster.ai" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="4Scrummaster.ai" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">4Scrummaster.ai</a><nav class="site-nav">
@@ -48,663 +48,74 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h1 id="prompt-pattern-3">Prompt Pattern-3</h1>
+    <blockquote>
+  <p>Sample Prompt</p>
+</blockquote>
 
-<h1 id="cn">CN</h1>
-<p>请为以下 User Story 撰写详细的 <strong>验收标准（Acceptance Criteria）</strong>，重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦<strong>使用者行为与系统回应</strong>，以利后续开发、测试与共识建立。</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##  S - **Situation（情境）**
 
-<hr />
+请阅读以下 User Story。本任务背景为一款旅游类 App，旨在帮助用户轻松规划自由行中的行程、住宿、餐饮与交通，并提供可自定义的智慧化体验。
 
-<h2 id="背景">背景：</h2>
+你将基于这些 User Story，为产品开发团队撰写结构化的验收标准，用于明确开发完成的判断标准，并协助测试验证功能是否可交付。
 
-<p>{粘贴完整 User Story，可多个}</p>
+提供的 User Story 如下：
 
-<hr />
 
-<h2 id="要求">要求：</h2>
+{粘贴完整 User Story，可多个}
 
-<ul>
-  <li>使用 <strong>Given-When-Then</strong>（Gherkin）格式表达每个情境</li>
-  <li>语言请务必保持 <strong>商业用语，避免技术术语</strong></li>
-  <li>
-    <p>每条 User Story 至少提供 <strong>3 种场景</strong>，包含：</p>
 
-    <ul>
-      <li>✅ 正常流程（Happy Path）</li>
-      <li>⚠️ 边界条件（例如：空值、极限输入）</li>
-      <li>❌ 异常情境（例如：权限不足、格式错误）</li>
-    </ul>
-  </li>
-  <li>
-    <p>如有登录、表单、存取等动作，请额外考虑：</p>
+---
 
-    <ul>
-      <li>🔒 权限与安全控制</li>
-      <li>📱 不同装置／浏览器表现</li>
-    </ul>
-  </li>
-</ul>
+##  P - **Purpose（目标）**
 
-<hr />
+请为上述每条 User Story 撰写详细的 **验收标准（Acceptance Criteria）**。
+重点在于清楚定义「在什么情况下该需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**。
 
-<h2 id="输出格式">输出格式：</h2>
+每个 User Story 至少列出 **3 种情境**，涵盖：
 
-<p>请按下列格式输出，每个场景一个区块：</p>
+*  正常流程（Happy Path）
+*  边界情境（如空值、极限输入）
+*  异常情境（如权限不足、格式错误）
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>场景：简要说明情境名称  
+---
+
+##  A - **Action Role（角色指派）**
+
+你是一位**熟悉业务需求与用户旅程的资深产品经理**，擅长用非技术语言清楚描述系统行为，确保团队对功能完成标准有一致理解。
+
+---
+
+##  R - **Rule（任务规则）**
+
+请遵循以下规范进行撰写：
+
+* 使用 **Given-When-Then**（Gherkin）格式表达每个验收情境
+* 语言请保持 **商业用语，避免技术术语**
+* 每个场景标题请以「场景：」开头，简要描述该情境
+* 若 Story 涉及以下情境，请优先考虑：
+
+  *  权限控制（是否已登录、是否有操作权限）
+  *  跨装置或浏览器差异（手机 / 桌机、iOS / Android）
+
+---
+
+##  K - **Knowledge Format（输出格式）**
+
+请用以下格式撰写，每个场景为一个区块：
+
+gherkin
+场景：简要说明情境名称  
 Given 某些前置条件成立  
-And 某些系统状态存在  
+And 某些系统状态存在（如有）  
 When 使用者执行某个动作  
-And （若有）额外操作或输入  
+And （额外操作或输入）  
 Then 系统应有的回应  
-And 额外的验证点或状态变更
+And （额外验证点或状态变更）
+
+
+每条 User Story 至少撰写三组情境。请确保内容**具体、可验证、贴近使用者语言**。
 </code></pre></div></div>
 
-<hr />
-
-<h2 id="范例">范例：</h2>
-
-<p><strong>User Story：</strong>
-作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。</p>
-
-<p><strong>生成的验收标准：</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">场景：使用者成功调整推荐行程</span>  
-<span class="nf">Given </span>使用者已登录并建立个人旅程  
-<span class="nf">And </span>系统已显示一组推荐行程  
-<span class="nf">When </span>使用者点击「调整行程」按钮  
-<span class="nf">And </span>修改其中一项景点时间  
-<span class="nf">Then </span>系统应更新该项目时间  
-<span class="nf">And </span>显示「修改成功」讯息
-
-<span class="err">场景：输入不合理时间（边界条件）</span>  
-<span class="nf">Given </span>使用者正在调整行程  
-<span class="nf">When </span>使用者将景点时间调整为「凌晨 3 点」  
-<span class="nf">Then </span>系统应提示「输入时间不在可访时间内」  
-<span class="nf">And </span>禁止提交行程变更
-
-<span class="err">场景：未登录状态调整行程（异常情况）</span>  
-<span class="nf">Given </span>使用者尚未登录  
-<span class="nf">When </span>尝试进入「推荐行程调整页」  
-<span class="nf">Then </span>系统应导向登录页面  
-<span class="nf">And </span>显示「请先登录以使用此功能」的讯息
-</code></pre></div></div>
-
-<h1 id="cn-prompt-pattern-介绍">CN Prompt Pattern 介绍</h1>
-
-<h2 id="区块介绍">区块介绍</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>区块</th>
-      <th>用途</th>
-      <th>本次案例包含</th>
-      <th>设计重点</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. 语意引导段</td>
-      <td>引导 AI 聚焦任务本质</td>
-      <td>强调「什么叫做完成」、使用者行为、系统回应</td>
-      <td>用语务必<strong>清楚明确</strong>、<strong>非技术化</strong></td>
-    </tr>
-    <tr>
-      <td>2. 背景区块</td>
-      <td>提供上下文</td>
-      <td>一条或多条 User Story（标准格式）</td>
-      <td>格式稳定、清楚标示</td>
-    </tr>
-    <tr>
-      <td>3. 任务规则区块</td>
-      <td>限定产出格式与品质</td>
-      <td>Gherkin 语法、场景类型、语言风格、异常考量</td>
-      <td>条列式，使用 Emoji 与分类，帮助快速理解</td>
-    </tr>
-    <tr>
-      <td>4. 输出格式区块</td>
-      <td>提供生成参考样板</td>
-      <td>标准 Gherkin 的输出架构</td>
-      <td>简短、可复制、变量化，让 AI 模仿</td>
-    </tr>
-    <tr>
-      <td>5. 范例区块</td>
-      <td>训练 AI 如何写</td>
-      <td>写好的一组范例供模仿（含正常＋异常＋边界）</td>
-      <td>范例真实且完整，避免过于简略</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="各区块撰写教学">各区块撰写教学</h2>
-
-<h3 id="1-语意引导段">1. 语意引导段</h3>
-
-<p><strong>目标：建立意图明确的开场语句</strong>
-避免直接说「请帮我写 Gherkin」，而要引导 AI 知道「我希望你根据需求、使用者行为与预期回应，产出符合验收条件的内容」。</p>
-
-<p><strong>写法范例：</strong></p>
-
-<blockquote>
-  <p>请为以下 User Story 撰写详细的验收标准（Acceptance Criteria），重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦<strong>使用者行为与系统回应</strong>，以利后续开发、测试与共识建立。</p>
-</blockquote>
-
-<hr />
-
-<h3 id="2-背景区块">2. 背景区块</h3>
-
-<p><strong>目标：提供上下文让 AI 能理解需求语境</strong></p>
-
-<p><strong>注意：</strong></p>
-
-<ul>
-  <li>支持贴上多条 User Story</li>
-  <li>每条最好使用标准格式（As a… I want… So that…）</li>
-</ul>
-
-<p><strong>写法范例：</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 背景：
-
-作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="3--任务规则区块最关键">3. 📋 任务规则区块（最关键）</h3>
-
-<p><strong>目标：定义 AI 输出的格式与质量标准</strong></p>
-
-<p><strong>设计技巧：</strong></p>
-
-<ul>
-  <li>使用条列式写法搭配 Emoji（✅ ⚠️ ❌ 🔐 📱）以视觉化分类</li>
-  <li>明确列出输出的范围（例如要 3 种情境）</li>
-  <li>避免模糊语句，如「请尽量清楚描述」→ 改为「每条 User Story 至少提供 3 种场景」</li>
-</ul>
-
-<p><strong>范例段落：</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 要求：
-
-* 使用 **Given-When-Then**（Gherkin）格式表达每个情境  
-* 语言请务必保持 **商业用语，避免技术术语**  
-* 每条 User Story 至少提供 **3 种场景**，包含：  
-  * ✅ 正常流程（Happy Path）  
-  * ⚠️ 边界条件（例如：空值、极限输入）  
-  * ❌ 异常情境（例如：权限不足、格式错误）  
-* 如有登录、表单、存取等动作，请额外考虑：  
-  * 🔒 权限与安全控制  
-  * 📱 不同装置／浏览器表现
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="4--输出格式区块">4.  输出格式区块</h3>
-
-<p><strong>目标：提供 AI 模仿的格式模版</strong></p>
-
-<p><strong>设计建议：</strong></p>
-
-<ul>
-  <li>使用程序区块标记 ```gherkin（语法高亮用）**</li>
-  <li>标题行要简单：「场景：XXX」</li>
-  <li>建议保留「And」段，鼓励丰富细节</li>
-</ul>
-
-<p><strong>范例格式：</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">场景：简要说明情境名称</span>  
-<span class="nf">Given </span>某些前置条件成立  
-<span class="nf">And </span>某些系统状态存在  
-<span class="nf">When </span>使用者执行某个动作  
-<span class="nf">And </span>（若有）额外操作或输入  
-<span class="nf">Then </span>系统应有的回应  
-<span class="nf">And </span>额外的验证点或状态变更
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="5-范例区块">5. 范例区块</h3>
-
-<p><strong>目标：让 AI 学会「好内容长怎样」</strong></p>
-
-<p>📌 <strong>注意事项：</strong></p>
-
-<ul>
-  <li>范例至少要涵盖：正常流程 + 边界条件 + 错误情境</li>
-  <li>每段都要清楚对应到前面的格式范本</li>
-  <li>一次只给一条 User Story，让 AI 专注模仿</li>
-</ul>
-
-<p>📌 <strong>写法范例：</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">场景：使用者成功调整推荐行程</span>  
-<span class="nf">Given </span>使用者已登录并建立个人旅程  
-<span class="nf">And </span>系统已显示一组推荐行程  
-<span class="nf">When </span>使用者点击「调整行程」按钮  
-<span class="nf">And </span>修改其中一项景点时间  
-<span class="nf">Then </span>系统应更新该项目时间  
-<span class="nf">And </span>显示「修改成功」讯息
-</code></pre></div></div>
-
-<h3 id="总结">总结：</h3>
-
-<h3 id="pattern-1">Pattern 1</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>语境清晰</strong></td>
-      <td>分隔背景与任务指令，帮助 LLM 精准对齐任务</td>
-    </tr>
-    <tr>
-      <td><strong>格式约束明确</strong></td>
-      <td>范文句型与栏位提示帮助模型稳定输出</td>
-    </tr>
-    <tr>
-      <td><strong>内容要求具体</strong></td>
-      <td>明确规范语气与内容（避免模糊词），提升实用性</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="pattern-2">Pattern 2</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>指派角色</strong></td>
-      <td>让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）</td>
-    </tr>
-    <tr>
-      <td><strong>明确任务目标</strong></td>
-      <td>「排序」、「评估」、「列出优先顺序」需明确出现在开场句</td>
-    </tr>
-    <tr>
-      <td><strong>避免模糊语言</strong></td>
-      <td>例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="pattern-3">Pattern 3</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>策略</th>
-      <th>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>行为导向指令</strong></td>
-      <td>所有要求皆以「使用者行为」与「系统回应」为中心，不使用模糊词（如：合理、美观、清楚等）</td>
-    </tr>
-    <tr>
-      <td><strong>场景分类清楚</strong></td>
-      <td>明确要求 3 种场景（正常流程、边界条件、错误情境），使用 Emoji 区分视觉上清晰</td>
-    </tr>
-    <tr>
-      <td><strong>单点聚焦，避免多任务混杂</strong></td>
-      <td>每次提示只聚焦一个功能（如生成验收标准），避免一次生成多角色/多格式/多语言的复合任务</td>
-    </tr>
-    <tr>
-      <td><strong>提供格式范例</strong></td>
-      <td>AI 模仿能力强，格式越清晰，产出越稳定</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<p>如您也有第二个提示词（如排序 User Story）也想要做类似总结，可以延用这个格式，只需调整策略与说明即可。是否需要我也帮您补一份？✅</p>
-
-<h1 id="prompt-pattern-3-1">Prompt Pattern-3</h1>
-
-<h1 id="en">EN</h1>
-
-<p>Please write detailed <strong>Acceptance Criteria</strong> for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing <strong>user behavior and system response</strong> to support development, testing, and team alignment.</p>
-
-<hr />
-
-<h2 id="background">Background:</h2>
-
-<p>{Paste full User Story here; multiple stories allowed}</p>
-
-<hr />
-
-<h2 id="requirements">Requirements:</h2>
-
-<ul>
-  <li>Express each scenario using <strong>Given-When-Then</strong> (Gherkin) format</li>
-  <li>Ensure the language remains <strong>business-oriented and avoids technical jargon</strong></li>
-  <li>
-    <p>Provide <strong>at least 3 scenarios per User Story</strong>, including:</p>
-
-    <ul>
-      <li>✅ Happy Path (normal flow)</li>
-      <li>⚠️ Boundary Conditions (e.g., null values, extreme input)</li>
-      <li>❌ Exception Scenarios (e.g., insufficient permissions, format errors)</li>
-    </ul>
-  </li>
-  <li>
-    <p>If login, forms, or data access actions are involved, also consider:</p>
-
-    <ul>
-      <li>🔒 Permission and security controls</li>
-      <li>📱 Behavior across devices/browsers</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="output-format">Output Format:</h2>
-
-<p>Please use the following structure, with one block per scenario:</p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> Brief description of the situation  
-<span class="nf">Given </span>certain preconditions are met  
-<span class="nf">And </span>specific system states exist  
-<span class="nf">When </span>the user performs a particular action  
-<span class="nf">And </span>(if any) additional actions or inputs  
-<span class="nf">Then </span>expected system response  
-<span class="nf">And </span>additional verification point or state change
-</code></pre></div></div>
-
-<hr />
-
-<h2 id="example">Example:</h2>
-
-<p><strong>User Story:</strong>
-As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.</p>
-
-<p><strong>Generated Acceptance Criteria:</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> User successfully adjusts recommended itinerary  
-<span class="nf">Given </span>the user is logged in and has created a personal itinerary  
-<span class="nf">And </span>the system has displayed a recommended itinerary  
-<span class="nf">When </span>the user clicks the <span class="s">"Adjust Itinerary"</span> button  
-<span class="nf">And </span>modifies the timing of an attraction  
-<span class="nf">Then </span>the system should update the timing for that item  
-<span class="nf">And </span>display a <span class="s">"Modification Successful"</span> message
-
-<span class="kn">Scenario</span><span class="p">:</span> Inputting an unreasonable time (boundary condition)  
-<span class="nf">Given </span>the user is adjusting the itinerary  
-<span class="err">When the user sets the time of an attraction to "3</span><span class="p">:</span><span class="err">00</span> <span class="err">AM"</span>  
-<span class="nf">Then </span>the system should display a message <span class="s">"Time is outside visitable hours"</span>  
-<span class="nf">And </span>block submission of itinerary changes
-
-<span class="kn">Scenario</span><span class="p">:</span> Adjusting itinerary while not logged in (exception case)  
-<span class="nf">Given </span>the user is not logged in  
-<span class="nf">When </span>attempting to access the <span class="s">"Recommended Itinerary Adjustment Page"</span>  
-<span class="nf">Then </span>the system should redirect to the login page  
-<span class="nf">And </span>display a message <span class="s">"Please log in to use this feature"</span>
-</code></pre></div></div>
-
-<hr />
-
-<h1 id="prompt-pattern-introduction">Prompt Pattern Introduction</h1>
-
-<h2 id="-five-key-sections-of-a-high-quality-prompt">🧱 Five Key Sections of a High-Quality Prompt</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Section</th>
-      <th>Purpose</th>
-      <th>Present in This Template</th>
-      <th>Design Focus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Semantic Lead</td>
-      <td>Directs AI to the task’s core</td>
-      <td>Emphasizes “what is considered done,” user behavior, system response</td>
-      <td>Language must be <strong>clear and non-technical</strong></td>
-    </tr>
-    <tr>
-      <td>2. Background</td>
-      <td>Provides context</td>
-      <td>One or more User Stories (standard format)</td>
-      <td>Stable format with clear labels</td>
-    </tr>
-    <tr>
-      <td>3. Task Rules</td>
-      <td>Constrains output style and quality</td>
-      <td>Gherkin syntax, scenario types, tone, edge cases</td>
-      <td>Bullet format, uses emojis for readability</td>
-    </tr>
-    <tr>
-      <td>4. Output Format</td>
-      <td>Offers a structural template</td>
-      <td>Standard Gherkin output structure</td>
-      <td>Simple, copyable, templated for imitation</td>
-    </tr>
-    <tr>
-      <td>5. Example</td>
-      <td>Trains AI with quality reference</td>
-      <td>Complete sample with normal + exception + boundary</td>
-      <td>Realistic and complete, not overly brief</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="writing-instructions-for-each-section">Writing Instructions for Each Section</h2>
-
-<h3 id="1-semantic-lead">1. Semantic Lead</h3>
-
-<p><strong>Goal: Set a clearly intentional opening statement</strong>
-Avoid simply saying “write Gherkin.” Instead, guide the AI by stating, “I want you to write criteria based on user behavior and expected system response.”</p>
-
-<p><strong>Sample Wording:</strong></p>
-
-<blockquote>
-  <p>Please write detailed Acceptance Criteria for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing <strong>user behavior and system response</strong> to support development, testing, and team alignment.</p>
-</blockquote>
-
-<hr />
-
-<h3 id="2-background-section">2. Background Section</h3>
-
-<p><strong>Goal: Provide context for AI to understand the task</strong></p>
-
-<p><strong>Tips:</strong></p>
-
-<ul>
-  <li>Support multiple User Stories</li>
-  <li>Preferably use the standard format: “As a… I want… So that…”</li>
-</ul>
-
-<p><strong>Sample Format:</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Background:
-
-As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="3--task-rules-section-most-critical">3. 📋 Task Rules Section (Most Critical)</h3>
-
-<p><strong>Goal: Define output format and quality standards for the AI</strong></p>
-
-<p><strong>Design Tips:</strong></p>
-
-<ul>
-  <li>Use bullet format with emojis (✅ ⚠️ ❌ 🔐 📱) to visually categorize</li>
-  <li>Clearly state output scope (e.g., 3 scenarios required)</li>
-  <li>Avoid vague phrases like “describe clearly” → use “at least 3 scenarios per User Story”</li>
-</ul>
-
-<p><strong>Example Paragraph:</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Requirements:
-
-* Express each scenario using **Given-When-Then** (Gherkin) format  
-* Ensure the language remains **business-oriented and avoids technical jargon**  
-* Provide **at least 3 scenarios per User Story**, including:  
-  * ✅ Happy Path (normal flow)  
-  * ⚠️ Boundary Conditions (e.g., null values, extreme input)  
-  * ❌ Exception Scenarios (e.g., insufficient permissions, format errors)  
-* If login, forms, or data access actions are involved, also consider:  
-  * 🔒 Permission and security controls  
-  * 📱 Behavior across devices/browsers
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="4-output-format-section">4. Output Format Section</h3>
-
-<p><strong>Goal: Provide an output template for AI to mimic</strong></p>
-
-<p><strong>Design Tips:</strong></p>
-
-<ul>
-  <li>Use code block and <code class="language-plaintext highlighter-rouge">gherkin</code> for syntax highlighting</li>
-  <li>Keep the title line simple: “Scenario: XXX”</li>
-  <li>Include “And” lines to encourage detailed steps</li>
-</ul>
-
-<p><strong>Sample Format:</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> Brief description of the situation  
-<span class="nf">Given </span>certain preconditions are met  
-<span class="nf">And </span>specific system states exist  
-<span class="nf">When </span>the user performs a particular action  
-<span class="nf">And </span>(if any) additional actions or inputs  
-<span class="nf">Then </span>expected system response  
-<span class="nf">And </span>additional verification point or state change
-</code></pre></div></div>
-
-<hr />
-
-<h3 id="5-example-section">5. Example Section</h3>
-
-<p><strong>Goal: Teach the AI what good output looks like</strong></p>
-
-<p>📌 <strong>Notes:</strong></p>
-
-<ul>
-  <li>Example must include: Happy Path + Boundary Condition + Exception</li>
-  <li>Each scenario should follow the format above precisely</li>
-  <li>Provide one User Story at a time to help the AI stay focused</li>
-</ul>
-
-<p>📌 <strong>Sample:</strong></p>
-
-<div class="language-gherkin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">Scenario</span><span class="p">:</span> User successfully adjusts recommended itinerary  
-<span class="nf">Given </span>the user is logged in and has created a personal itinerary  
-<span class="nf">And </span>the system has displayed a recommended itinerary  
-<span class="nf">When </span>the user clicks the <span class="s">"Adjust Itinerary"</span> button  
-<span class="nf">And </span>modifies the timing of an attraction  
-<span class="nf">Then </span>the system should update the timing for that item  
-<span class="nf">And </span>display a <span class="s">"Modification Successful"</span> message
-</code></pre></div></div>
-
-<h2 id="additional-tips-prompt-writing-strategies">Additional Tips: Prompt Writing Strategies</h2>
-<h3 id="pattern-1-1">Pattern 1</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Strategy</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Clear Context</strong></td>
-      <td>Separate background from task instructions to help the LLM align precisely with the task</td>
-    </tr>
-    <tr>
-      <td><strong>Explicit Format Constraints</strong></td>
-      <td>Template examples and section labels help stabilize output structure</td>
-    </tr>
-    <tr>
-      <td><strong>Concrete Content Requirements</strong></td>
-      <td>Clearly define tone and content (avoid vague terms) to enhance usability</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h3 id="pattern-2-1">Pattern 2</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Strategy</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Role Assignment</strong></td>
-      <td>Helps the AI simulate more professional logic (e.g., PM, designer, consultant)</td>
-    </tr>
-    <tr>
-      <td><strong>Clear Task Objectives</strong></td>
-      <td>Make sure terms like “prioritize,” “evaluate,” or “list in order of importance” appear explicitly in the opening</td>
-    </tr>
-    <tr>
-      <td><strong>Avoid Vague Language</strong></td>
-      <td>For example, “Please prioritize based on importance” is less effective than “Please prioritize based on user value”</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h3 id="pattern-3-1">Pattern 3</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Strategy</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Behavior-Driven Instructions</strong></td>
-      <td>All requirements should focus on <strong>user behavior</strong> and <strong>system response</strong>, avoiding vague words like “reasonable,” “clear,” or “beautiful”</td>
-    </tr>
-    <tr>
-      <td><strong>Clearly Categorized Scenarios</strong></td>
-      <td>Explicitly require 3 scenario types (happy path, edge case, error case) and use emojis for visual clarity</td>
-    </tr>
-    <tr>
-      <td><strong>Single-Focus, No Multi-Tasking</strong></td>
-      <td>Each prompt should focus on <strong>only one function</strong> (e.g., generating acceptance criteria), avoiding compound tasks like multi-role, multi-format, or multi-language generation</td>
-    </tr>
-    <tr>
-      <td><strong>Provide Format Examples</strong></td>
-      <td>The clearer the format, the more stable the AI’s output—AI excels at imitation</td>
-    </tr>
-  </tbody>
-</table>
 
   </div><a class="u-url" href="/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" hidden></a>
 </article>

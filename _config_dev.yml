@@ -1,0 +1,29 @@
+# 开发环境配置文件
+# 继承主配置文件并添加开发专用设置
+
+# 启用增量构建以提高构建速度
+incremental: true
+
+# 启用实时重载
+livereload: true
+
+# 启用详细日志
+verbose: true
+
+# 开发环境端口（可选）
+port: 4000
+
+# 允许外部访问（可选）
+host: 0.0.0.0
+
+# 开发环境下显示草稿
+show_drafts: true
+
+# 开发环境下显示未来日期的文章
+future: true
+
+# 监听文件变化
+watch: true
+
+# 自动重新生成
+auto: true
