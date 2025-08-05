@@ -1,5 +1,5 @@
 ---
-title: Prompt pattern3-Story to AC
+title: Prompt Pattern3-Story to AC
 author: Yuming
 date: 2025-08-04
 category: Prompt

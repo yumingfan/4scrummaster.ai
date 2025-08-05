@@ -1,5 +1,5 @@
 ---
-title: Prompt pattern2-Order the Stories
+title: Prompt Pattern2-Order the Stories
 author: Yuming
 date: 2025-08-04
 category: Prompt
@@ -194,6 +194,7 @@ mermaid: true
 ## 补充建议：提示词撰写小技巧
 
 ### Pattern 1
+
 | 策略          | 说明                       |
 | ----------- | ------------------------ |
 | **语境清晰**    | 分隔背景与任务指令，帮助 LLM 精准对齐任务  |
@@ -201,11 +202,11 @@ mermaid: true
 | **内容要求具体**  | 明确规范语气与内容（避免模糊词），提升实用性   |
 
 ### Pattern 2
+
 | 策略        | 说明                               |
 | -------- | ------------------------------- |
 | **指派角色**   | 让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）      |
-| **明确任务目标** | 「排序」、「评估」、「列出优先顺序」需明确出现在开场句     |
-| **提供格式范例** | AI 模仿能力强，格式越清晰，产出越稳定            |
+| **明确任务目标** | 「排序」、「评估」、「列出优先顺序」需明确出现在开场句     |         |
 | **避免模糊语言** | 例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确 |
 
 
@@ -412,9 +413,8 @@ Reason: Optional experience enhancement, not required for MVP
 
 ### Pattern 2
 
-| Strategy                    | Description                                                     |
-| --------------------------- | --------------------------------------------------------------- |
-| **Assign a Role**           | Helps AI simulate expert logic (e.g., PM, Designer, Consultant) |
-| **Define Task Goals**       | Include keywords like “prioritize,” “evaluate,” “rank” clearly  |
-| **Provide Format Examples** | Clear formats lead to stable results                            |
-| **Avoid Vague Language**    | “Rank by importance” is less precise than “Rank by user value”  |
+| Strategy                  | Description                                                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Role Assignment**       | Helps the AI simulate more professional logic (e.g., PM, designer, consultant)                                      |
+| **Clear Task Objectives** | Make sure terms like “prioritize,” “evaluate,” or “list in order of importance” appear explicitly in the opening    |
+| **Avoid Vague Language**  | For example, “Please prioritize based on importance” is less effective than “Please prioritize based on user value” |

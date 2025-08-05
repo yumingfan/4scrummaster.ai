@@ -1,5 +1,5 @@
 ---
-title: Prompt pattern1-PRD to Story
+title: Prompt Pattern1-PRD to Story
 author: Yuming
 date: 2025-08-04
 category: Prompt
