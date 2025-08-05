@@ -1,198 +1,401 @@
 ---
-title: Prompt pattern1-PRD to Story
+title: Prompt pattern3-Story to AC
 author: Yuming
 date: 2025-08-04
 category: Prompt
 layout: post
 mermaid: true
 ---
-# Prompt Pattern-1
+# Prompt Pattern-3
 
 # CN
-请将以下产品需求或构想转化成一组符合 INVEST 原则的 User Stories。重点是确保每个 Story 至少具有 Value（为用户或业务带来明确价值）与 Testable（可以验收）。
+请为以下 User Story 撰写详细的 **验收标准（Acceptance Criteria）**，重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**，以利后续开发、测试与共识建立。
+
+---
 
 ## 背景：
 
-{粘贴完整背景和构想}
+{粘贴完整 User Story，可多个}
+
+---
 
 ## 要求：
 
-- 每个 User Story 使用标准格式书写：“作为一名 [角色]，我想要 [目标]，从而 [获益]”
-- 每条 Story 应清晰表述其价值（Value）与可测试性（Testable）
-- 将模糊、情感化的语言（如“好玩”“有感觉”）转化为行为和功能导向的内容
-- 仅生成user story即可
-- User Story 必须具体且可执行
-- 确保User Story覆盖全部背景需求
+* 使用 **Given-When-Then**（Gherkin）格式表达每个情境
+* 语言请务必保持 **商业用语，避免技术术语**
+* 每条 User Story 至少提供 **3 种场景**，包含：
 
-##　范例：
-1. **"作為一位偏好客製化的使用者，我希望能自行調整推薦行程中的景點與時間，以便讓旅程更貼近我的需求與節奏"**
-2. **"作為一位首次使用 App 的旅客，我希望透過簡單的個性化測驗了解我是哪種旅遊風格，以便系統能推薦更適合我的行程與活動。"**
-3. **"作为业务人员，我希望能下载客户名单，以便进行后续的行销活动规划。"**
+  * ✅ 正常流程（Happy Path）
+  * ⚠️ 边界条件（例如：空值、极限输入）
+  * ❌ 异常情境（例如：权限不足、格式错误）
+* 如有登录、表单、存取等动作，请额外考虑：
 
-## INVEST 原则检查表
+  * 🔒 权限与安全控制
+  * 📱 不同装置／浏览器表现
 
-| 原则代号 | 说明 |
-|---------|------|
-| **I – Independent** | Story 应能独立完成，不依赖其他故事 |
-| **N – Negotiable** | 可协商，不应是规格书 |
-| **V – Valuable** | 必须对使用者或业务有价值 |
-| **E – Estimable** | 团队能估算其工作量 |
-| **S – Small** | 足够小，能在一个 Sprint 内完成 |
-| **T – Testable** | 具有可验证的条件与标准 |
+---
 
-> **注**：User Story 并非每项 INVEST 都完美符合，但至少应具备 **V（Value）** 与 **T（Testable）**
+## 输出格式：
 
+请按下列格式输出，每个场景一个区块：
+
+```
+场景：简要说明情境名称  
+Given 某些前置条件成立  
+And 某些系统状态存在  
+When 使用者执行某个动作  
+And （若有）额外操作或输入  
+Then 系统应有的回应  
+And 额外的验证点或状态变更
+```
+
+---
+
+## 范例：
+
+**User Story：**
+作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。
+
+**生成的验收标准：**
+
+```gherkin
+场景：使用者成功调整推荐行程  
+Given 使用者已登录并建立个人旅程  
+And 系统已显示一组推荐行程  
+When 使用者点击「调整行程」按钮  
+And 修改其中一项景点时间  
+Then 系统应更新该项目时间  
+And 显示「修改成功」讯息
+
+场景：输入不合理时间（边界条件）  
+Given 使用者正在调整行程  
+When 使用者将景点时间调整为「凌晨 3 点」  
+Then 系统应提示「输入时间不在可访时间内」  
+And 禁止提交行程变更
+
+场景：未登录状态调整行程（异常情况）  
+Given 使用者尚未登录  
+When 尝试进入「推荐行程调整页」  
+Then 系统应导向登录页面  
+And 显示「请先登录以使用此功能」的讯息
+```
 
 
 # CN Prompt Pattern 介绍
-一个好的提示词的原则：
-1.　Be Specific and Clear  具体明确
-2.　Provide Context  提供背景资料
-3.　Use Examples  使用范例
 
-上面的提示词，包含了几个部分
-1.　目标
-2.　背景
-3.　要求
-4.　额外的资讯(这个案例是INVEST 原则检查表)
-> 透过结构化的描述可以让让模型能辨识哪些资讯是「背景语义」，哪些是「生成任务」
+## 区块介紹
 
+| 区块        | 用途           | 本次案例包含                     | 设计重点                    |
+| --------- | ------------ | ------------------------- | ----------------------- |
+| 1. 语意引导段  | 引导 AI 聚焦任务本质 | 强调「什么叫做完成」、使用者行为、系统回应     | 用语务必**清楚明确**、**非技术化**   |
+| 2. 背景区块   | 提供上下文        | 一条或多条 User Story（标准格式）    | 格式稳定、清楚标示               |
+| 3. 任务规则区块 | 限定产出格式与品质    | Gherkin 语法、场景类型、语言风格、异常考量 | 条列式，使用 Emoji 与分类，帮助快速理解 |
+| 4. 输出格式区块 | 提供生成参考样板     | 标准 Gherkin 的输出架构          | 简短、可复制、变量化，让 AI 模仿      |
+| 5. 范例区块   | 训练 AI 如何写    | 写好的一组范例供模仿（含正常＋异常＋边界）     | 范例真实且完整，避免过于简略          |
 
+---
 
-##　目标
-请将以下产品需求或构想转化成一组符合 INVEST 原则的 User Stories。重点是确保每个 Story 至少具有 Value（为用户或业务带来明确价值）与 Testable（可以验收）
+## 各区块撰写教学
 
-> 明确指出「输入是构想」「输出是 User Story」，帮助模型聚焦任务转换
-> 强调 INVEST 中的 V + T 是最低要求，避免模型生成无验证标准或缺乏商业价值的故事
+### 1. 语意引导段
 
- ## 背景：{粘贴完整背景和构想}
+**目标：建立意图明确的开场语句**
+避免直接说「请帮我写 Gherkin」，而要引导 AI 知道「我希望你根据需求、使用者行为与预期回应，产出符合验收条件的内容」。
 
-> 这是一个 明确的上下文栏位位子，让模型能辨识哪些资讯是「背景语义」，哪些是「生成任务」
-> LLM 在撷取语义线索时会优先比对「最近且具结构标记」的内容，这个明确分隔能降低误判
+**写法范例：**
 
+> 请为以下 User Story 撰写详细的验收标准（Acceptance Criteria），重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**，以利后续开发、测试与共识建立。
+
+---
+
+### 2. 背景区块
+
+**目标：提供上下文让 AI 能理解需求语境**
+
+**注意：**
+
+* 支持贴上多条 User Story
+* 每条最好使用标准格式（As a... I want... So that...）
+
+**写法范例：**
+
+```
+## 背景：
+
+作为一位偏好客制化的使用者，我希望能自行调整推荐行程中的景点与时间，以便让旅程更贴近我的需求与节奏。
+```
+
+---
+
+### 3. 📋 任务规则区块（最关键）
+
+**目标：定义 AI 输出的格式与质量标准**
+
+**设计技巧：**
+
+* 使用条列式写法搭配 Emoji（✅ ⚠️ ❌ 🔐 📱）以视觉化分类
+* 明确列出输出的范围（例如要 3 种情境）
+* 避免模糊语句，如「请尽量清楚描述」→ 改为「每条 User Story 至少提供 3 种场景」
+
+**范例段落：**
+
+```
 ## 要求：
-这一区的条列设计非常关键，逐项规范了生成风格，帮助 LLM 对输出内容进行行为约束与风格默认。
-| 条目                                                     | 为何对 LLM 有效                           |
-| ------------------------------------------------------ | ------------------------------------ |
-| 每个 User Story 使用标准格式书写：“作为一名 \[角色]，我想要 \[目标]，从而 \[获益]” | 提供明确输出模板，语言模型可重复套用语法模板以稳定格式          |
-| 每条 Story 应清晰表述其价值与可测试性                                 | 建立「内容合格」的语义框架，避免模型生成只是功能描述而无验收基准的内容  |
-| 将模糊、情感化的语言转化为行为和功能导向的内容                                | 指导模型避免使用非具体词（如“很酷”“感觉良好”），进而提升商业可落地性 |
-| 仅生成user story即可                                        | 消除额外赘词或说明性叙述，提升输出清晰度与可读性             |
-| User Story 必须具体且可执行                                    | 加强 LLM 的故事拆解粒度，避免生成太大的 Epic 或概念性输出   |
-| 确保User Story覆盖全部背景需求                                   | 促使模型进行「语意范围比对」与覆盖检查（语意闭合性），降低漏项风险    |
+
+* 使用 **Given-When-Then**（Gherkin）格式表达每个情境  
+* 语言请务必保持 **商业用语，避免技术术语**  
+* 每条 User Story 至少提供 **3 种场景**，包含：  
+  * ✅ 正常流程（Happy Path）  
+  * ⚠️ 边界条件（例如：空值、极限输入）  
+  * ❌ 异常情境（例如：权限不足、格式错误）  
+* 如有登录、表单、存取等动作，请额外考虑：  
+  * 🔒 权限与安全控制  
+  * 📱 不同装置／浏览器表现
+```
+
+---
+
+### 4.  输出格式区块
+
+ **目标：提供 AI 模仿的格式模版**
+
+**设计建议：**
+
+* 使用程序区块标记 \`\`\`gherkin（语法高亮用）\*\*
+* 标题行要简单：「场景：XXX」
+* 建议保留「And」段，鼓励丰富细节
+
+**范例格式：**
+
+```gherkin
+场景：简要说明情境名称  
+Given 某些前置条件成立  
+And 某些系统状态存在  
+When 使用者执行某个动作  
+And （若有）额外操作或输入  
+Then 系统应有的回应  
+And 额外的验证点或状态变更
+```
+
+---
+
+### 5. 范例区块
+
+**目标：让 AI 学会「好内容长怎样」**
+
+📌 **注意事项：**
+
+* 范例至少要涵盖：正常流程 + 边界条件 + 错误情境
+* 每段都要清楚对应到前面的格式范本
+* 一次只给一条 User Story，让 AI 专注模仿
+
+📌 **写法范例：**
+
+```gherkin
+场景：使用者成功调整推荐行程  
+Given 使用者已登录并建立个人旅程  
+And 系统已显示一组推荐行程  
+When 使用者点击「调整行程」按钮  
+And 修改其中一项景点时间  
+Then 系统应更新该项目时间  
+And 显示「修改成功」讯息
+```
 
 
-## INVEST 原则检查表
-透过提供标准让模型可以有判断依据
-> 注明：「至少包含 V 与 T」是重要的提示细节，会被 LLM 解读为 minimum acceptance gate。
 
-## 总结：
-| 优点          | 说明                       |
-| ----------- | ------------------------ |
-| **语境清晰**    | 分隔背景与任务指令，帮助 LLM 精准对齐任务  |
-| **格式约束明确**  | 范文句型与栏位提示帮助模型稳定输出        |
-| **内容要求具体**  | 明确规范语气与内容（避免模糊词），提升实用性   |
-| **强调价值与验收** | 与商业落地、测试挂勾，产出可直接进任务系统的结果 |
-
-
-
-
-
+# Prompt Pattern-3
 
 # EN
-Please convert the following product requirements or ideas into a set of User Stories that comply with the INVEST principles. Each story must clearly demonstrate Value (for users or the business) and be Testable (with clear acceptance criteria).
+
+Please write detailed **Acceptance Criteria** for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing **user behavior and system response** to support development, testing, and team alignment.
+
+---
 
 ## Background:
-{Paste full background and product concept here}
 
-## Requirements:
-- Each User Story should follow the standard format:
-"As a [role], I want [goal], so that [benefit]"
-- Each story must clearly describe its value (Valuable) and ensure it is testable (Testable)
-- Replace vague or emotional language (e.g., “fun,” “cool-looking”) with behavior- or feature-oriented descriptions
-- Only generate the user stories
-- User Stories must be specific and actionable
-- Ensure the User Stories cover all aspects of the background requirements.
-
-## INVEST Principles Checklist
-| Code | Description |
-|---------|------|
-| **I – Independent** |The story should be self-contained and not dependent on other stories|
-| **N – Negotiable** | The story should be open to discussion and not a fixed specification|
-| **V – Valuable** | The story must deliver value to the user or the business|
-| **E – Estimable** | The team should be able to estimate the effort required |
-| **S – Small** | The story should be small enough to complete within a single Sprint |
-| **T – Testable** | The story should have clear acceptance criteria to verify completion|
-
-> **Note**： A story may not perfectly meet every INVEST attribute, but it must at least fulfill **V (Valuable)** and **T (Testable)**.
-
-
-
-
-
-# EN Prompt Pattern Introduction
-
-Principles of a good prompt:
-
-1. **Be Specific and Clear**
-2. **Provide Context**
-3. **Use Examples**
-
-The prompt above consists of several parts:
-
-1. **Objective**
-2. **Background**
-3. **Requirements**
-4. **Additional Information** (in this case, an INVEST principle checklist)
-
-> A structured description helps the model distinguish between “contextual semantics” and “generation tasks.”
-
----
-
-## Objective
-
-Please transform the following product ideas or requirements into a set of User Stories that follow the INVEST principles. Make sure each story includes at least **Value (brings clear value to the user or business)** and **Testable (can be accepted or validated).**
-
-> Clearly state that “the input is a concept” and “the output is a User Story” to help the model focus on the transformation task.
-> Emphasize that **V + T** from INVEST are the minimum standard to avoid generating stories without validation criteria or business value.
-
----
-
-## Background: {paste full background and concept here}
-
-> This is a clearly defined context section, helping the model distinguish “contextual semantics” from “generation tasks.”
-> LLMs prioritize structurally marked and recent context when capturing semantic cues — this clear separation helps reduce misinterpretation.
+{Paste full User Story here; multiple stories allowed}
 
 ---
 
 ## Requirements:
 
-This section’s bullet points are critical. They regulate the output style item by item, helping the LLM apply behavioral constraints and default formatting.
+* Express each scenario using **Given-When-Then** (Gherkin) format
+* Ensure the language remains **business-oriented and avoids technical jargon**
+* Provide **at least 3 scenarios per User Story**, including:
 
-| Item                                                                                          | Why It Works for LLMs                                                                                      |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Each User Story must follow the format: “As a \[role], I want to \[goal], so that \[benefit]” | Provides a clear output template; the model can apply and repeat the grammar structure consistently        |
-| Each Story must clearly state its value and testability                                       | Establishes a “content qualified” semantic frame; avoids stories with no acceptance criteria               |
-| Turn vague, emotional language into action- and function-oriented content                     | Guides the model to avoid non-specific words (e.g., “cool,” “feels nice”) and improves practical usability |
-| Only generate the User Story                                                                  | Eliminates extra explanations or redundant text, improving clarity and readability                         |
-| User Story must be specific and actionable                                                    | Reinforces the model’s granularity, avoiding overly broad epics or conceptual outputs                      |
-| Ensure all background requirements are covered                                                | Encourages the model to perform “semantic coverage check” to avoid missing parts                           |
+  * ✅ Happy Path (normal flow)
+  * ⚠️ Boundary Conditions (e.g., null values, extreme input)
+  * ❌ Exception Scenarios (e.g., insufficient permissions, format errors)
+* If login, forms, or data access actions are involved, also consider:
 
----
-
-## INVEST Principle Checklist
-
-Providing standards helps the model evaluate its own output.
-
-> Note: "At least include V and T" is a crucial prompt detail, interpreted by the LLM as the minimum acceptance gate.
+  * 🔒 Permission and security controls
+  * 📱 Behavior across devices/browsers
 
 ---
 
-## Summary:
+## Output Format:
 
-| Strength                           | Description                                                                             |
-| ---------------------------------- | --------------------------------------------------------------------------------------- |
-| **Clear Context**                  | Separates background from instructions to align the model precisely with the task       |
-| **Explicit Format**                | Sentence template and section cues help stabilize output                                |
-| **Concrete Content**               | Specifies tone and content clearly (avoids vague wording), enhancing practical value    |
-| **Emphasis on Value & Acceptance** | Ties output to business impact and testing, making it ready for task management systems |
+Please use the following structure, with one block per scenario:
+
+```gherkin
+Scenario: Brief description of the situation  
+Given certain preconditions are met  
+And specific system states exist  
+When the user performs a particular action  
+And (if any) additional actions or inputs  
+Then expected system response  
+And additional verification point or state change
+```
+
+---
+
+## Example:
+
+**User Story:**
+As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.
+
+**Generated Acceptance Criteria:**
+
+```gherkin
+Scenario: User successfully adjusts recommended itinerary  
+Given the user is logged in and has created a personal itinerary  
+And the system has displayed a recommended itinerary  
+When the user clicks the "Adjust Itinerary" button  
+And modifies the timing of an attraction  
+Then the system should update the timing for that item  
+And display a "Modification Successful" message
+
+Scenario: Inputting an unreasonable time (boundary condition)  
+Given the user is adjusting the itinerary  
+When the user sets the time of an attraction to "3:00 AM"  
+Then the system should display a message "Time is outside visitable hours"  
+And block submission of itinerary changes
+
+Scenario: Adjusting itinerary while not logged in (exception case)  
+Given the user is not logged in  
+When attempting to access the "Recommended Itinerary Adjustment Page"  
+Then the system should redirect to the login page  
+And display a message "Please log in to use this feature"
+```
+
+---
+
+#  Prompt Pattern Introduction
+
+## 🧱 Five Key Sections of a High-Quality Prompt
+
+| Section          | Purpose                             | Present in This Template                                             | Design Focus                                 |
+| ---------------- | ----------------------------------- | -------------------------------------------------------------------- | -------------------------------------------- |
+| 1. Semantic Lead | Directs AI to the task's core       | Emphasizes “what is considered done,” user behavior, system response | Language must be **clear and non-technical** |
+| 2. Background    | Provides context                    | One or more User Stories (standard format)                           | Stable format with clear labels              |
+| 3. Task Rules    | Constrains output style and quality | Gherkin syntax, scenario types, tone, edge cases                     | Bullet format, uses emojis for readability   |
+| 4. Output Format | Offers a structural template        | Standard Gherkin output structure                                    | Simple, copyable, templated for imitation    |
+| 5. Example       | Trains AI with quality reference    | Complete sample with normal + exception + boundary                   | Realistic and complete, not overly brief     |
+
+---
+
+## Writing Instructions for Each Section
+
+### 1. Semantic Lead
+
+**Goal: Set a clearly intentional opening statement**
+Avoid simply saying “write Gherkin.” Instead, guide the AI by stating, “I want you to write criteria based on user behavior and expected system response.”
+
+**Sample Wording:**
+
+> Please write detailed Acceptance Criteria for the following User Story. Focus on clearly defining “under what conditions this requirement can be considered complete and acceptable,” emphasizing **user behavior and system response** to support development, testing, and team alignment.
+
+---
+
+### 2. Background Section
+
+**Goal: Provide context for AI to understand the task**
+
+**Tips:**
+
+* Support multiple User Stories
+* Preferably use the standard format: "As a... I want... So that..."
+
+**Sample Format:**
+
+```
+## Background:
+
+As a user who prefers customization, I want to adjust the suggested itinerary’s attractions and timings so that my trip better fits my needs and pace.
+```
+
+---
+
+### 3. 📋 Task Rules Section (Most Critical)
+
+**Goal: Define output format and quality standards for the AI**
+
+**Design Tips:**
+
+* Use bullet format with emojis (✅ ⚠️ ❌ 🔐 📱) to visually categorize
+* Clearly state output scope (e.g., 3 scenarios required)
+* Avoid vague phrases like “describe clearly” → use “at least 3 scenarios per User Story”
+
+**Example Paragraph:**
+
+```
+## Requirements:
+
+* Express each scenario using **Given-When-Then** (Gherkin) format  
+* Ensure the language remains **business-oriented and avoids technical jargon**  
+* Provide **at least 3 scenarios per User Story**, including:  
+  * ✅ Happy Path (normal flow)  
+  * ⚠️ Boundary Conditions (e.g., null values, extreme input)  
+  * ❌ Exception Scenarios (e.g., insufficient permissions, format errors)  
+* If login, forms, or data access actions are involved, also consider:  
+  * 🔒 Permission and security controls  
+  * 📱 Behavior across devices/browsers
+```
+
+---
+
+### 4. Output Format Section
+
+**Goal: Provide an output template for AI to mimic**
+
+**Design Tips:**
+
+* Use code block and `gherkin` for syntax highlighting
+* Keep the title line simple: “Scenario: XXX”
+* Include “And” lines to encourage detailed steps
+
+**Sample Format:**
+
+```gherkin
+Scenario: Brief description of the situation  
+Given certain preconditions are met  
+And specific system states exist  
+When the user performs a particular action  
+And (if any) additional actions or inputs  
+Then expected system response  
+And additional verification point or state change
+```
+
+---
+
+### 5. Example Section
+
+**Goal: Teach the AI what good output looks like**
+
+📌 **Notes:**
+
+* Example must include: Happy Path + Boundary Condition + Exception
+* Each scenario should follow the format above precisely
+* Provide one User Story at a time to help the AI stay focused
+
+📌 **Sample:**
+
+```gherkin
+Scenario: User successfully adjusts recommended itinerary  
+Given the user is logged in and has created a personal itinerary  
+And the system has displayed a recommended itinerary  
+When the user clicks the "Adjust Itinerary" button  
+And modifies the timing of an attraction  
+Then the system should update the timing for that item  
+And display a "Modification Successful" message
+```
