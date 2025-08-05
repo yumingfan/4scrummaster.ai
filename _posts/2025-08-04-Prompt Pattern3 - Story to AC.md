@@ -83,7 +83,7 @@ And 显示「请先登录以使用此功能」的讯息
 
 # CN Prompt Pattern 介绍
 
-## 区块介紹
+## 区块介绍
 
 | 区块        | 用途           | 本次案例包含                     | 设计重点                    |
 | --------- | ------------ | ------------------------- | ----------------------- |
@@ -200,6 +200,38 @@ And 修改其中一项景点时间
 Then 系统应更新该项目时间  
 And 显示「修改成功」讯息
 ```
+
+
+###  总结：
+
+### Pattern 1
+
+| 策略          | 说明                       |
+| ----------- | ------------------------ |
+| **语境清晰**    | 分隔背景与任务指令，帮助 LLM 精准对齐任务  |
+| **格式约束明确**  | 范文句型与栏位提示帮助模型稳定输出        |
+| **内容要求具体**  | 明确规范语气与内容（避免模糊词），提升实用性   |
+
+### Pattern 2
+
+| 策略        | 说明                               |
+| -------- | ------------------------------- |
+| **指派角色**   | 让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）      |
+| **明确任务目标** | 「排序」、「评估」、「列出优先顺序」需明确出现在开场句     |
+| **避免模糊语言** | 例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确 |
+
+### Pattern 3 
+
+| 策略               | 说明                                          |
+| ---------------- | ------------------------------------------- |
+| **行为导向指令**       | 所有要求皆以「使用者行为」与「系统回应」为中心，不使用模糊词（如：合理、美观、清楚等） |
+| **场景分类清楚**       | 明确要求 3 种场景（正常流程、边界条件、错误情境），使用 Emoji 区分视觉上清晰 |
+| **单点聚焦，避免多任务混杂** | 每次提示只聚焦一个功能（如生成验收标准），避免一次生成多角色/多格式/多语言的复合任务 |
+| **提供格式范例** | AI 模仿能力强，格式越清晰，产出越稳定    | 
+
+---
+
+如您也有第二个提示词（如排序 User Story）也想要做类似总结，可以延用这个格式，只需调整策略与说明即可。是否需要我也帮您补一份？✅
 
 
 
@@ -399,3 +431,34 @@ And modifies the timing of an attraction
 Then the system should update the timing for that item  
 And display a "Modification Successful" message
 ```
+
+
+## Additional Tips: Prompt Writing Strategies
+### Pattern 1
+
+| Strategy                          | Description                                                                              |
+| --------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Clear Context**                 | Separate background from task instructions to help the LLM align precisely with the task |
+| **Explicit Format Constraints**   | Template examples and section labels help stabilize output structure                     |
+| **Concrete Content Requirements** | Clearly define tone and content (avoid vague terms) to enhance usability                 |
+
+---
+
+### Pattern 2
+
+| Strategy                  | Description                                                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Role Assignment**       | Helps the AI simulate more professional logic (e.g., PM, designer, consultant)                                      |
+| **Clear Task Objectives** | Make sure terms like “prioritize,” “evaluate,” or “list in order of importance” appear explicitly in the opening    |
+| **Avoid Vague Language**  | For example, “Please prioritize based on importance” is less effective than “Please prioritize based on user value” |
+
+---
+
+### Pattern 3
+
+| Strategy                           | Description                                                                                                                                                                   |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Behavior-Driven Instructions**   | All requirements should focus on **user behavior** and **system response**, avoiding vague words like “reasonable,” “clear,” or “beautiful”                                   |
+| **Clearly Categorized Scenarios**  | Explicitly require 3 scenario types (happy path, edge case, error case) and use emojis for visual clarity                                                                     |
+| **Single-Focus, No Multi-Tasking** | Each prompt should focus on **only one function** (e.g., generating acceptance criteria), avoiding compound tasks like multi-role, multi-format, or multi-language generation |
+| **Provide Format Examples**        | The clearer the format, the more stable the AI's output—AI excels at imitation                                                                                                |

@@ -24,10 +24,6 @@ mermaid: true
 - User Story 必须具体且可执行
 - 确保User Story覆盖全部背景需求
 
-##　范例：
-1. **"作為一位偏好客製化的使用者，我希望能自行調整推薦行程中的景點與時間，以便讓旅程更貼近我的需求與節奏"**
-2. **"作為一位首次使用 App 的旅客，我希望透過簡單的個性化測驗了解我是哪種旅遊風格，以便系統能推薦更適合我的行程與活動。"**
-3. **"作为业务人员，我希望能下载客户名单，以便进行后续的行销活动规划。"**
 
 ## INVEST 原则检查表
 
@@ -48,7 +44,6 @@ mermaid: true
 一个好的提示词的原则：
 1.　Be Specific and Clear  具体明确
 2.　Provide Context  提供背景资料
-3.　Use Examples  使用范例
 
 上面的提示词，包含了几个部分
 1.　目标
@@ -72,6 +67,7 @@ mermaid: true
 
 ## 要求：
 这一区的条列设计非常关键，逐项规范了生成风格，帮助 LLM 对输出内容进行行为约束与风格默认。
+
 | 条目                                                     | 为何对 LLM 有效                           |
 | ------------------------------------------------------ | ------------------------------------ |
 | 每个 User Story 使用标准格式书写：“作为一名 \[角色]，我想要 \[目标]，从而 \[获益]” | 提供明确输出模板，语言模型可重复套用语法模板以稳定格式          |
@@ -87,12 +83,12 @@ mermaid: true
 > 注明：「至少包含 V 与 T」是重要的提示细节，会被 LLM 解读为 minimum acceptance gate。
 
 ## 总结：
-| 优点          | 说明                       |
-| ----------- | ------------------------ |
+
+|   策略       | 说明                       |
+| ----------- | ------------------------   |
 | **语境清晰**    | 分隔背景与任务指令，帮助 LLM 精准对齐任务  |
 | **格式约束明确**  | 范文句型与栏位提示帮助模型稳定输出        |
 | **内容要求具体**  | 明确规范语气与内容（避免模糊词），提升实用性   |
-| **强调价值与验收** | 与商业落地、测试挂勾，产出可直接进任务系统的结果 |
 
 
 
@@ -136,7 +132,7 @@ Principles of a good prompt:
 
 1. **Be Specific and Clear**
 2. **Provide Context**
-3. **Use Examples**
+
 
 The prompt above consists of several parts:
 
@@ -188,11 +184,12 @@ Providing standards helps the model evaluate its own output.
 
 ---
 
-## Summary:
+## Additional Tips: Prompt Writing Strategies
 
 | Strength                           | Description                                                                             |
 | ---------------------------------- | --------------------------------------------------------------------------------------- |
 | **Clear Context**                  | Separates background from instructions to align the model precisely with the task       |
 | **Explicit Format**                | Sentence template and section cues help stabilize output                                |
 | **Concrete Content**               | Specifies tone and content clearly (avoids vague wording), enhancing practical value    |
-| **Emphasis on Value & Acceptance** | Ties output to business impact and testing, making it ready for task management systems |
+
+
