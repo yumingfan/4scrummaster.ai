@@ -1,68 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-06T07:44:55+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://0.0.0.0:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://0.0.0.0:4000/default/2025/08/04/Logistics.html"><![CDATA[# Pre-Class Survey (to gather your personal details for certification registration):
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-06T07:54:05+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://0.0.0.0:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://0.0.0.0:4000/default/2025/08/04/Logistics.html"><![CDATA[# Pre-Class Survey (to gather your personal details for certification registration):
 https://forms.gle/YEubE8p5Ef1bPxLX7
 # Zoom (for screen sharing during exercises):
 Zoom ID: 966 696 6699
 PSWD:   446688
 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&omn=87459833666
 # Miro (for the exercises and accessing slides ): 
-https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></content><author><name>Yuming</name></author><category term="default" /><summary type="html"><![CDATA[Pre-Class Survey (to gather your personal details for certification registration): https://forms.gle/YEubE8p5Ef1bPxLX7 Zoom (for screen sharing during exercises): Zoom ID: 966 696 6699 PSWD: 446688 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666 Miro (for the exercises and accessing slides ): https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></summary></entry><entry><title type="html">PRD Sample</title><link href="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prd/2025/08/04/PrdSample</id><content type="html" xml:base="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html"><![CDATA[<h1 id="singahai-travel-buddy">SingaHai Travel Buddy</h1>
-<h2 id="-purpose--background">📌 Purpose &amp; Background</h2>
+https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></content><author><name>Yuming</name></author><category term="default" /><summary type="html"><![CDATA[Pre-Class Survey (to gather your personal details for certification registration): https://forms.gle/YEubE8p5Ef1bPxLX7 Zoom (for screen sharing during exercises): Zoom ID: 966 696 6699 PSWD: 446688 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666 Miro (for the exercises and accessing slides ): https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></summary></entry><entry><title type="html">PRD Sample</title><link href="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prd/2025/08/04/PrdSample</id><content type="html" xml:base="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html"><![CDATA[# SingaHai Travel Buddy
+## 📌 Purpose & Background
 
-<p>The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
-The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.</p>
+The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
+The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.
 
-<h2 id="--first-draft-thoughts">🧾  First Draft Thoughts</h2>
+## 🧾  First Draft Thoughts
 
-<ul>
-  <li>We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.</li>
-  <li>The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.</li>
-  <li>There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.</li>
-  <li>There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.</li>
-  <li>Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.</li>
-  <li>Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.</li>
-  <li>Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.</li>
-  <li>The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.</li>
-  <li>The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.</li>
-</ul>
+- 	We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.
+- The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.
+- There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.
+- There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.
+- Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.
+- Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.
+- Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.
+- The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.
+- The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.
 
-<h2 id="--notes">💡  Notes</h2>
-<ul>
-  <li>I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.</li>
-  <li>Fewer buttons are better, but also can’t have too few functions.</li>
-  <li>Recommend stuff, but let people change it too. Otherwise they keep asking customer service.</li>
-  <li>Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.</li>
-  <li>Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”</li>
-</ul>
+## 💡  Notes
+- I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.
+- Fewer buttons are better, but also can’t have too few functions.
+- Recommend stuff, but let people change it too. Otherwise they keep asking customer service.
+- Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.
+- Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”
 
-<hr />
+---
 
-<h1 id="singahai-travel-buddy-1">SingaHai Travel Buddy</h1>
-<h2 id="-目的与背景">📌 目的与背景</h2>
-<p>本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
-这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。</p>
+# SingaHai Travel Buddy
+## 📌 目的与背景 
+本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
+这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。	
 
-<h2 id="-初步想法">🧾 初步想法</h2>
+## 🧾 初步想法 
 
-<ul>
-  <li>我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。</li>
-  <li>App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。</li>
-  <li>行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。</li>
-  <li>最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。</li>
-  <li>吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。</li>
-  <li>住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。</li>
-  <li>地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。</li>
-  <li>这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。</li>
-  <li>最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。</li>
-</ul>
+- 我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。	
+- App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。	
+- 行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。	
+- 最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。	
+- 吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。	
+- 住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。	
+- 地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。	
+- 这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。	
+- 最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。	
 
-<h2 id="-备注">💡 备注</h2>
-<ul>
-  <li>我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。</li>
-  <li>最好设计一点不要太多按钮，但也不能没有功能。</li>
-  <li>最好可以推荐行程，也让人可以自己改，不然大家都问客服。</li>
-  <li>啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。</li>
-  <li>最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。</li>
-</ul>]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[SingaHai Travel Buddy 📌 Purpose &amp; Background]]></summary></entry><entry><title type="html">Prompt Pattern1-PRD to Story</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt Pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[> Sample Prompt
+## 💡 备注 
+- 我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。	
+- 最好设计一点不要太多按钮，但也不能没有功能。	
+- 最好可以推荐行程，也让人可以自己改，不然大家都问客服。	
+- 啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。	
+- 最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[SingaHai Travel Buddy 📌 Purpose &amp; Background]]></summary></entry><entry><title type="html">Prompt Pattern1-PRD to Story</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt Pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[> Sample Prompt
 
 ```
 ## S - Situation（情境）
@@ -119,7 +111,9 @@ The app should feel smart, trendy, and intuitive—like a personal travel soulma
 | **T – Testable**    | 具备可验证的验收标准或条件                    |
 
  **提示**：虽然不是每条 Story 都需完全符合所有 INVEST 要素，但**必须至少满足 V（Valuable） 与 T（Testable）**。
-```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">Prompt Pattern2-Order the Stories</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt Pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[```
+```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">Prompt Pattern2-Order the Stories</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt Pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[> Sample Prompt
+
+```
 ## S - **Situation（情境）**
 
 请阅读以下产品构想与 User Stories。背景为一款旅游类 App，目标是帮助用户轻松规划自由行的行程、住宿、餐饮与交通，提供智慧、时尚且可定制的旅游体验。
@@ -186,134 +180,7 @@ The app should feel smart, trendy, and intuitive—like a personal travel soulma
 ---
 
 
-```
-
-
-#  **SPARK 模型提示词教学说明书：User Story 排序版**
-
----
-
-##  S - **Situation（情境）**
-
-###  功能说明：
-
-本区块用于设定任务背景与输入内容，建立 AI 的**问题空间与语境**。
-
-### 撰写建议：
-
-* 提供简明的产品构想（项目目标、主要用户场景）
-* 明确指出「你将面对的输入」是什么（例如一组 User Story）
-* 用使用者的语言写实表达，避免太抽象
-
-###  注意事项：
-
-* 避免将任务目标或产出格式提前写入此区块（应放入 P 与 K）
-* 确保情境背景与 User Story 内容有关，避免无关叙述造成模型偏离
-
----
-
-##  P - **Purpose（目标）**
-
-###  功能说明：
-
-本区块用来指明**要 AI 做什么事**，即：排序并说明排序原因。
-
-###  撰写建议：
-
-* 用一句“你的任务是……”切入，清楚界定产出任务
-* 可附加说明排序依据（如：价值、依赖、最小上线单元）
-
-###  常用目标补充模板：
-
-* 根据 **用户价值** 进行排序
-* 找出 **最小可行产品（MVP）** 所需的功能组合
-* 兼顾 **痛点优先** 与 **独立可交付性**
-
-### 注意事项：
-
-* 不要只是说「请排序」；要说清楚**排序的标准与目标逻辑**
-* 避免出现模糊词汇（如：“重要”、“好用”），应转化为可操作标准（如：“是否解决主要痛点”）
-
----
-
-##  A - **Action Role（角色指派）**
-
-###  功能说明：
-
-指定 AI 应该扮演的**专业角色**，影响其语言逻辑与判断标准。
-
-###  撰写建议：
-
-* 指定角色时可加入专业背景说明，例如“熟悉精益创业的产品经理”
-* 建议角色包含判断能力，例如“判断优先级、识别痛点”
-
-###  注意事项：
-
-* 不要写「你是一个 AI」，而应指定与任务相关的人类专业角色
-* 角色越具体，输出越稳定；避免“泛用型专家”这种空泛设定
-
----
-
-##  R - **Rule（任务规则）**
-
-###  功能说明：
-
-明确列出 AI 执行任务时应**遵守的规则**与**行为限制**，以确保产出结构稳定、内容精准。
-
-###  撰写建议：
-
-* 使用清单（条列式）呈现任务规范
-* 规范包括：
-
-  * 是否要写排序编号
-  * 是否要补充排序原因
-  * 是否需要指出依赖或组成 MVP
-  * 是否禁止输出说明、闲聊内容
-
-### 示例要求：
-
-* 每条 User Story 需分配一个排序顺位
-* 每条需补充一句排序原因
-* 标注依赖关系（如有）
-* 指出哪些功能构成 MVP
-* 不生成多余解释或闲谈
-
-###  注意事项：
-
-* 不要写模糊规则，例如“排序要合理”，应提供清楚的规则
-* 若产出格式复杂，务必在规则中说明各部分结构要求
-
----
-
-##  K - **Knowledge Format（输出格式）**
-
-###  功能说明：
-
-定义输出结构，确保模型生成的内容**格式一致、便于使用或复制**。
-
-###  撰写建议：
-
-* 指明使用清单、编号、表格或段落
-* 若需包含多个要素（如内容 + 原因 + 备注），要说明清楚格式顺序
-* 提供范例输出格式供模仿
-
-### 示例格式：
-
-```
-1. [User Story 内容]  
-排序原因：（核心痛点、可独立完成）
-
-...
-
-最小可行版本（MVP）包含：第 1～5 项功能
-```
-
-###  注意事项：
-
-* 格式越清晰，结果越稳定。范例格式**不是可选项，是必要项**。
-* 若未来用于自动读取（如丢入 Airtable、Notion、Excel），请提前规划好字段样式。
-
----]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[``` S - Situation（情境）]]></summary></entry><entry><title type="html">Prompt Pattern3-Story to AC</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" rel="alternate" type="text/html" title="Prompt Pattern3-Story to AC" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern3%20-%20Story%20to%20AC</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"><![CDATA[> Sample Prompt
+```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">Prompt Pattern3-Story to AC</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" rel="alternate" type="text/html" title="Prompt Pattern3-Story to AC" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern3%20-%20Story%20to%20AC</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"><![CDATA[> Sample Prompt
 
 ```
 ##  S - **Situation（情境）**

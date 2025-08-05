@@ -5,6 +5,7 @@ date: 2025-08-04
 category: Prompt
 layout: post
 mermaid: true
+hidden: true 
 ---
 
 > Sample Prompt
