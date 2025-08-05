@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-05T08:44:56+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://localhost:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://localhost:4000/default/2025/08/04/Logistics.html"><![CDATA[<h1 id="pre-class-survey-to-gather-your-personal-details-for-certification-registration">Pre-Class Survey (to gather your personal details for certification registration):</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-05T09:15:34+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://localhost:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://localhost:4000/default/2025/08/04/Logistics.html"><![CDATA[<h1 id="pre-class-survey-to-gather-your-personal-details-for-certification-registration">Pre-Class Survey (to gather your personal details for certification registration):</h1>
 <p>https://forms.gle/YEubE8p5Ef1bPxLX7</p>
 <h1 id="zoom-for-screen-sharing-during-exercises">Zoom (for screen sharing during exercises):</h1>
 <p>Zoom ID: 966 696 6699
@@ -6,48 +6,63 @@ PSWD:   446688
 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666</p>
 <h1 id="miro-for-the-exercises-and-accessing-slides-">Miro (for the exercises and accessing slides ):</h1>
 <p>https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663</p>]]></content><author><name>Yuming</name></author><category term="default" /><summary type="html"><![CDATA[Pre-Class Survey (to gather your personal details for certification registration): https://forms.gle/YEubE8p5Ef1bPxLX7 Zoom (for screen sharing during exercises): Zoom ID: 966 696 6699 PSWD: 446688 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666 Miro (for the exercises and accessing slides ): https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></summary></entry><entry><title type="html">PRD Sample</title><link href="http://localhost:4000/prd/2025/08/04/PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prd/2025/08/04/PrdSample</id><content type="html" xml:base="http://localhost:4000/prd/2025/08/04/PrdSample.html"><![CDATA[<h1 id="singahai-travel-buddy">SingaHai Travel Buddy</h1>
-<h2 id="-目的与背景--purpose--background">📌 目的与背景 | Purpose &amp; Background</h2>
-<p>本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
-这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。	
-The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
+<h2 id="-purpose--background">📌 Purpose &amp; Background</h2>
+
+<p>The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
 The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.</p>
 
-<h2 id="-初步想法-first-draft-thoughts">🧾 初步想法 First Draft Thoughts</h2>
+<h2 id="--first-draft-thoughts">🧾  First Draft Thoughts</h2>
 
 <ul>
-  <li>我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。	
-We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.</li>
-  <li>App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。	
-The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.</li>
-  <li>行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。	
-There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.</li>
-  <li>最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。	
-There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.</li>
-  <li>吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。	
-Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.</li>
-  <li>住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。	
-Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.</li>
-  <li>地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。	
-Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.</li>
-  <li>这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。	
-The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.</li>
-  <li>最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。	
-The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.</li>
+  <li>We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.</li>
+  <li>The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.</li>
+  <li>There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.</li>
+  <li>There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.</li>
+  <li>Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.</li>
+  <li>Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.</li>
+  <li>Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.</li>
+  <li>The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.</li>
+  <li>The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.</li>
 </ul>
 
-<h2 id="-备注-notes">💡 备注 Notes</h2>
+<h2 id="--notes">💡  Notes</h2>
 <ul>
-  <li>我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。	
-I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.</li>
-  <li>最好设计一点不要太多按钮，但也不能没有功能。	
-Fewer buttons are better, but also can’t have too few functions.</li>
-  <li>最好可以推荐行程，也让人可以自己改，不然大家都问客服。	
-Recommend stuff, but let people change it too. Otherwise they keep asking customer service.</li>
-  <li>啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。	
-Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.</li>
-  <li>最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。	
-Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”</li>
-</ul>]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[SingaHai Travel Buddy 📌 目的与背景 | Purpose &amp; Background 本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。 这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。 The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once. The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.]]></summary></entry><entry><title type="html">Prompt pattern1-PRD to Story</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[<h1 id="prompt-pattern-1">Prompt Pattern-1</h1>
+  <li>I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.</li>
+  <li>Fewer buttons are better, but also can’t have too few functions.</li>
+  <li>Recommend stuff, but let people change it too. Otherwise they keep asking customer service.</li>
+  <li>Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.</li>
+  <li>Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”</li>
+</ul>
+
+<hr />
+
+<h1 id="singahai-travel-buddy-1">SingaHai Travel Buddy</h1>
+<h2 id="-目的与背景">📌 目的与背景</h2>
+<p>本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
+这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。</p>
+
+<h2 id="-初步想法">🧾 初步想法</h2>
+
+<ul>
+  <li>我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。</li>
+  <li>App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。</li>
+  <li>行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。</li>
+  <li>最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。</li>
+  <li>吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。</li>
+  <li>住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。</li>
+  <li>地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。</li>
+  <li>这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。</li>
+  <li>最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。</li>
+</ul>
+
+<h2 id="-备注">💡 备注</h2>
+<ul>
+  <li>我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。</li>
+  <li>最好设计一点不要太多按钮，但也不能没有功能。</li>
+  <li>最好可以推荐行程，也让人可以自己改，不然大家都问客服。</li>
+  <li>啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。</li>
+  <li>最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。</li>
+</ul>]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[SingaHai Travel Buddy 📌 Purpose &amp; Background]]></summary></entry><entry><title type="html">Prompt Pattern1-PRD to Story</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt Pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[<h1 id="prompt-pattern-1">Prompt Pattern-1</h1>
 
 <h1 id="cn">CN</h1>
 <p>请将以下产品需求或构想转化成一组符合 INVEST 原则的 User Stories。重点是确保每个 Story 至少具有 Value（为用户或业务带来明确价值）与 Testable（可以验收）。</p>
@@ -122,15 +137,15 @@ Maybe some reminders, like “make reservation for tomorrow” or “wake up ear
   <p>透过结构化的描述可以让让模型能辨识哪些资讯是「背景语义」，哪些是「生成任务」</p>
 </blockquote>
 
-<p>##　目标
-请将以下产品需求或构想转化成一组符合 INVEST 原则的 User Stories。重点是确保每个 Story 至少具有 Value（为用户或业务带来明确价值）与 Testable（可以验收）</p>
+<h2 id="目标">目标</h2>
+<p>请将以下产品需求或构想转化成一组符合 INVEST 原则的 User Stories。重点是确保每个 Story 至少具有 Value（为用户或业务带来明确价值）与 Testable（可以验收）</p>
 
 <blockquote>
   <p>明确指出「输入是构想」「输出是 User Story」，帮助模型聚焦任务转换
 强调 INVEST 中的 V + T 是最低要求，避免模型生成无验证标准或缺乏商业价值的故事</p>
 </blockquote>
 
-<p>## 背景：{粘贴完整背景和构想}</p>
+<h2 id="背景粘贴完整背景和构想">背景：{粘贴完整背景和构想}</h2>
 
 <blockquote>
   <p>这是一个 明确的上下文栏位位子，让模型能辨识哪些资讯是「背景语义」，哪些是「生成任务」
@@ -355,7 +370,7 @@ LLMs prioritize structurally marked and recent context when capturing semantic c
       <td>Specifies tone and content clearly (avoids vague wording), enhancing practical value</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Prompt Pattern-1]]></summary></entry><entry><title type="html">Prompt pattern2-Order the Stories</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[<h1 id="prompt-pattern-2">Prompt Pattern-2</h1>
+</table>]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Prompt Pattern-1]]></summary></entry><entry><title type="html">Prompt Pattern2-Order the Stories</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt Pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[<h1 id="prompt-pattern-2">Prompt Pattern-2</h1>
 
 <p>请根据以下需求，对这组 User Story 进行排序，排序逻辑需考量以下两大原则：</p>
 
@@ -585,19 +600,58 @@ LLMs prioritize structurally marked and recent context when capturing semantic c
 <h2 id="补充建议提示词撰写小技巧">补充建议：提示词撰写小技巧</h2>
 
 <h3 id="pattern-1">Pattern 1</h3>
-<p>| 策略          | 说明                       |
-| ———– | ———————— |
-| <strong>语境清晰</strong>    | 分隔背景与任务指令，帮助 LLM 精准对齐任务  |
-| <strong>格式约束明确</strong>  | 范文句型与栏位提示帮助模型稳定输出        |
-| <strong>内容要求具体</strong>  | 明确规范语气与内容（避免模糊词），提升实用性   |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>策略</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>语境清晰</strong></td>
+      <td>分隔背景与任务指令，帮助 LLM 精准对齐任务</td>
+    </tr>
+    <tr>
+      <td><strong>格式约束明确</strong></td>
+      <td>范文句型与栏位提示帮助模型稳定输出</td>
+    </tr>
+    <tr>
+      <td><strong>内容要求具体</strong></td>
+      <td>明确规范语气与内容（避免模糊词），提升实用性</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="pattern-2">Pattern 2</h3>
-<p>| 策略        | 说明                               |
-| ——– | ——————————- |
-| <strong>指派角色</strong>   | 让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）      |
-| <strong>明确任务目标</strong> | 「排序」、「评估」、「列出优先顺序」需明确出现在开场句     |
-| <strong>提供格式范例</strong> | AI 模仿能力强，格式越清晰，产出越稳定            |
-| <strong>避免模糊语言</strong> | 例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确 |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>策略</th>
+      <th>说明</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>指派角色</strong></td>
+      <td>让 AI 模拟出更专业逻辑（如 PM、设计师、顾问）</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>明确任务目标</strong></td>
+      <td>「排序」、「评估」、「列出优先顺序」需明确出现在开场句</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>避免模糊语言</strong></td>
+      <td>例如：「请根据重要性排序」不如「请根据使用者价值排序」来得准确</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
 <p>以下是将你提供的排序任务提示翻译成英文，并保留格式一致的英文版本：</p>
 
@@ -874,23 +928,19 @@ Reason: Optional experience enhancement, not required for MVP
   </thead>
   <tbody>
     <tr>
-      <td><strong>Assign a Role</strong></td>
-      <td>Helps AI simulate expert logic (e.g., PM, Designer, Consultant)</td>
+      <td><strong>Role Assignment</strong></td>
+      <td>Helps the AI simulate more professional logic (e.g., PM, designer, consultant)</td>
     </tr>
     <tr>
-      <td><strong>Define Task Goals</strong></td>
-      <td>Include keywords like “prioritize,” “evaluate,” “rank” clearly</td>
-    </tr>
-    <tr>
-      <td><strong>Provide Format Examples</strong></td>
-      <td>Clear formats lead to stable results</td>
+      <td><strong>Clear Task Objectives</strong></td>
+      <td>Make sure terms like “prioritize,” “evaluate,” or “list in order of importance” appear explicitly in the opening</td>
     </tr>
     <tr>
       <td><strong>Avoid Vague Language</strong></td>
-      <td>“Rank by importance” is less precise than “Rank by user value”</td>
+      <td>For example, “Please prioritize based on importance” is less effective than “Please prioritize based on user value”</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Prompt Pattern-2]]></summary></entry><entry><title type="html">Prompt pattern3-Story to AC</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" rel="alternate" type="text/html" title="Prompt pattern3-Story to AC" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern3%20-%20Story%20to%20AC</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"><![CDATA[<h1 id="prompt-pattern-3">Prompt Pattern-3</h1>
+</table>]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Prompt Pattern-2]]></summary></entry><entry><title type="html">Prompt Pattern3-Story to AC</title><link href="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html" rel="alternate" type="text/html" title="Prompt Pattern3-Story to AC" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://localhost:4000/prompt/2025/08/04/Prompt%20Pattern3%20-%20Story%20to%20AC</id><content type="html" xml:base="http://localhost:4000/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html"><![CDATA[<h1 id="prompt-pattern-3">Prompt Pattern-3</h1>
 
 <h1 id="cn">CN</h1>
 <p>请为以下 User Story 撰写详细的 <strong>验收标准（Acceptance Criteria）</strong>，重点是清楚定义「在什么情况下此需求可被视为完成且可接受」，并聚焦<strong>使用者行为与系统回应</strong>，以利后续开发、测试与共识建立。</p>
