@@ -37,6 +37,9 @@ layout: post
 
 > **相关案例**：[Prompt Pattern1-PRD to Story]({{ site.baseurl }}/prompt/2025/08/04/Prompt-pattern1-PRD-to-Story.html)
 
+
+
+
 ### 教学要点
 
 #### 1. 情境设定（S）的重要性
