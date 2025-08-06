@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-06T08:00:46+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://0.0.0.0:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://0.0.0.0:4000/default/2025/08/04/Logistics.html"><![CDATA[# Pre-Class Survey (to gather your personal details for certification registration):
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-06T16:09:06+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">Logistics</title><link href="http://0.0.0.0:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://0.0.0.0:4000/default/2025/08/04/Logistics.html"><![CDATA[# Pre-Class Survey (to gather your personal details for certification registration):
 https://forms.gle/YEubE8p5Ef1bPxLX7
 # Zoom (for screen sharing during exercises):
 Zoom ID: 966 696 6699
@@ -245,349 +245,506 @@ And （额外验证点或状态变更）
 
 
 每条 User Story 至少撰写三组情境。请确保内容**具体、可验证、贴近使用者语言**。
-```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">SPARK提示词模型培训课程</title><link href="http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course.html" rel="alternate" type="text/html" title="SPARK提示词模型培训课程" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course</id><content type="html" xml:base="http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course.html"><![CDATA[# SPARK提示词模型培训课程
+```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">SPARK提示词模型培训课程</title><link href="http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course.html" rel="alternate" type="text/html" title="SPARK提示词模型培训课程" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course</id><content type="html" xml:base="http://0.0.0.0:4000/training/2025/08/04/SPARK-Training-Course.html"><![CDATA[<h1 id="spark提示词模型培训课程">SPARK提示词模型培训课程</h1>
+
+<hr />
+
+<h2 id="课程资料下载">课程资料下载</h2>
+
+<blockquote>
+  <p><strong>PRD Sample文件</strong>：<a href="https://docs.google.com/document/d/1mbkW4OP3bsjIzx0cH-OxifRixYsiTBVX7oXAI59BZaQ/export?format=docx" download="PRD-Sample.docx">下载PRD Sample</a> - 本培训课程使用的示例产品需求文档</p>
+</blockquote>
 
----
+<hr />
 
-## 课程资料下载
+<h2 id="课程概述">课程概述</h2>
 
+<p>本培训课程将系统性地介绍SPARK提示词模型，通过三个循序渐进的步骤，帮助您掌握如何编写高效、结构化的AI提示词。</p>
 
-> **PRD Sample文件**：[下载PRD Sample](https://docs.google.com/document/d/1mbkW4OP3bsjIzx0cH-OxifRixYsiTBVX7oXAI59BZaQ/export?format=docx){:download="PRD-Sample.docx"} - 本培训课程使用的示例产品需求文档
+<h3 id="spark模型核心要素">SPARK模型核心要素</h3>
 
----
+<table>
+  <thead>
+    <tr>
+      <th>要素</th>
+      <th>功能</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S - Situation（情境）</strong></td>
+      <td>提供背景与脉络</td>
+      <td>建立AI的问题空间与语境</td>
+    </tr>
+    <tr>
+      <td><strong>P - Purpose（目标）</strong></td>
+      <td>明确任务产出目标</td>
+      <td>让AI聚焦输出内容</td>
+    </tr>
+    <tr>
+      <td><strong>A - Action Role（角色指派）</strong></td>
+      <td>设定专业角色</td>
+      <td>模拟贴近实际业务需求的思维方式</td>
+    </tr>
+    <tr>
+      <td><strong>R - Rule（任务规则）</strong></td>
+      <td>制定行为与风格规范</td>
+      <td>确保产出内容的一致性、专业性与实用性</td>
+    </tr>
+    <tr>
+      <td><strong>K - Knowledge Format（输出格式）</strong></td>
+      <td>定义产出格式</td>
+      <td>帮助模型维持输出一致性</td>
+    </tr>
+  </tbody>
+</table>
 
-## 课程概述
+<hr />
 
-本培训课程将系统性地介绍SPARK提示词模型，通过三个循序渐进的步骤，帮助您掌握如何编写高效、结构化的AI提示词。
+<h2 id="第一步prd转user-story---需求转化技能">第一步：PRD转User Story - 需求转化技能</h2>
+
+<blockquote>
+  <p><strong>范例</strong>：<a href="/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html">Prompt Pattern1-PRD to Story</a></p>
+</blockquote>
+
+<h3 id="教学要点">教学要点</h3>
+
+<h4 id="1-情境设定s的重要性">1. 情境设定（S）的重要性</h4>
+
+<p><strong>功能</strong>：建立AI的问题空间与语境</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>使用真实项目语言描述问题</li>
+  <li>采用”产品目的+用户痛点+解决方式”三段式结构</li>
+  <li>避免混入任务指令</li>
+</ul>
+
+<p><strong>示例特点</strong>：旅游App背景，完整的产品构想描述</p>
+
+<hr />
+
+<h4 id="2-目标明确化p的技巧">2. 目标明确化（P）的技巧</h4>
+
+<p><strong>功能</strong>：让AI聚焦输出内容</p>
 
-### SPARK模型核心要素
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>用一句话概括任务目标</li>
+  <li>加入重点要求说明（如INVEST原则）</li>
+  <li>使用动词导向的指令</li>
+</ul>
+
+<p><strong>示例特点</strong>：明确要求转化为User Story，强调V和T原则</p>
 
-| 要素 | 功能 | 说明 |
-|------|------|------|
-| **S - Situation（情境）** | 提供背景与脉络 | 建立AI的问题空间与语境 |
-| **P - Purpose（目标）** | 明确任务产出目标 | 让AI聚焦输出内容 |
-| **A - Action Role（角色指派）** | 设定专业角色 | 模拟贴近实际业务需求的思维方式 |
-| **R - Rule（任务规则）** | 制定行为与风格规范 | 确保产出内容的一致性、专业性与实用性 |
-| **K - Knowledge Format（输出格式）** | 定义产出格式 | 帮助模型维持输出一致性 |
+<hr />
 
----
+<h4 id="3-角色设定a的专业性">3. 角色设定（A）的专业性</h4>
 
-## 第一步：PRD转User Story - 需求转化技能
+<p><strong>功能</strong>：模拟贴近实际业务需求的思维方式</p>
 
-> **相关案例**：[Prompt Pattern1-PRD to Story]({{ site.baseurl }}/prompt/2025/08/04/Prompt-pattern1-PRD-to-Story.html)
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指定具备任务相关技能的专业角色</li>
+  <li>强调该角色的擅长领域</li>
+</ul>
 
-### 教学要点
+<p><strong>示例特点</strong>：资深敏捷产品经理，擅长转化构想</p>
 
-#### 1. 情境设定（S）的重要性
+<hr />
 
-**功能**：建立AI的问题空间与语境
+<h4 id="4-规则制定r的精确性">4. 规则制定（R）的精确性</h4>
 
-**撰写技巧**：
-- 使用真实项目语言描述问题
-- 采用"产品目的+用户痛点+解决方式"三段式结构
-- 避免混入任务指令
+<p><strong>功能</strong>：确保产出内容的一致性、专业性与实用性</p>
 
-**示例特点**：旅游App背景，完整的产品构想描述
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>使用清单方式列出具体行为要求</li>
+  <li>涵盖内容范围、语言转化、输出边界</li>
+  <li>避免模糊词汇，转化为行为指令</li>
+</ul>
 
----
+<p><strong>示例特点</strong>：明确User Story格式、INVEST原则要求</p>
 
-#### 2. 目标明确化（P）的技巧
+<hr />
 
-**功能**：让AI聚焦输出内容
+<h4 id="5-格式定义k的规范性">5. 格式定义（K）的规范性</h4>
 
-**撰写技巧**：
-- 用一句话概括任务目标
-- 加入重点要求说明（如INVEST原则）
-- 使用动词导向的指令
+<p><strong>功能</strong>：帮助模型维持输出一致性</p>
 
-**示例特点**：明确要求转化为User Story，强调V和T原则
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>明确使用编号清单格式</li>
+  <li>提供范例句型</li>
+  <li>注明句型模板</li>
+</ul>
 
----
+<p><strong>示例特点</strong>：标准User Story格式：”作为一名[角色]，我想要[目标]，从而[获益]”</p>
 
-#### 3. 角色设定（A）的专业性
+<hr />
 
-**功能**：模拟贴近实际业务需求的思维方式
+<h3 id="spark特别用法">SPARK特别用法</h3>
 
-**撰写技巧**：
-- 指定具备任务相关技能的专业角色
-- 强调该角色的擅长领域
+<table>
+  <thead>
+    <tr>
+      <th>区块</th>
+      <th>特别技巧</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S区块</strong></td>
+      <td>变量占位符技巧</td>
+      <td>使用<code class="language-plaintext highlighter-rouge">{粘贴完整背景和构想}</code>作为占位符，让用户动态填充具体内容，提高模板复用性</td>
+    </tr>
+    <tr>
+      <td><strong>P区块</strong></td>
+      <td>INVEST原则嵌入</td>
+      <td>在目标中明确要求”每条Story至少包含V（Value）与T（Testable）”，将质量检查标准直接融入目标设定</td>
+    </tr>
+    <tr>
+      <td><strong>R区块</strong></td>
+      <td>模糊语言转化</td>
+      <td>明确要求”避免模糊语句，如「请尽量清楚描述」→ 改为「每条User Story至少提供3种场景」”，将抽象要求转化为具体行为指令</td>
+    </tr>
+  </tbody>
+</table>
 
-**示例特点**：资深敏捷产品经理，擅长转化构想
+<hr />
 
----
+<h2 id="第二步user-story排序---优先级判断技能">第二步：User Story排序 - 优先级判断技能</h2>
 
-#### 4. 规则制定（R）的精确性
+<blockquote>
+  <p><strong>范例</strong>：<a href="/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html">Prompt Pattern2-Order the Stories</a></p>
+</blockquote>
 
-**功能**：确保产出内容的一致性、专业性与实用性
+<h3 id="教学要点-1">教学要点</h3>
 
-**撰写技巧**：
-- 使用清单方式列出具体行为要求
-- 涵盖内容范围、语言转化、输出边界
-- 避免模糊词汇，转化为行为指令
+<h4 id="1-情境设定s的输入导向">1. 情境设定（S）的输入导向</h4>
 
-**示例特点**：明确User Story格式、INVEST原则要求
+<p><strong>功能</strong>：设定任务背景与输入内容</p>
 
----
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>提供简明的产品构想</li>
+  <li>明确指出面对的输入内容</li>
+  <li>用使用者语言写实表达</li>
+</ul>
 
-#### 5. 格式定义（K）的规范性
+<p><strong>示例特点</strong>：明确说明将面对一组已撰写好的User Stories</p>
 
-**功能**：帮助模型维持输出一致性
+<hr />
 
-**撰写技巧**：
-- 明确使用编号清单格式
-- 提供范例句型
-- 注明句型模板
+<h4 id="2-目标设定p的双重导向">2. 目标设定（P）的双重导向</h4>
 
-**示例特点**：标准User Story格式："作为一名[角色]，我想要[目标]，从而[获益]"
+<p><strong>功能</strong>：兼顾使用者价值与MVP原则</p>
 
----
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>明确排序任务</li>
+  <li>说明排序依据（价值、依赖、最小上线单元）</li>
+  <li>避免模糊词汇，转化为可操作标准</li>
+</ul>
 
-### SPARK特别用法
+<p><strong>示例特点</strong>：兼顾使用者价值与MVP原则，要求说明排序原因</p>
 
-| 区块 | 特别技巧 | 说明 |
-|------|----------|------|
-| **S区块** | 变量占位符技巧 | 使用`{粘贴完整背景和构想}`作为占位符，让用户动态填充具体内容，提高模板复用性 |
-| **P区块** | INVEST原则嵌入 | 在目标中明确要求"每条Story至少包含V（Value）与T（Testable）"，将质量检查标准直接融入目标设定 |
-| **R区块** | 模糊语言转化 | 明确要求"避免模糊语句，如「请尽量清楚描述」→ 改为「每条User Story至少提供3种场景」"，将抽象要求转化为具体行为指令 |
+<hr />
 
----
+<h4 id="3-角色设定a的判断能力">3. 角色设定（A）的判断能力</h4>
 
-## 第二步：User Story排序 - 优先级判断技能
+<p><strong>功能</strong>：影响语言逻辑与判断标准</p>
 
-> **相关案例**：[Prompt Pattern2-Order the Stories]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html)
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指定具备判断能力的专业角色</li>
+  <li>加入专业背景说明</li>
+</ul>
 
-### 教学要点
+<p><strong>示例特点</strong>：精通敏捷开发与精益创业的产品负责人</p>
 
-#### 1. 情境设定（S）的输入导向
+<hr />
 
-**功能**：设定任务背景与输入内容
+<h4 id="4-规则制定r的结构化要求">4. 规则制定（R）的结构化要求</h4>
 
-**撰写技巧**：
-- 提供简明的产品构想
-- 明确指出面对的输入内容
-- 用使用者语言写实表达
+<p><strong>功能</strong>：确保产出结构稳定、内容精准</p>
 
-**示例特点**：明确说明将面对一组已撰写好的User Stories
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>使用清单呈现任务规范</li>
+  <li>明确各部分结构要求</li>
+  <li>避免模糊规则</li>
+</ul>
 
----
+<p><strong>示例特点</strong>：要求分配排序顺位、补充排序原因、标注依赖关系</p>
 
-#### 2. 目标设定（P）的双重导向
+<hr />
 
-**功能**：兼顾使用者价值与MVP原则
+<h4 id="5-格式定义k的实用性">5. 格式定义（K）的实用性</h4>
 
-**撰写技巧**：
-- 明确排序任务
-- 说明排序依据（价值、依赖、最小上线单元）
-- 避免模糊词汇，转化为可操作标准
+<p><strong>功能</strong>：确保格式一致、便于使用</p>
 
-**示例特点**：兼顾使用者价值与MVP原则，要求说明排序原因
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指明使用编号清单格式</li>
+  <li>说明格式顺序（内容+原因+备注）</li>
+  <li>提供范例输出格式</li>
+</ul>
 
----
+<p><strong>示例特点</strong>：明确排序格式，包含MVP组合说明</p>
 
-#### 3. 角色设定（A）的判断能力
+<hr />
 
-**功能**：影响语言逻辑与判断标准
+<h3 id="spark特别用法-1">SPARK特别用法</h3>
 
-**撰写技巧**：
-- 指定具备判断能力的专业角色
-- 加入专业背景说明
+<table>
+  <thead>
+    <tr>
+      <th>区块</th>
+      <th>特别技巧</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S区块</strong></td>
+      <td>双重输入设计</td>
+      <td>先提供产品背景，再明确输入内容”你将面对一组已撰写好的User Stories”，让AI清楚知道要处理什么</td>
+    </tr>
+    <tr>
+      <td><strong>P区块</strong></td>
+      <td>双重目标设定</td>
+      <td>同时要求”使用者价值”和”MVP原则”，在目标层面就建立平衡机制</td>
+    </tr>
+    <tr>
+      <td><strong>K区块</strong></td>
+      <td>MVP组合输出</td>
+      <td>在格式要求中明确”请指出哪些User Story可构成MVP（V1.0）版本的最小组合”，将决策结果直接纳入输出格式</td>
+    </tr>
+  </tbody>
+</table>
 
-**示例特点**：精通敏捷开发与精益创业的产品负责人
+<hr />
 
----
+<h2 id="第三步user-story转验收标准---测试设计技能">第三步：User Story转验收标准 - 测试设计技能</h2>
 
-#### 4. 规则制定（R）的结构化要求
+<blockquote>
+  <p><strong>范例</strong>：<a href="/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html">Prompt Pattern3-Story to AC</a></p>
+</blockquote>
 
-**功能**：确保产出结构稳定、内容精准
+<h3 id="教学要点-2">教学要点</h3>
 
-**撰写技巧**：
-- 使用清单呈现任务规范
-- 明确各部分结构要求
-- 避免模糊规则
+<h4 id="1-情境设定s的测试导向">1. 情境设定（S）的测试导向</h4>
 
-**示例特点**：要求分配排序顺位、补充排序原因、标注依赖关系
+<p><strong>功能</strong>：帮助模型理解任务背景与输入内容</p>
 
----
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>提供清楚的背景介绍</li>
+  <li>明确指出要撰写的User Story</li>
+  <li>避免在此区块放入任务指令</li>
+</ul>
 
-#### 5. 格式定义（K）的实用性
+<p><strong>示例特点</strong>：明确说明为产品开发团队撰写验收标准</p>
 
-**功能**：确保格式一致、便于使用
+<hr />
 
-**撰写技巧**：
-- 指明使用编号清单格式
-- 说明格式顺序（内容+原因+备注）
-- 提供范例输出格式
+<h4 id="2-目标设定p的验证导向">2. 目标设定（P）的验证导向</h4>
 
-**示例特点**：明确排序格式，包含MVP组合说明
+<p><strong>功能</strong>：说明要交付什么、为什么写</p>
 
----
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>明确写出撰写验收标准的目的</li>
+  <li>指出重点要求（如Gherkin格式、多种情境）</li>
+  <li>强调商业目的</li>
+</ul>
 
-### SPARK特别用法
+<p><strong>示例特点</strong>：要求至少列出3种情境，涵盖正常、边界、异常流程</p>
 
-| 区块 | 特别技巧 | 说明 |
-|------|----------|------|
-| **S区块** | 双重输入设计 | 先提供产品背景，再明确输入内容"你将面对一组已撰写好的User Stories"，让AI清楚知道要处理什么 |
-| **P区块** | 双重目标设定 | 同时要求"使用者价值"和"MVP原则"，在目标层面就建立平衡机制 |
-| **K区块** | MVP组合输出 | 在格式要求中明确"请指出哪些User Story可构成MVP（V1.0）版本的最小组合"，将决策结果直接纳入输出格式 |
+<hr />
 
----
+<h4 id="3-角色设定a的业务导向">3. 角色设定（A）的业务导向</h4>
 
-## 第三步：User Story转验收标准 - 测试设计技能
+<p><strong>功能</strong>：提升内容专业性与语气匹配度</p>
 
-> **相关案例**：[Prompt Pattern3-Story to AC]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html)
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指派能写验收标准的角色</li>
+  <li>说明该角色的专长与视角</li>
+  <li>避免设定开发者或AI助理角色</li>
+</ul>
 
-### 教学要点
+<p><strong>示例特点</strong>：熟悉业务需求与用户旅程的资深产品经理</p>
+
+<hr />
 
-#### 1. 情境设定（S）的测试导向
-
-**功能**：帮助模型理解任务背景与输入内容
-
-**撰写技巧**：
-- 提供清楚的背景介绍
-- 明确指出要撰写的User Story
-- 避免在此区块放入任务指令
-
-**示例特点**：明确说明为产品开发团队撰写验收标准
-
----
-
-#### 2. 目标设定（P）的验证导向
-
-**功能**：说明要交付什么、为什么写
-
-**撰写技巧**：
-- 明确写出撰写验收标准的目的
-- 指出重点要求（如Gherkin格式、多种情境）
-- 强调商业目的
-
-**示例特点**：要求至少列出3种情境，涵盖正常、边界、异常流程
-
----
-
-#### 3. 角色设定（A）的业务导向
-
-**功能**：提升内容专业性与语气匹配度
-
-**撰写技巧**：
-- 指派能写验收标准的角色
-- 说明该角色的专长与视角
-- 避免设定开发者或AI助理角色
-
-**示例特点**：熟悉业务需求与用户旅程的资深产品经理
-
----
-
-#### 4. 规则制定（R）的测试导向
-
-**功能**：约定输出规则，让结果更稳定与可操作
-
-**撰写技巧**：
-- 指定使用Gherkin语法
-- 明确语言风格要求
-- 要求多种场景类型
-
-**示例特点**：使用Given-When-Then格式，保持商业用语
-
----
-
-#### 5. 格式定义（K）的结构化
-
-**功能**：清楚定义输出形式，利于阅读、复制、沟通
-
-**撰写技巧**：
-- 指定使用区块格式
-- 提供格式范例
-- 要求使用者语言自然
-
-**示例特点**：每个场景一个Gherkin结构，便于测试用例生成
-
----
-
-### SPARK特别用法
-
-| 区块 | 特别技巧 | 说明 |
-|------|----------|------|
-| **S区块** | 测试导向设计 | 明确说明"为产品开发团队撰写结构化的验收标准"，在情境中就定位了输出用途 |
-| **P区块** | 量化要求嵌入 | 在目标中明确"每个User Story至少列出3种情境"，将数量要求直接融入目标设定 |
-| **R区块** | Gherkin格式强制 | 明确要求"使用Given-When-Then（Gherkin）格式"，将测试标准格式直接写入规则 |
-| **K区块** | 测试用例结构 | 提供完整的Gherkin格式范例，确保输出可直接用于测试用例生成 |
-
----
-
-## 提示词写作核心技巧
-
-### 1. SPARK模型写作要领
-
-#### S区块（情境）的写作技巧
-- **变量占位符策略**：使用`{粘贴完整背景}`、`{User Story}`等占位符，让提示词可重复使用
-- **双层背景设计**：先描述产品背景，再说明输入内容类型，让AI清楚知道要处理什么
-- **用途明确化**：在情境中就说明输出的用途，如"为产品开发团队撰写验收标准"
-
-#### P区块（目标）的写作技巧
-- **质量标准嵌入**：将检查标准直接写入目标，如"每条Story至少包含V（Value）与T（Testable）"
-- **量化要求明确**：用具体数字替代模糊描述，如"至少列出3种情境"而非"列出多种情境"
-- **双重目标平衡**：当任务复杂时，明确列出需要兼顾的多个目标，如"使用者价值"和"MVP原则"
-
-#### A区块（角色）的写作技巧
-- **技能匹配原则**：根据任务选择最合适的角色，产品任务选"产品经理"，测试任务选"QA专家"
-- **专业背景描述**：详细说明角色的专业领域，如"精通敏捷开发与精益创业的产品负责人"
-- **业务导向优先**：对于商业任务，避免技术角色，确保输出贴近业务语言
-
-#### R区块（规则）的写作技巧
-- **模糊语言转化**：将"请尽量清楚"改为"每条Story必须包含具体的验收条件"
-- **格式标准强制**：明确指定格式要求，如"使用Given-When-Then（Gherkin）格式"
-- **正反面指导**：同时说明"必须做什么"和"避免做什么"，如"使用商业用语，避免技术术语"
-
-#### K区块（格式）的写作技巧
-- **完整范例提供**：给出完整的输出格式示例，让AI可以直接模仿
-- **结构化输出设计**：将决策结果纳入格式要求，如"请指出哪些Story构成MVP"
-- **可用性考量**：确保输出格式便于后续使用，如直接可复制到测试用例或项目管理工具
-
-### 2. 提示词写作常见问题与解决技巧
-
-#### 问题：AI输出格式每次都不一样
-**SPARK解决策略**：
-- **K区块范例化**：提供完整的格式示例，包含所有必要元素
-- **R区块格式强制**：在规则中明确"严格按照以下格式输出"
-- **代码块技巧**：使用```代码块包围格式示例，提高AI的格式识别准确性
-
-#### 问题：AI回答太技术化，业务人员看不懂
-**SPARK解决策略**：
-- **A区块业务角色**：设定"资深产品经理"而非"系统架构师"
-- **R区块语言规范**：明确要求"使用商业语言，避免技术术语"
-- **S区块业务背景**：在情境中强调业务目标和用户价值
-
-#### 问题：AI输出内容不够完整
-**SPARK解决策略**：
-- **P区块量化明确**：用具体数字要求，如"每个User Story需要3种测试场景"
-- **R区块要素清单**：列出必须包含的所有要素，如"排序原因、依赖关系、MVP标记"
-- **检查清单技巧**：在提示词最后加入"请确认以上要求都已满足"
-
-### 3. 高级提示词写作技巧
-
-#### 模板化与复用策略
-- **变量占位符设计**：使用`{}`标记需要动态填充的内容
-- **模块化组合**：将SPARK各区块设计成可组合的模块
-- **版本迭代记录**：记录不同版本的提示词效果，持续优化
-
-#### 上下文控制技巧
-- **信息层次化**：在S区块中按重要性排列背景信息
-- **输入格式标准化**：为不同类型输入设计标准格式
-- **边界条件处理**：在R区块中说明如何处理特殊情况
-
-#### 输出质量控制
-- **多轮验证设计**：设计可以多轮精化的提示词结构
-- **质量检查嵌入**：将质量标准直接写入提示词各区块
-- **反馈循环建立**：设计便于根据输出结果调整提示词的机制
-
----
-
-## 总结
-
-SPARK模型提供了一个系统性的框架来编写高效的AI提示词。通过这三个步骤的培训，您将掌握：
-
-1. **需求转化技能**：将产品构想转化为可执行的User Story
-2. **优先级判断技能**：基于价值和MVP原则进行功能排序
-3. **测试设计技能**：为User Story制定详细的验收标准
-
-每个步骤都体现了SPARK模型的核心要素，通过结构化的教学要点和实用技巧，帮助您在实际工作中更好地运用AI工具。]]></content><author><name>Yuming</name></author><category term="Training" /><summary type="html"><![CDATA[SPARK提示词模型培训课程]]></summary></entry></feed>
+<h4 id="4-规则制定r的测试导向">4. 规则制定（R）的测试导向</h4>
+
+<p><strong>功能</strong>：约定输出规则，让结果更稳定与可操作</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指定使用Gherkin语法</li>
+  <li>明确语言风格要求</li>
+  <li>要求多种场景类型</li>
+</ul>
+
+<p><strong>示例特点</strong>：使用Given-When-Then格式，保持商业用语</p>
+
+<hr />
+
+<h4 id="5-格式定义k的结构化">5. 格式定义（K）的结构化</h4>
+
+<p><strong>功能</strong>：清楚定义输出形式，利于阅读、复制、沟通</p>
+
+<p><strong>撰写技巧</strong>：</p>
+<ul>
+  <li>指定使用区块格式</li>
+  <li>提供格式范例</li>
+  <li>要求使用者语言自然</li>
+</ul>
+
+<p><strong>示例特点</strong>：每个场景一个Gherkin结构，便于测试用例生成</p>
+
+<hr />
+
+<h3 id="spark特别用法-2">SPARK特别用法</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>区块</th>
+      <th>特别技巧</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>S区块</strong></td>
+      <td>测试导向设计</td>
+      <td>明确说明”为产品开发团队撰写结构化的验收标准”，在情境中就定位了输出用途</td>
+    </tr>
+    <tr>
+      <td><strong>P区块</strong></td>
+      <td>量化要求嵌入</td>
+      <td>在目标中明确”每个User Story至少列出3种情境”，将数量要求直接融入目标设定</td>
+    </tr>
+    <tr>
+      <td><strong>R区块</strong></td>
+      <td>Gherkin格式强制</td>
+      <td>明确要求”使用Given-When-Then（Gherkin）格式”，将测试标准格式直接写入规则</td>
+    </tr>
+    <tr>
+      <td><strong>K区块</strong></td>
+      <td>测试用例结构</td>
+      <td>提供完整的Gherkin格式范例，确保输出可直接用于测试用例生成</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="提示词写作核心技巧">提示词写作核心技巧</h2>
+
+<h3 id="1-spark模型写作要领">1. SPARK模型写作要领</h3>
+
+<h4 id="s区块情境的写作技巧">S区块（情境）的写作技巧</h4>
+<ul>
+  <li><strong>变量占位符策略</strong>：使用<code class="language-plaintext highlighter-rouge">{粘贴完整背景}</code>、<code class="language-plaintext highlighter-rouge">{User Story}</code>等占位符，让提示词可重复使用</li>
+  <li><strong>双层背景设计</strong>：先描述产品背景，再说明输入内容类型，让AI清楚知道要处理什么</li>
+  <li><strong>用途明确化</strong>：在情境中就说明输出的用途，如”为产品开发团队撰写验收标准”</li>
+</ul>
+
+<h4 id="p区块目标的写作技巧">P区块（目标）的写作技巧</h4>
+<ul>
+  <li><strong>质量标准嵌入</strong>：将检查标准直接写入目标，如”每条Story至少包含V（Value）与T（Testable）”</li>
+  <li><strong>量化要求明确</strong>：用具体数字替代模糊描述，如”至少列出3种情境”而非”列出多种情境”</li>
+  <li><strong>双重目标平衡</strong>：当任务复杂时，明确列出需要兼顾的多个目标，如”使用者价值”和”MVP原则”</li>
+</ul>
+
+<h4 id="a区块角色的写作技巧">A区块（角色）的写作技巧</h4>
+<ul>
+  <li><strong>技能匹配原则</strong>：根据任务选择最合适的角色，产品任务选”产品经理”，测试任务选”QA专家”</li>
+  <li><strong>专业背景描述</strong>：详细说明角色的专业领域，如”精通敏捷开发与精益创业的产品负责人”</li>
+  <li><strong>业务导向优先</strong>：对于商业任务，避免技术角色，确保输出贴近业务语言</li>
+</ul>
+
+<h4 id="r区块规则的写作技巧">R区块（规则）的写作技巧</h4>
+<ul>
+  <li><strong>模糊语言转化</strong>：将”请尽量清楚”改为”每条Story必须包含具体的验收条件”</li>
+  <li><strong>格式标准强制</strong>：明确指定格式要求，如”使用Given-When-Then（Gherkin）格式”</li>
+  <li><strong>正反面指导</strong>：同时说明”必须做什么”和”避免做什么”，如”使用商业用语，避免技术术语”</li>
+</ul>
+
+<h4 id="k区块格式的写作技巧">K区块（格式）的写作技巧</h4>
+<ul>
+  <li><strong>完整范例提供</strong>：给出完整的输出格式示例，让AI可以直接模仿</li>
+  <li><strong>结构化输出设计</strong>：将决策结果纳入格式要求，如”请指出哪些Story构成MVP”</li>
+  <li><strong>可用性考量</strong>：确保输出格式便于后续使用，如直接可复制到测试用例或项目管理工具</li>
+</ul>
+
+<h3 id="2-提示词写作常见问题与解决技巧">2. 提示词写作常见问题与解决技巧</h3>
+
+<h4 id="问题ai输出格式每次都不一样">问题：AI输出格式每次都不一样</h4>
+<p><strong>SPARK解决策略</strong>：</p>
+<ul>
+  <li><strong>K区块范例化</strong>：提供完整的格式示例，包含所有必要元素</li>
+  <li><strong>R区块格式强制</strong>：在规则中明确”严格按照以下格式输出”</li>
+  <li><strong>代码块技巧</strong>：使用```代码块包围格式示例，提高AI的格式识别准确性</li>
+</ul>
+
+<h4 id="问题ai回答太技术化业务人员看不懂">问题：AI回答太技术化，业务人员看不懂</h4>
+<p><strong>SPARK解决策略</strong>：</p>
+<ul>
+  <li><strong>A区块业务角色</strong>：设定”资深产品经理”而非”系统架构师”</li>
+  <li><strong>R区块语言规范</strong>：明确要求”使用商业语言，避免技术术语”</li>
+  <li><strong>S区块业务背景</strong>：在情境中强调业务目标和用户价值</li>
+</ul>
+
+<h4 id="问题ai输出内容不够完整">问题：AI输出内容不够完整</h4>
+<p><strong>SPARK解决策略</strong>：</p>
+<ul>
+  <li><strong>P区块量化明确</strong>：用具体数字要求，如”每个User Story需要3种测试场景”</li>
+  <li><strong>R区块要素清单</strong>：列出必须包含的所有要素，如”排序原因、依赖关系、MVP标记”</li>
+  <li><strong>检查清单技巧</strong>：在提示词最后加入”请确认以上要求都已满足”</li>
+</ul>
+
+<h3 id="3-高级提示词写作技巧">3. 高级提示词写作技巧</h3>
+
+<h4 id="模板化与复用策略">模板化与复用策略</h4>
+<ul>
+  <li><strong>变量占位符设计</strong>：使用<code class="language-plaintext highlighter-rouge">{}</code>标记需要动态填充的内容</li>
+  <li><strong>模块化组合</strong>：将SPARK各区块设计成可组合的模块</li>
+  <li><strong>版本迭代记录</strong>：记录不同版本的提示词效果，持续优化</li>
+</ul>
+
+<h4 id="上下文控制技巧">上下文控制技巧</h4>
+<ul>
+  <li><strong>信息层次化</strong>：在S区块中按重要性排列背景信息</li>
+  <li><strong>输入格式标准化</strong>：为不同类型输入设计标准格式</li>
+  <li><strong>边界条件处理</strong>：在R区块中说明如何处理特殊情况</li>
+</ul>
+
+<h4 id="输出质量控制">输出质量控制</h4>
+<ul>
+  <li><strong>多轮验证设计</strong>：设计可以多轮精化的提示词结构</li>
+  <li><strong>质量检查嵌入</strong>：将质量标准直接写入提示词各区块</li>
+  <li><strong>反馈循环建立</strong>：设计便于根据输出结果调整提示词的机制</li>
+</ul>
+
+<hr />
+
+<h2 id="总结">总结</h2>
+
+<p>SPARK模型提供了一个系统性的框架来编写高效的AI提示词。通过这三个步骤的培训，您将掌握：</p>
+
+<ol>
+  <li><strong>需求转化技能</strong>：将产品构想转化为可执行的User Story</li>
+  <li><strong>优先级判断技能</strong>：基于价值和MVP原则进行功能排序</li>
+  <li><strong>测试设计技能</strong>：为User Story制定详细的验收标准</li>
+</ol>
+
+<p>每个步骤都体现了SPARK模型的核心要素，通过结构化的教学要点和实用技巧，帮助您在实际工作中更好地运用AI工具。</p>]]></content><author><name>Yuming</name></author><category term="Training" /><summary type="html"><![CDATA[SPARK提示词模型培训课程]]></summary></entry></feed>

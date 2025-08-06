@@ -35,7 +35,7 @@ layout: post
 
 ## 第一步：PRD转User Story - 需求转化技能
 
-> **相关案例**：[Prompt Pattern1-PRD to Story]({{ site.baseurl }}/prompt/2025/08/04/Prompt-pattern1-PRD-to-Story.html)
+> **范例**：[Prompt Pattern1-PRD to Story]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html)
 
 
 
@@ -118,7 +118,7 @@ layout: post
 
 ## 第二步：User Story排序 - 优先级判断技能
 
-> **相关案例**：[Prompt Pattern2-Order the Stories]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html)
+> **范例**：[Prompt Pattern2-Order the Stories]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html)
 
 ### 教学要点
 
@@ -198,7 +198,7 @@ layout: post
 
 ## 第三步：User Story转验收标准 - 测试设计技能
 
-> **相关案例**：[Prompt Pattern3-Story to AC]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html)
+> **范例**：[Prompt Pattern3-Story to AC]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html)
 
 ### 教学要点
 
