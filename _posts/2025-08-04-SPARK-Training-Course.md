@@ -225,7 +225,7 @@ The provided User Story list is as follows:
 
 - **Prioritize by Importance**: Explain prioritization basis (value, minimum launch unit)
 - **Verifiable**: Avoid vague vocabulary, transform into actionable standards
-- **One Goal at a Time**: Avoid multiple tasks at once, currently LLM multi-task performance is difficult to tune
+- **One Purpose at a Time**: Avoid multiple tasks at once, currently LLM multi-task performance is difficult to tune
 
 
 **Example**:
@@ -417,7 +417,7 @@ The provided User Story is as follows:
 
 #### **P - Purpose（Objective）**
 
-- **Purpose**: Clearly write the purpose of writing acceptance criteria
+- **Specify the end use**: Clearly write the purpose of writing acceptance criteria
 - **Clarify Multiple Scenarios**: Point out key requirements (such as multiple scenarios)
 
 

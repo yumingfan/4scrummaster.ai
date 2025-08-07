@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-07T22:03:10+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html">AI For Scrummasters RSG Singapore</title><link href="http://0.0.0.0:4000/training/2025/08/05/SPARK-Training-Course.html" rel="alternate" type="text/html" title="AI For Scrummasters RSG Singapore" /><published>2025-08-05T00:00:00+08:00</published><updated>2025-08-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/training/2025/08/05/SPARK-Training-Course</id><content type="html" xml:base="http://0.0.0.0:4000/training/2025/08/05/SPARK-Training-Course.html"><![CDATA[<hr />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-07T23:55:20+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html"></title><link href="http://0.0.0.0:4000/2025/08/07/2025-08-04-PrdSample-CN.html" rel="alternate" type="text/html" title="" /><published>2025-08-07T23:55:20+08:00</published><updated>2025-08-07T23:55:20+08:00</updated><id>http://0.0.0.0:4000/2025/08/07/2025-08-04-PrdSample-CN</id><content type="html" xml:base="http://0.0.0.0:4000/2025/08/07/2025-08-04-PrdSample-CN.html"><![CDATA[> **PRD Sample File**: [Download PRD Sample](https://docs.google.com/document/d/1qvCbIlO8ohEgQwkronFbNU04YiSdlSc77ElCsn97Y2U/edit?usp=sharing){:download="PRD-Sample-CN.docx"} - Sample product requirements document used in this training course
+
+
+# SingaHai Travel Buddy
+## 📌 目的与背景 
+本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
+这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。	
+
+## 🧾 初步想法 
+
+- 我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。	
+- App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。	
+- 行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。	
+- 最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。	
+- 吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。	
+- 住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。	
+- 地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。	
+- 这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。	
+- 最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。	
+
+## 💡 备注 
+- 我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。	
+- 最好设计一点不要太多按钮，但也不能没有功能。	
+- 最好可以推荐行程，也让人可以自己改，不然大家都问客服。	
+- 啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。	
+- 最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。]]></content><author><name></name></author></entry><entry><title type="html">AI For Scrummasters RSG Singapore</title><link href="http://0.0.0.0:4000/training/2025/08/05/SPARK-Training-Course.html" rel="alternate" type="text/html" title="AI For Scrummasters RSG Singapore" /><published>2025-08-05T00:00:00+08:00</published><updated>2025-08-05T00:00:00+08:00</updated><id>http://0.0.0.0:4000/training/2025/08/05/SPARK-Training-Course</id><content type="html" xml:base="http://0.0.0.0:4000/training/2025/08/05/SPARK-Training-Course.html"><![CDATA[<hr />
 
 <h2 id="prd-sample">PRD Sample</h2>
 
@@ -249,7 +274,7 @@ The provided User Story list is as follows:
 <ul>
   <li><strong>Prioritize by Importance</strong>: Explain prioritization basis (value, minimum launch unit)</li>
   <li><strong>Verifiable</strong>: Avoid vague vocabulary, transform into actionable standards</li>
-  <li><strong>One Goal at a Time</strong>: Avoid multiple tasks at once, currently LLM multi-task performance is difficult to tune</li>
+  <li><strong>One Purpose at a Time</strong>: Avoid multiple tasks at once, currently LLM multi-task performance is difficult to tune</li>
 </ul>
 
 <p><strong>Example</strong>:</p>
@@ -436,7 +461,7 @@ The provided User Story is as follows:
 <h4 id="p---purposeobjective-2"><strong>P - Purpose（Objective）</strong></h4>
 
 <ul>
-  <li><strong>Purpose</strong>: Clearly write the purpose of writing acceptance criteria</li>
+  <li><strong>Specify the end use</strong>: Clearly write the purpose of writing acceptance criteria</li>
   <li><strong>Clarify Multiple Scenarios</strong>: Point out key requirements (such as multiple scenarios)</li>
 </ul>
 
@@ -588,123 +613,7 @@ Write at least three scenarios for each User Story. Please ensure the content is
 
 <blockquote>
   <h2 id="dont-try-to-write-it-perfectly-the-first-time-use-iteration-to-approach-the-prompt-that-best-suits-you">Don’t try to write it perfectly the first time, use iteration to approach the prompt that best suits you</h2>
-</blockquote>]]></content><author><name>Yuming</name></author><category term="Training" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Logistics</title><link href="http://0.0.0.0:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://0.0.0.0:4000/default/2025/08/04/Logistics.html"><![CDATA[# Pre-Class Survey (to gather your personal details for certification registration):
-https://forms.gle/YEubE8p5Ef1bPxLX7
-# Zoom (for screen sharing during exercises):
-Zoom ID: 966 696 6699
-PSWD:   446688
-https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&omn=87459833666
-# Miro (for the exercises and accessing slides ): 
-https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></content><author><name>Yuming</name></author><category term="default" /><summary type="html"><![CDATA[Pre-Class Survey (to gather your personal details for certification registration): https://forms.gle/YEubE8p5Ef1bPxLX7 Zoom (for screen sharing during exercises): Zoom ID: 966 696 6699 PSWD: 446688 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666 Miro (for the exercises and accessing slides ): https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></summary></entry><entry><title type="html">PRD Sample</title><link href="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prd/2025/08/04/PrdSample</id><content type="html" xml:base="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html"><![CDATA[# SingaHai Travel Buddy
-## 📌 Purpose & Background
-
-The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
-The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.
-
-## 🧾  First Draft Thoughts
-
-- 	We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.
-- The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.
-- There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.
-- There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.
-- Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.
-- Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.
-- Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.
-- The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.
-- The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.
-
-## 💡  Notes
-- I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.
-- Fewer buttons are better, but also can’t have too few functions.
-- Recommend stuff, but let people change it too. Otherwise they keep asking customer service.
-- Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.
-- Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”
-
----
-
-# SingaHai Travel Buddy
-## 📌 目的与背景 
-本工程目的是做一款帮助旅客在新加坡和上海自由行时变得更方便的 App。现代人都很忙，没空做功课，所以这个 App 会一次搞定吃住玩交通，让行程变得简单又有趣。	
-这款 App 要看起来智慧、时尚、要让人一打开就觉得好用，像是他们的旅游灵魂伴侣。未来也可能拓展到其他城市。	
-
-## 🧾 初步想法 
-
-- 我们想做一个旅游的App，主要是可以帮助大家规划行程，还有住哪里跟吃什么。因为大家都很忙，所以这个App要简单好用。	
-- App 要让人一看到就想出国，设计要有感觉，最好色彩明亮，看起来年轻但不要幼稚。	
-- 行程要有安排功能，使用者可以点进去选，他也可以自己改，或者全部都帮他排好，这样就不用想。	
-- 最好有测验，像做心理测验，这样他们就知道自己适合什么。这样我们也比较好推荐东西给他。	
-- 吃的部分也要很重要，不然很多人会不开心。要有吃素的、清真的、还有不能吃辣的。餐厅要乾净好拍照，不要太贵。	
-- 住宿的话，地点要近，不然搭车会累。价钱要合理。照片要看起来舒服。也不能太吵。	
-- 地图一定要有。不然会迷路。有导航最好，或是能显示距离和时间。	
-- 这个App最好什么都有，但又不要太复杂。可以一页看到很多东西。最好是滑一滑就安排好了。	
-- 最重要是这个App让人觉得很方便，很新，很有趣，用起来像朋友一样。	
-
-## 💡 备注 
-- 我其实也不是很懂怎么写需求啦，不过我们就是希望大家觉得这个App好看、好玩、好用。大家都很期待。	
-- 最好设计一点不要太多按钮，但也不能没有功能。	
-- 最好可以推荐行程，也让人可以自己改，不然大家都问客服。	
-- 啊对了，有没有可能加上天气功能？如果下雨就不要排太多户外。	
-- 最好也有一个小提醒功能，例如明天要去的地方要先预约、或早点起床。]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[SingaHai Travel Buddy 📌 Purpose &amp; Background]]></summary></entry><entry><title type="html">Prompt Pattern1-PRD to Story</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt Pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[> Sample Prompt
-
-```
-## S - Situation（情境）
-请阅读以下产品构想，背景为一款旅游类 App，目标是帮助用户轻松规划自由行所需的行程安排、住宿、餐饮与交通，提供智慧、时尚且可定制的旅游体验。
-
-背景内容：
-{粘贴完整背景和构想}
-
----
-
-## P - Purpose（目标）
-请将上述构想内容转化为一组符合 INVEST 原则的 User Stories。
-- **重点：每条 Story 至少包含 V（Value）与 T（Testable）**
-- 你的任务是将产品构想内涵转化为结构化的开发故事条目
-
----
-
-## A - Action Role（角色指派）
-你是一位资深敏捷产品经理，擅长将模糊的构想转化为可执行的 User Story，确保开发团队具备明确目标、价值与验收依据。
-
----
-
-## R - Rule（任务规则）
-请遵循以下行为与风格规范：
-
-要求条目                                              
-- 使用标准格式：“作为一名 [角色]，我想要 [目标]，从而 [获益]”  
-- 每条 Story 明确表达其价值（V）与可测试性（T）              
-- 将模糊、情感化语言（如“好玩”、“有感觉”）转化为行为或功能导向
-- 仅输出 User Story 内容，勿生成多余说明                        
-- User Story 粒度必须具体、可执行                              
-- 覆盖背景构想中提及的所有关键功能或情境     
-
-### INVEST 原则检查表（附录）
-
-用于回顾每则 Story 的合格性标准（**至少需满足 V 与 T**）：
-
-| 原则代号 | 说明                                 |
-| -------- | ------------------------------------ |
-| **I – Independent** | Story 应能独立完成，不依赖其他故事             |
-| **N – Negotiable**  | 可协商，不应是固定规格说明                     |
-| **V – Valuable**    | 对使用者或业务必须具备明确价值                  |
-| **E – Estimable**   | 能估算其工作量或复杂度                         |
-| **S – Small**       | 足够小，能在一个 Sprint 内完成                |
-| **T – Testable**    | 具备可验证的验收标准或条件                    |
-
- **提示**：虽然不是每条 Story 都需完全符合所有 INVEST 要素，但**必须至少满足 V（Valuable） 与 T（Testable）**。
-
----
-
-## K - Knowledge Format（输出格式）
-请将结果整理为编号清单格式，每条 Story 使用标准句型书写：
-
-1. 作为一名……，我想要……，从而……
-2. 作为一名……，我想要……，从而……
-
----
-
-
-```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">Prompt Pattern2-Order the Stories</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt Pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[> Sample Prompt
+</blockquote>]]></content><author><name>Yuming</name></author><category term="Training" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Prompt Pattern2-Order the Stories</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html" rel="alternate" type="text/html" title="Prompt Pattern2-Order the Stories" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern2%20-%20Order%20the%20Stories</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html"><![CDATA[> Sample Prompt
 
 ```
 ## S - **Situation（情境）**
@@ -1406,4 +1315,97 @@ And （额外验证点或状态变更）
 <br>
 <br>
 
->## 不要想一次就写好，利用迭代趋近最适合你的提示词]]></content><author><name>Yuming</name></author><category term="Training" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+>## 不要想一次就写好，利用迭代趋近最适合你的提示词]]></content><author><name>Yuming</name></author><category term="Training" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">PRD Sample</title><link href="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html" rel="alternate" type="text/html" title="PRD Sample" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prd/2025/08/04/PrdSample</id><content type="html" xml:base="http://0.0.0.0:4000/prd/2025/08/04/PrdSample.html"><![CDATA[> **PRD Sample File**: [Download PRD Sample](https://docs.google.com/document/d/1mbkW4OP3bsjIzx0cH-OxifRixYsiTBVX7oXAI59BZaQ/export?format=docx){:download="PRD-Sample.docx"} - Sample product requirements document used in this training course
+
+
+# SingaHai Travel Buddy
+## 📌 Purpose & Background
+
+The goal of this project is to create an app that helps travelers enjoy a smoother and more fun trip between Singapore and Shanghai. Modern people are too busy to plan, so the app should handle food, lodging, sightseeing, and transport all at once.
+The app should feel smart, trendy, and intuitive—like a personal travel soulmate. Expansion to other cities is possible in the future.
+
+## 🧾  First Draft Thoughts
+
+- 	We want to make a travel app that helps people plan their trips, including where to stay and what to eat. Everyone is busy these days, so the app must be easy to use.
+- The app should make people want to travel when they open it. Design must feel inspiring. Colors should be bright, youthful but not childish.
+- There should be a schedule feature. Users can choose things or we can plan everything for them. So they don’t have to think too much.
+- There should be a quiz, like a personality test. Then they know what kind of traveler they are and we can suggest better things.
+- Food is very important too. Some people are vegetarian, halal, or don’t eat spicy. Restaurants must be clean, photogenic, and not expensive.
+- Hotels should be close to the attractions, or traveling will be tiring. Price should be okay. Photos must look comfortable. Not noisy.
+- Must have maps. Otherwise people will get lost. Navigation would be nice. Show distance and time.
+- The app should have everything, but not be too complicated. Preferably, everything is on one page. Slide and done.
+- The most important thing is that the app feels convenient, modern, fun—like a friend helping you travel.
+
+## 💡  Notes
+- I’m not really sure how to write “requirements,” but we just want the app to be good-looking, fun, and useful. Everyone’s excited.
+- Fewer buttons are better, but also can’t have too few functions.
+- Recommend stuff, but let people change it too. Otherwise they keep asking customer service.
+- Oh right, can we add weather? Don’t plan too many outdoor things if it’s raining.
+- Maybe some reminders, like “make reservation for tomorrow” or “wake up early for tour.”]]></content><author><name>Yuming</name></author><category term="PRD" /><summary type="html"><![CDATA[PRD Sample File: Download PRD Sample - Sample product requirements document used in this training course]]></summary></entry><entry><title type="html">Prompt Pattern1-PRD to Story</title><link href="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html" rel="alternate" type="text/html" title="Prompt Pattern1-PRD to Story" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/prompt/2025/08/04/Prompt%20Pattern1%20-%20PRD%20to%20Story</id><content type="html" xml:base="http://0.0.0.0:4000/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html"><![CDATA[> Sample Prompt
+
+```
+## S - Situation（情境）
+请阅读以下产品构想，背景为一款旅游类 App，目标是帮助用户轻松规划自由行所需的行程安排、住宿、餐饮与交通，提供智慧、时尚且可定制的旅游体验。
+
+背景内容：
+{粘贴完整背景和构想}
+
+---
+
+## P - Purpose（目标）
+请将上述构想内容转化为一组符合 INVEST 原则的 User Stories。
+- **重点：每条 Story 至少包含 V（Value）与 T（Testable）**
+- 你的任务是将产品构想内涵转化为结构化的开发故事条目
+
+---
+
+## A - Action Role（角色指派）
+你是一位资深敏捷产品经理，擅长将模糊的构想转化为可执行的 User Story，确保开发团队具备明确目标、价值与验收依据。
+
+---
+
+## R - Rule（任务规则）
+请遵循以下行为与风格规范：
+
+要求条目                                              
+- 使用标准格式：“作为一名 [角色]，我想要 [目标]，从而 [获益]”  
+- 每条 Story 明确表达其价值（V）与可测试性（T）              
+- 将模糊、情感化语言（如“好玩”、“有感觉”）转化为行为或功能导向
+- 仅输出 User Story 内容，勿生成多余说明                        
+- User Story 粒度必须具体、可执行                              
+- 覆盖背景构想中提及的所有关键功能或情境     
+
+### INVEST 原则检查表（附录）
+
+用于回顾每则 Story 的合格性标准（**至少需满足 V 与 T**）：
+
+| 原则代号 | 说明                                 |
+| -------- | ------------------------------------ |
+| **I – Independent** | Story 应能独立完成，不依赖其他故事             |
+| **N – Negotiable**  | 可协商，不应是固定规格说明                     |
+| **V – Valuable**    | 对使用者或业务必须具备明确价值                  |
+| **E – Estimable**   | 能估算其工作量或复杂度                         |
+| **S – Small**       | 足够小，能在一个 Sprint 内完成                |
+| **T – Testable**    | 具备可验证的验收标准或条件                    |
+
+ **提示**：虽然不是每条 Story 都需完全符合所有 INVEST 要素，但**必须至少满足 V（Valuable） 与 T（Testable）**。
+
+---
+
+## K - Knowledge Format（输出格式）
+请将结果整理为编号清单格式，每条 Story 使用标准句型书写：
+
+1. 作为一名……，我想要……，从而……
+2. 作为一名……，我想要……，从而……
+
+---
+
+
+```]]></content><author><name>Yuming</name></author><category term="Prompt" /><summary type="html"><![CDATA[Sample Prompt]]></summary></entry><entry><title type="html">Logistics</title><link href="http://0.0.0.0:4000/default/2025/08/04/Logistics.html" rel="alternate" type="text/html" title="Logistics" /><published>2025-08-04T00:00:00+08:00</published><updated>2025-08-04T00:00:00+08:00</updated><id>http://0.0.0.0:4000/default/2025/08/04/Logistics</id><content type="html" xml:base="http://0.0.0.0:4000/default/2025/08/04/Logistics.html"><![CDATA[# Pre-Class Survey (to gather your personal details for certification registration):
+https://forms.gle/YEubE8p5Ef1bPxLX7
+# Zoom (for screen sharing during exercises):
+Zoom ID: 966 696 6699
+PSWD:   446688
+https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&omn=87459833666
+# Miro (for the exercises and accessing slides ): 
+https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></content><author><name>Yuming</name></author><category term="default" /><summary type="html"><![CDATA[Pre-Class Survey (to gather your personal details for certification registration): https://forms.gle/YEubE8p5Ef1bPxLX7 Zoom (for screen sharing during exercises): Zoom ID: 966 696 6699 PSWD: 446688 https://us06web.zoom.us/j/9666966699?pwd=2ZhWEIdyMJTJMFMMtJuZFg63NMhjpD.1&amp;omn=87459833666 Miro (for the exercises and accessing slides ): https://miro.com/app/board/uXjVJXp_mHE=/?share_link_id=140588166663]]></summary></entry></feed>
