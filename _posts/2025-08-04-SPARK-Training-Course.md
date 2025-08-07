@@ -1,569 +1,575 @@
 ---
-title: SPARK提示词模型培训课程
+title: AI For Scrummasters RSG Singapore
 author: Yuming
-date: 2025-08-04
+date: 2025-08-05
 category: Training
 layout: post
 ---
 
-# SPARK提示词模型培训课程
+---
+
+## PRD Sample
+
+
+> **PRD Sample File**: [Download PRD Sample](https://docs.google.com/document/d/1mbkW4OP3bsjIzx0cH-OxifRixYsiTBVX7oXAI59BZaQ/export?format=docx){:download="PRD-Sample.docx"} - Sample product requirements document used in this training course
 
 ---
 
-## 课程资料下载
+## SPARK Pattern
 
-
-> **PRD Sample文件**：[下载PRD Sample](https://docs.google.com/document/d/1mbkW4OP3bsjIzx0cH-OxifRixYsiTBVX7oXAI59BZaQ/export?format=docx){:download="PRD-Sample.docx"} - 本培训课程使用的示例产品需求文档
-
----
-
-## 课程概述
-
-本培训课程将系统性地介绍SPARK提示词模型，通过三个循序渐进的步骤，帮助您掌握如何编写高效、结构化的AI提示词。
-
-### SPARK模型核心要素
-
-| 要素 | 功能 | 说明 |
-|------|------|------|
-| **S - Situation（情境）** | 提供背景与脉络 | 建立AI的问题空间与语境 |
-| **P - Purpose（目标）** | 明确任务产出目标 | 让AI聚焦输出内容 |
-| **A - Action Role（角色指派）** | 设定专业角色 | 模拟贴近实际业务需求的思维方式 |
-| **R - Rule（任务规则）** | 制定行为与风格规范 | 确保产出内容的一致性、专业性与实用性 |
-| **K - Knowledge Format（输出格式）** | 定义产出格式 | 帮助模型维持输出一致性 |
+| Element | Function | Description |
+|---------|----------|-------------|
+| **S - Situation（Context）** | Provide background and context | Establish problem space and context |
+| **P - Purpose（Objective）** | Clarify task output objectives | Focus output content |
+| **A - Action Role（Role Assignment）** | Set professional roles | Simulate thinking patterns close to actual business needs |
+| **R - Rule（Task Rules）** | Establish behavior and style standards | Ensure consistency, professionalism and practicality of output content |
+| **K - Knowledge Format（Output Format）** | Define output format | Help model maintain output consistency |
 
 ---
 
-## 第一步：PRD转User Story - 需求转化技能
+##  Example 1: PRD to User Story 
 
-> **范例**：[Prompt Pattern1-PRD to Story]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern1-PRD-to-Story.html)
+### Best Practices
 
+#### **S - Situation（Context）**
 
+- **No Instructions**: Don't write task instructions, just describe the background
+- **Use {}**: Use `{paste complete background and concept}` as a placeholder to let users dynamically fill in specific content and improve template reusability
 
-
-### 详解
-
-#### **1. 情境设定（S）的重要性**
-
-**功能**：建立AI的问题空间与语境
-
-**撰写技巧**：
-- 使用真实项目语言描述问题
-- 采用"产品目的+用户痛点+解决方式"三段式结构
-- 避免混入任务指令
-
-**示例**：
+**Example**:
 ```
- ## S - Situation（情境）
-请阅读以下产品构想，背景为一款旅游类 App，目标是帮助用户轻松规划自由行所需的行程安排、住宿、餐饮与交通，提供智慧、时尚且可定制的旅游体验。
+ ## S - Situation（Context）
+Background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, providing smart, fashionable and customizable travel experiences.
 
-背景内容：
-{粘贴完整背景和构想}
+Background content:
+{paste complete background and concept} / Please refer to the uploaded file
 ```
 ---
 
-#### **2. 目标明确化（P）的技巧**
+#### **P - Purpose（Objective）**
 
-**功能**：让AI聚焦输出内容
+- **One Sentence**: Summarize the task objective in one sentence
+- **Verb**: Use verb-oriented instructions
+- **Key Requirements**: Add key requirement descriptions (such as INVEST principles)
+- **One or Two Check Standards**: Clearly require "each Story must contain at least V (Value) and T (Testable)" in the objective, directly integrating quality check standards into objective setting
 
-**撰写技巧**：
-- 用一句话概括任务目标
-- 加入重点要求说明（如INVEST原则）
-- 使用动词导向的指令
-
-**示例**：
+**Example**:
 ```
-## P - Purpose（目标）
-请将上述构想内容转化为一组符合 INVEST 原则的 User Stories。
-- **重点：每条 Story 至少包含 V（Value）与 T（Testable）**
-- 你的任务是将产品构想内涵转化为结构化的开发故事条目
+## P - Purpose（Objective）
+Please transform the above concept content into a set of User Stories that comply with INVEST principles.
+- **Key Point: Each Story must contain at least V (Value) and T (Testable)**
+- Your task is to transform product concept connotations into structured development story entries
 ```
 ---
 
-#### **3. 角色设定（A）的专业性**
+#### **A - Action Role（Role Assignment）**
 
-**功能**：模拟贴近实际业务需求的思维方式
+- **Professional Role**: Designate professional roles with task-related skills
+- **Domain**: Emphasize the role's areas of expertise
 
-**撰写技巧**：
-- 指定具备任务相关技能的专业角色
-- 强调该角色的擅长领域
-
-**示例**：
+**Example**:
 ```
-## A - Action Role（角色指派）
-你是一位资深敏捷产品经理，擅长将模糊的构想转化为可执行的 User Story，确保开发团队具备明确目标、价值与验收依据。
+## A - Action Role（Role Assignment）
+You are a senior agile product manager who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
 ```
 
 ---
 
-#### **4. 规则制定（R）的精确性**
+#### **R - Rule（Task Rules）**
 
-**功能**：确保产出内容的一致性、专业性与实用性
+- **Checklist**: Use checklist method to list specific behavior requirements
+- **Transformation, Boundaries**: Cover content scope, language transformation, output boundaries
+- **Format**: Require output format
+- **Specific Behavior**: Clearly require "avoid vague statements, such as 'please describe as clearly as possible' → change to 'each User Story must provide at least 3 scenarios'", transforming abstract requirements into specific behavior instructions
+- **Quality Requirement Description**: If there are some quality requirements, you can add specific descriptions.
 
-**撰写技巧**：
-- 使用清单方式列出具体行为要求
-- 涵盖内容范围、语言转化、输出边界
-- 避免模糊词汇，转化为行为指令
-
-**示例**：
+**Example**:
 ```
-## R - Rule（任务规则）
-请遵循以下行为与风格规范：
+## R - Rule（Task Rules）
+Please follow the following behavior and style standards:
 
-要求条目                                              
-- 使用标准格式：“作为一名 [角色]，我想要 [目标]，从而 [获益]”  
-- 每条 Story 明确表达其价值（V）与可测试性（T）              
-- 将模糊、情感化语言（如“好玩”、“有感觉”）转化为行为或功能导向
-- 仅输出 User Story 内容，勿生成多余说明                        
-- User Story 粒度必须具体、可执行                              
-- 覆盖背景构想中提及的所有关键功能或情境 
+Requirements                                              
+- Use standard format: "As a [role], I want [objective], so that [benefit]"  
+- Each Story clearly expresses its value (V) and testability (T)              
+- Transform vague, emotional language (such as "fun", "feeling good") into behavior or function-oriented
+- Only output User Story content, do not generate unnecessary explanations                        
+- User Story granularity must be specific and executable                              
+- Cover all key functions or scenarios mentioned in the background concept 
 
-### INVEST 原则检查表（附录）
+### INVEST Principles Checklist (Appendix)
 
-用于回顾每则 Story 的合格性标准（**至少需满足 V 与 T**）：
+Standards for reviewing the qualification of each Story (**must satisfy at least V and T**):
 
-| 原则代号 | 说明                                 |
-| -------- | ------------------------------------ |
-| **I – Independent** | Story 应能独立完成，不依赖其他故事             |
-| **N – Negotiable**  | 可协商，不应是固定规格说明                     |
-| **V – Valuable**    | 对使用者或业务必须具备明确价值                  |
-| **E – Estimable**   | 能估算其工作量或复杂度                         |
-| **S – Small**       | 足够小，能在一个 Sprint 内完成                |
-| **T – Testable**    | 具备可验证的验收标准或条件                    |
+| Principle Code | Description                                 |
+| -------------- | ------------------------------------------- |
+| **I – Independent** | Story should be independently completable, not dependent on other stories             |
+| **N – Negotiable**  | Negotiable, should not be fixed specification descriptions                     |
+| **V – Valuable**    | Must have clear value for users or business                  |
+| **E – Estimable**   | Can estimate workload or complexity                         |
+| **S – Small**       | Small enough to be completed within one Sprint                |
+| **T – Testable**    | Have verifiable acceptance criteria or conditions                    |
 
- **提示**：虽然不是每条 Story 都需完全符合所有 INVEST 要素，但**必须至少满足 V（Valuable） 与 T（Testable）**。
+ **Note**: Although not every Story needs to fully comply with all INVEST elements, **must satisfy at least V (Valuable) and T (Testable)**.
 
 
 ```
-
----
-
-#### **5. 格式定义（K）的规范性**
-
-**功能**：帮助模型维持输出一致性
-
-**撰写技巧**：
-- 明确使用编号清单格式
-- 提供范例句型
-- 注明句型模板
-
-**示例**：
-```
-## K - Knowledge Format（输出格式）
-请将结果整理为编号清单格式，每条 Story 使用标准句型书写：
-
-1. 作为一名……，我想要……，从而……
-2. 作为一名……，我想要……，从而……
-```
-
-
 
 
 ---
 
-### SPARK特别用法
+#### **K - Knowledge Format（Output Format）**
 
-| 区块 | 特别技巧 | 说明 |
-|------|----------|------|
-| **S - Situation（情境）** | 变量占位符技巧 | 使用`{粘贴完整背景和构想}`作为占位符，让用户动态填充具体内容，提高模板复用性 |
-| **P - Purpose（目标）** | INVEST原则嵌入 | 在目标中明确要求"每条Story至少包含V（Value）与T（Testable）"，将质量检查标准直接融入目标设定 |
-| **R - Rule（任务规则）** | 模糊语言转化 | 明确要求"避免模糊语句，如「请尽量清楚描述」→ 改为「每条User Story至少提供3种场景」"，将抽象要求转化为具体行为指令 |
+- **Template**: Specify sentence pattern templates
+
+**Example**:
+```
+## K - Knowledge Format（Output Format）
+Please organize the results in numbered list format, each Story using standard sentence patterns:
+
+1. As a..., I want..., so that...
+2. As a..., I want..., so that...
+```
+
+
+
+### Sample Prompt
+
+```
+## S - Situation（Context）
+Please read the following product concept. The background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, providing smart, fashionable and customizable travel experiences.
+
+Background content:
+{paste complete background and concept}
 
 ---
 
-## 第二步：User Story排序 - 优先级判断技能
+## P - Purpose（Objective）
+Please transform the above concept content into a set of User Stories that comply with INVEST principles.
+- **Key Point: Each Story must contain at least V (Value) and T (Testable)**
+- Your task is to transform product concept connotations into structured development story entries
 
-> **范例**：[Prompt Pattern2-Order the Stories]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern2-Order-the-Stories.html)
+---
 
-### 详解
+## A - Action Role（Role Assignment）
+You are a senior agile product manager who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
 
-#### **1. 情境设定（S）的输入导向**
+---
 
-**功能**：设定任务背景与输入内容
+## R - Rule（Task Rules）
+Please follow the following behavior and style standards:
 
-**撰写技巧**：
-- 提供简明的产品构想
-- 明确指出面对的输入内容
-- 用使用者语言写实表达
+Requirements                                              
+- Use standard format: "As a [role], I want [objective], so that [benefit]"  
+- Each Story clearly expresses its value (V) and testability (T)              
+- Transform vague, emotional language (such as "fun", "feeling good") into behavior or function-oriented
+- Only output User Story content, do not generate unnecessary explanations                        
+- User Story granularity must be specific and executable                              
+- Cover all key functions or scenarios mentioned in the background concept     
 
-**示例**：
+### INVEST Principles Checklist (Appendix)
+
+Standards for reviewing the qualification of each Story (**must satisfy at least V and T**):
+
+| Principle Code | Description                                 |
+| -------------- | ------------------------------------------- |
+| **I – Independent** | Story should be independently completable, not dependent on other stories             |
+| **N – Negotiable**  | Negotiable, should not be fixed specification descriptions                     |
+| **V – Valuable**    | Must have clear value for users or business                  |
+| **E – Estimable**   | Can estimate workload or complexity                         |
+| **S – Small**       | Small enough to be completed within one Sprint                |
+| **T – Testable**    | Have verifiable acceptance criteria or conditions                    |
+
+ **Note**: Although not every Story needs to fully comply with all INVEST elements, **must satisfy at least V (Valuable) and T (Testable)**.
+
+---
+
+## K - Knowledge Format（Output Format）
+Please organize the results in numbered list format, each Story using standard sentence patterns:
+
+1. As a..., I want..., so that...
+2. As a..., I want..., so that...
+
+---
+
 
 ```
-S - **Situation（情境）**
 
-请阅读以下产品构想与 User Stories。背景为一款旅游类 App，目标是帮助用户轻松规划自由行的行程、住宿、餐饮与交通，提供智慧、时尚且可定制的旅游体验。
 
-你将面对一组已撰写好的 User Stories，接下来的任务是根据其价值与上线优先顺序，进行合理排序。
+---
 
-提供的 User Story 列表如下：
+## Example 2：User Story Prioritization 
+
+### Best Practices
+
+#### **S - Situation（Context）**
+
+- **Explain Input Materials**: First provide product background, then clarify input content "You will face a set of pre-written User Stories", letting AI clearly know what to process
+  
+**Example**:
+
+```
+S - **Situation（Context）**
+
+Please read the following product concept and User Stories. The background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, providing smart, fashionable and customizable travel experiences.
+
+You will face a set of pre-written User Stories, and the next task is to reasonably prioritize them according to their value and launch priority.
+
+The provided User Story list is as follows:
 
 {User Story}
 ```
 
 ---
 
-#### **2. 目标设定（P）的双重导向**
+#### **P - Purpose（Objective）**
 
-**功能**：兼顾使用者价值与MVP原则
-
-**撰写技巧**：
-- 明确排序任务
-- 说明排序依据（价值、依赖、最小上线单元）
-- 避免模糊词汇，转化为可操作标准
+- **Prioritize by Importance**: Explain prioritization basis (value, minimum launch unit)
+- **Verifiable**: Avoid vague vocabulary, transform into actionable standards
+- **One Goal at a Time**: Avoid multiple tasks at once, currently LLM multi-task performance is difficult to tune
 
 
-**示例**：
+**Example**:
 
 ```
-## P - **Purpose（目标）**
+## P - **Purpose（Objective）**
 
-你的任务是：
-**根据使用者价值与 MVP 原则，为上述 User Story 进行排序，并说明排序原因。**
+Your task is:
+**Prioritize the above User Stories according to user value and MVP principles, and explain the prioritization reasons.**
 
-排序判断需兼顾两大目标：
+Prioritization judgment needs to balance two major objectives:
 
-1. **使用者价值（User Value）**：优先满足旅游规划中最核心的痛点，能提升效率、降低焦虑或带来关键帮助。
-2. **最小可行产品（MVP）原则**：找出构成 V1.0 的最小功能组合，以便尽早上线验证产品假设。
+1. **User Value**: Prioritize meeting the most core pain points in travel planning, improving efficiency, reducing anxiety or bringing key help.
+2. **Minimum Viable Product (MVP) Principle**: Find the minimum functional combination that constitutes V1.0 for early launch to validate product assumptions.
 ```
 
 ---
 
-#### **3. 角色设定（A）的判断能力**
 
-**功能**：影响语言逻辑与判断标准
+#### **A - Action Role（Role Assignment）**
 
-**撰写技巧**：
-- 指定具备判断能力的专业角色
-- 加入专业背景说明
+- **Domain Matches Objective**: Designate professional roles with judgment capabilities
+- **What Skills**: Add professional background description
 
 
-**示例**：
+**Example**:
 
 ```
-## A - **Action Role（角色指派）**
+## A - **Action Role（Role Assignment）**
 
-你是一位**精通敏捷开发与精益创业的产品负责人**，擅长判断功能优先级、拆解上线节奏，并能从用户价值角度快速识别痛点与成长期价值。
+You are a **product manager proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
 ```
 
 ---
 
-#### **4. 规则制定（R）的结构化要求**
+#### **R - Rule（Task Rules）**
 
-**功能**：确保产出结构稳定、内容精准
-
-**撰写技巧**：
-- 使用清单呈现任务规范
-- 明确各部分结构要求
-- 避免模糊规则
+- **Structure**: Clarify structural requirements for each part
+- **Style**: Specify output content style
 
 
-**示例**：
+**Example**:
 
 ```
-## R - **Rule（任务规则）**
+## R - **Rule（Task Rules）**
 
-请遵循以下规范完成排序：
+Please follow the following standards to complete prioritization:
 
-* 每条 User Story 需分配一个明确的排序顺位（1\~N）
-* 每条 Story 下方需补充一句**排序原因**
-
-* 例如：「核心痛点」、「需先产生行程资料」、「为次要体验」等
-* 若某些功能具备**前置依赖**，请标注依赖说明
-* 请指出哪些 User Story 可构成**MVP（V1.0）版本的最小组合**
-* 请避免输出多余解释，仅输出排序与理由
+* Each User Story needs to be assigned a clear priority order (1~N)
+* Each Story below needs to add a **prioritization reason**, for example: "core pain point", "need to generate itinerary data first", "secondary experience", etc.
+* If certain functions have **prerequisites**, please mark dependency descriptions
+* Please indicate which User Stories can constitute the **minimum combination of MVP (V1.0) version**
+* Please avoid unnecessary explanations, only output prioritization and reasons
 ```
 
 ---
 
-#### **5. 格式定义（K）的实用性**
+#### **K - Knowledge Format（Output Format）**
 
-**功能**：确保格式一致、便于使用
-
-**撰写技巧**：
-- 指明使用编号清单格式
-- 说明格式顺序（内容+原因+备注）
-- 提供范例输出格式
+- **Clear Order**: Explain format order (content + reason + notes)
+- **Examples**: Provide example output formats
+- **Key Output**: Clearly state in format requirements "Please indicate which User Stories can constitute the minimum combination of MVP (V1.0) version", directly incorporating decision results into output format 
 
 
-**示例**：
+**Example**:
 
 ```
-## K - **Knowledge Format（输出格式）**
+## K - **Knowledge Format（Output Format）**
 
-请用以下格式进行输出：
+Please use the following format for output:
 
+1. [User Story content]  
+Prioritization reason: (e.g., core pain point, user primary need, can be completed independently)
 
-1. [User Story 内容]  
-排序原因：（例如：核心痛点、用户首要需求、可独立完成）
-
-2. [User Story 内容]  
-排序原因：（例如：建立于 Story 1 基础上、为次要体验）
+2. [User Story content]  
+Prioritization reason: (e.g., built on Story 1 foundation, secondary experience)
 
 ...
 
-15. [User Story 内容]  
-排序原因：（例如：依赖其他模组、非必要功能）
+15. [User Story content]  
+Prioritization reason: (e.g., dependent on other modules, non-essential function)
 
 ---
-最小可行版本（MVP）包含：第 1～5 项功能
+Minimum Viable Version (MVP) includes: Items 1~5
 ---
+
 
 ```
----
 
-### SPARK特别用法
 
-| 区块 | 特别技巧 | 说明 |
-|------|----------|------|
-| **S - Situation（情境）** | 双重输入设计 | 先提供产品背景，再明确输入内容"你将面对一组已撰写好的User Stories"，让AI清楚知道要处理什么 |
-| **P - Purpose（目标）** | 双重目标设定 | 同时要求"使用者价值"和"MVP原则"，在目标层面就建立平衡机制 |
-| **K - Knowledge Format（输出格式）** | MVP组合输出 | 在格式要求中明确"请指出哪些User Story可构成MVP（V1.0）版本的最小组合"，将决策结果直接纳入输出格式 |
-
----
-
-## 第三步：User Story转验收标准 - 测试设计技能
-
-> **范例**：[Prompt Pattern3-Story to AC]({{ site.baseurl }}/prompt/2025/08/04/Prompt-Pattern3-Story-to-AC.html)
-
-### 详解
-
-#### **1. 情境设定（S）的测试导向**
-
-**功能**：帮助模型理解任务背景与输入内容
-
-**撰写技巧**：
-- 提供清楚的背景介绍
-- 明确指出要撰写的User Story
-- 避免在此区块放入任务指令
-
-**示例**：
+> Sample Prompt
 
 ```
-##  S - **Situation（情境）**
+## S - **Situation（Context）**
 
-请阅读以下 User Story。本任务背景为一款旅游类 App，旨在帮助用户轻松规划自由行中的行程、住宿、餐饮与交通，并提供可自定义的智慧化体验。
+Please read the following product concept and User Stories. The background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, providing smart, fashionable and customizable travel experiences.
 
-你将基于这些 User Story，为产品开发团队撰写结构化的验收标准，用于明确开发完成的判断标准，并协助测试验证功能是否可交付。
+You will face a set of pre-written User Stories, and the next task is to reasonably prioritize them according to their value and launch priority.
 
-提供的 User Story 如下：
+The provided User Story list is as follows:
 
+{User Story}
 
-{粘贴完整 User Story，可多个}
-```
 
 ---
 
-#### **2. 目标设定（P）的验证导向**
+## P - **Purpose（Objective）**
 
-**功能**：说明要交付什么、为什么写
+Your task is:
+**Prioritize the above User Stories according to user value and MVP principles, and explain the prioritization reasons.**
 
-**撰写技巧**：
-- 明确写出撰写验收标准的目的
-- 指出重点要求（如多种情境）
-- 强调商业目的
+Prioritization judgment needs to balance two major objectives:
 
-
-**示例**：
-
-```
-请为上述每条 User Story 撰写详细的 **验收标准（Acceptance Criteria）**。
-重点在于清楚定义「在什么情况下该需求可被视为完成且可接受」，并聚焦**使用者行为与系统回应**。
-
-每个 User Story 至少列出 **3 种情境**，涵盖：
-
-*  正常流程（Happy Path）
-*  边界情境（如空值、极限输入）
-*  异常情境（如权限不足、格式错误）
-
-```
----
-
-#### **3. 角色设定（A）的业务导向**
-
-**功能**：提升内容专业性与语气匹配度
-
-**撰写技巧**：
-- 指派能写验收标准的角色
-- 说明该角色的专长与视角
-- 避免设定开发者或AI助理角色
-
-
-**示例**：
-
-```
-##  A - **Action Role（角色指派）**
-
-你是一位**熟悉业务需求与用户旅程的资深产品经理**，擅长用非技术语言清楚描述系统行为，确保团队对功能完成标准有一致理解。
-```
+1. **User Value**: Prioritize meeting the most core pain points in travel planning, improving efficiency, reducing anxiety or bringing key help.
+2. **Minimum Viable Product (MVP) Principle**: Find the minimum functional combination that constitutes V1.0 for early launch to validate product assumptions.
 
 ---
 
-#### **4. 规则制定（R）的测试导向**
+## A - **Action Role（Role Assignment）**
 
-**功能**：约定输出规则，让结果更稳定与可操作
+You are a **product manager proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
 
-**撰写技巧**：
-- 指定使用Gherkin语法
-- 明确语言风格要求
-- 要求多种场景类型
+---
 
+## R - **Rule（Task Rules）**
 
-**示例**：
+Please follow the following standards to complete prioritization:
+
+* Each User Story needs to be assigned a clear priority order (1~N)
+* Each Story below needs to add a **prioritization reason**
+
+* For example: "core pain point", "need to generate itinerary data first", "secondary experience", etc.
+* If certain functions have **prerequisites**, please mark dependency descriptions
+* Please indicate which User Stories can constitute the **minimum combination of MVP (V1.0) version**
+* Please avoid unnecessary explanations, only output prioritization and reasons
+
+---
+
+## K - **Knowledge Format（Output Format）**
+
+Please use the following format for output:
+
+1. [User Story content]  
+Prioritization reason: (e.g., core pain point, user primary need, can be completed independently)
+
+2. [User Story content]  
+Prioritization reason: (e.g., built on Story 1 foundation, secondary experience)
+
+...
+
+15. [User Story content]  
+Prioritization reason: (e.g., dependent on other modules, non-essential function)
+
+---
+Minimum Viable Version (MVP) includes: Items 1~5
+---
+
 
 ```
-##  R - **Rule（任务规则）**
 
-请遵循以下规范进行撰写：
 
-* 使用 **Given-When-Then**（Gherkin）格式表达每个验收情境
-* 语言请保持 **商业用语，避免技术术语**
-* 每个场景标题请以「场景：」开头，简要描述该情境
-* 若 Story 涉及以下情境，请优先考虑：
 
-  *  权限控制（是否已登录、是否有操作权限）
-  *  跨装置或浏览器差异（手机 / 桌机、iOS / Android）
+
+
+---
+
+## Step 3: User Story to Acceptance Criteria - Test Design Skills
+
+
+### Best Practices
+
+#### **S - Situation（Context）**
+
+- **Define Purpose**: Clearly state "write structured acceptance criteria for the product development team", positioning the output purpose in the context 
+
+**Example**:
+
+```
+##  S - **Situation（Context）**
+
+Please read the following User Story. This task background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, and provide customizable intelligent experiences.
+
+The provided User Story is as follows:
+
+{paste complete User Story, can be multiple}
 ```
 
 ---
 
-#### **5. 格式定义（K）的结构化**
+#### **P - Purpose（Objective）**
 
-**功能**：清楚定义输出形式，利于阅读、复制、沟通
-
-**撰写技巧**：
-- 指定使用区块格式
-- 提供格式范例
-- 要求使用者语言自然
+- **Purpose**: Clearly write the purpose of writing acceptance criteria
+- **Clarify Multiple Scenarios**: Point out key requirements (such as multiple scenarios)
 
 
-**示例**：
+**Example**:
 
 ```
-##  K - **Knowledge Format（输出格式）**
+Please write detailed **Acceptance Criteria** for each of the above User Stories.
+Focus on clearly defining "under what circumstances this requirement can be considered complete and acceptable", and focus on **user behavior and system response**.
 
-请用以下格式撰写，每个场景为一个区块：
+Each User Story should list at least **3 scenarios**, covering:
+
+*  Normal flow (Happy Path)
+*  Boundary scenarios (such as empty values, extreme inputs)
+*  Exception scenarios (such as insufficient permissions, format errors)
+
+```
+---
+
+#### **A - Action Role（Role Assignment）**
+
+
+**Example**:
+
+```
+##  A - **Action Role（Role Assignment）**
+
+You are a **senior product manager familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
+```
+
+---
+#### **R - Rule（Task Rules）**
+
+
+- **Standard Format**: Clearly require "use Given-When-Then (Gherkin) format", directly writing test standard format into rules 
+- **Language Restrictions**: Clarify language style requirements
+- **Multiple Scenarios**: Require multiple scenario types
+
+
+**Example**:
+
+```
+##  R - **Rule（Task Rules）**
+
+Please follow the following standards for writing:
+
+* Use **Given-When-Then** (Gherkin) format to express each acceptance scenario
+* Language should maintain **business terminology, avoid technical terms**
+* Each scenario title should start with "Scenario:" to briefly describe the scenario
+* If Story involves the following scenarios, please prioritize:
+  *  Permission control (whether logged in, whether has operation permissions)
+  *  Cross-device or browser differences (mobile / desktop, iOS / Android)
+```
+
+---
+
+#### **K - Knowledge Format（Output Format）**
+
+- **Consider the Future**: Provide complete Gherkin format examples to ensure output can be directly used for test case generation 
+
+**Example**:
+
+```
+##  K - **Knowledge Format（Output Format）**
+
+Please use the following format for writing, each scenario as a block:
 
 gherkin
-场景：简要说明情境名称  
-Given 某些前置条件成立  
-And 某些系统状态存在（如有）  
-When 使用者执行某个动作  
-And （额外操作或输入）  
-Then 系统应有的回应  
-And （额外验证点或状态变更）
+Scenario: Briefly describe the scenario name  
+Given certain preconditions are met  
+And certain system states exist (if any)  
+When the user performs a certain action  
+And (additional operations or inputs)  
+Then the system should respond accordingly  
+And (additional verification points or state changes)
 
 
-每条 User Story 至少撰写三组情境。请确保内容**具体、可验证、贴近使用者语言**。
+Write at least three scenarios for each User Story. Please ensure the content is **specific, verifiable, and close to user language**.
+```
+
+
+> Sample Prompt
+
+```
+##  S - **Situation（Context）**
+
+Please read the following User Story. This task background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, and provide customizable intelligent experiences.
+
+You will base on these User Stories to write structured acceptance criteria for the product development team, used to clarify development completion criteria and assist in testing and validating whether functions are deliverable.
+
+The provided User Story is as follows:
+
+{paste complete User Story, can be multiple}
+
+
+---
+
+##  P - **Purpose（Objective）**
+
+Please write detailed **Acceptance Criteria** for each of the above User Stories.
+Focus on clearly defining "under what circumstances this requirement can be considered complete and acceptable", and focus on **user behavior and system response**.
+
+Each User Story should list at least **3 scenarios**, covering:
+
+*  Normal flow (Happy Path)
+*  Boundary scenarios (such as empty values, extreme inputs)
+*  Exception scenarios (such as insufficient permissions, format errors)
+
+---
+
+##  A - **Action Role（Role Assignment）**
+
+You are a **senior product manager familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
+
+---
+
+##  R - **Rule（Task Rules）**
+
+Please follow the following standards for writing:
+
+* Use **Given-When-Then** (Gherkin) format to express each acceptance scenario
+* Language should maintain **business terminology, avoid technical terms**
+* Each scenario title should start with "Scenario:" to briefly describe the scenario
+* If Story involves the following scenarios, please prioritize:
+
+  *  Permission control (whether logged in, whether has operation permissions)
+  *  Cross-device or browser differences (mobile / desktop, iOS / Android)
+
+---
+
+##  K - **Knowledge Format（Output Format）**
+
+Please use the following format for writing, each scenario as a block:
+
+gherkin
+Scenario: Briefly describe the scenario name  
+Given certain preconditions are met  
+And certain system states exist (if any)  
+When the user performs a certain action  
+And (additional operations or inputs)  
+Then the system should respond accordingly  
+And (additional verification points or state changes)
+
+
+Write at least three scenarios for each User Story. Please ensure the content is **specific, verifiable, and close to user language**.
 ```
 
 ---
+<br>
+<br>
+<br>
+<br>
 
-### SPARK特别用法
-
-| 区块 | 特别技巧 | 说明 |
-|------|----------|------|
-| **S - Situation（情境）** | 测试导向设计 | 明确说明"为产品开发团队撰写结构化的验收标准"，在情境中就定位了输出用途 |
-| **P - Purpose（目标）** | 量化要求嵌入 | 在目标中明确"每个User Story至少列出3种情境"，将数量要求直接融入目标设定 |
-| **R - Rule（任务规则）** | Gherkin格式强制 | 明确要求"使用Given-When-Then（Gherkin）格式"，将测试标准格式直接写入规则 |
-| **K - Knowledge Format（输出格式）** | 测试用例结构 | 提供完整的Gherkin格式范例，确保输出可直接用于测试用例生成 |
+>## Don't try to write it perfectly the first time, use iteration to approach the prompt that best suits you
 
 
-
-
----
-
-## 提示词写作核心技巧
-
-### **1. SPARK模型写作要领**
-
->#### S区块（情境）的写作技巧
-
-- **变量占位符策略**：使用`{粘贴完整背景}`、`{User Story}`等占位符，让提示词可重复使用
-- **双层背景设计**：先描述产品背景，再说明输入内容类型，让AI清楚知道要处理什么
-- **用途明确化**：在情境中就说明输出的用途，如"为产品开发团队撰写验收标准"
-
->#### P区块（目标）的写作技巧
-
-- **质量标准嵌入**：将检查标准直接写入目标，如"每条Story至少包含V（Value）与T（Testable）"
-- **量化要求明确**：用具体数字替代模糊描述，如"至少列出3种情境"而非"列出多种情境"
-- **双重目标平衡**：当任务复杂时，明确列出需要兼顾的多个目标，如"使用者价值"和"MVP原则"
-
->#### A区块（角色）的写作技巧
-
-- **技能匹配原则**：根据任务选择最合适的角色，产品任务选"产品经理"，测试任务选"QA专家"
-- **专业背景描述**：详细说明角色的专业领域，如"精通敏捷开发与精益创业的产品负责人"
-- **业务导向优先**：对于商业任务，避免技术角色，确保输出贴近业务语言
-
->#### R区块（规则）的写作技巧
-
-- **模糊语言转化**：将"请尽量清楚"改为"每条Story必须包含具体的验收条件"
-- **格式标准强制**：明确指定格式要求，如"使用Given-When-Then（Gherkin）格式"
-- **正反面指导**：同时说明"必须做什么"和"避免做什么"，如"使用商业用语，避免技术术语"
-
->#### K区块（格式）的写作技巧
-
-- **完整范例提供**：给出完整的输出格式示例，让AI可以直接模仿
-- **结构化输出设计**：将决策结果纳入格式要求，如"请指出哪些Story构成MVP"
-- **可用性考量**：确保输出格式便于后续使用，如直接可复制到测试用例或项目管理工具
-
---- 
-
-
-### **2. 提示词写作常见问题与解决技巧**
-
->#### 问题：AI输出格式每次都不一样 
-
-**SPARK解决策略**：
-- **K区块范例化**：提供完整的格式示例，包含所有必要元素
-- **R区块格式强制**：在规则中明确"严格按照以下格式输出"
-- **代码块技巧**：使用```代码块包围格式示例，提高AI的格式识别准确性
-
->#### 问题：AI回答太技术化，业务人员看不懂
-
-**SPARK解决策略**：
-- **A区块业务角色**：设定"资深产品经理"而非"系统架构师"
-- **R区块语言规范**：明确要求"使用商业语言，避免技术术语"
-- **S区块业务背景**：在情境中强调业务目标和用户价值
-
->#### 问题：AI输出内容不够完整
-
-**SPARK解决策略**：
-- **P区块量化明确**：用具体数字要求，如"每个User Story需要3种测试场景"
-- **R区块要素清单**：列出必须包含的所有要素，如"排序原因、依赖关系、MVP标记"
-- **检查清单技巧**：在提示词最后加入"请确认以上要求都已满足"
-
----
-
-  
-
-### **3. 高级提示词写作技巧**
-
->#### 模板化与复用策略
-
-- **变量占位符设计**：使用`{}`标记需要动态填充的内容
-- **模块化组合**：将SPARK各区块设计成可组合的模块
-- **版本迭代记录**：记录不同版本的提示词效果，持续优化
-
->#### 上下文控制技巧
-
-- **信息层次化**：在S区块中按重要性排列背景信息
-- **输入格式标准化**：为不同类型输入设计标准格式
-- **边界条件处理**：在R区块中说明如何处理特殊情况
-
->#### 输出质量控制
-
-- **多轮验证设计**：设计可以多轮精化的提示词结构
-- **质量检查嵌入**：将质量标准直接写入提示词各区块
-- **反馈循环建立**：设计便于根据输出结果调整提示词的机制
-
----
-
-
-## 总结
-
-SPARK模型提供了一个系统性的框架来编写高效的AI提示词。通过这三个步骤的培训，您将掌握：
-
-1. **需求转化技能**：将产品构想转化为可执行的User Story
-2. **优先级判断技能**：基于价值和MVP原则进行功能排序
-3. **测试设计技能**：为User Story制定详细的验收标准
-
-每个步骤都体现了SPARK模型的核心要素，通过结构化的教学要点和实用技巧，帮助您在实际工作中更好地运用AI工具。
