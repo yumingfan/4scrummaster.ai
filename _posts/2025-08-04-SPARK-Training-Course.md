@@ -70,7 +70,7 @@ Please transform the above concept content into a set of User Stories that compl
 **Example**:
 ```
 ## A - Action Role（Role Assignment）
-You are a senior agile product manager who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
+You are a senior agile product owner who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
 ```
 
 ---
@@ -139,7 +139,7 @@ Please organize the results in numbered list format, each Story using standard s
 Please read the following product concept. The background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, providing smart, fashionable and customizable travel experiences.
 
 Background content:
-{paste complete background and concept}
+{paste complete background and concept} / Please refer to the uploaded file
 
 ---
 
@@ -151,7 +151,7 @@ Please transform the above concept content into a set of User Stories that compl
 ---
 
 ## A - Action Role（Role Assignment）
-You are a senior agile product manager who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
+You are a senior agile product owner who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
 
 ---
 
@@ -256,7 +256,7 @@ Prioritization judgment needs to balance two major objectives:
 ```
 ## A - **Action Role（Role Assignment）**
 
-You are a **product manager proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
+You are a **product owner proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
 ```
 
 ---
@@ -346,7 +346,7 @@ Prioritization judgment needs to balance two major objectives:
 
 ## A - **Action Role（Role Assignment）**
 
-You are a **product manager proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
+You are a **product owner proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
 
 ---
 
@@ -444,7 +444,7 @@ Each User Story should list at least **3 scenarios**, covering:
 ```
 ##  A - **Action Role（Role Assignment）**
 
-You are a **senior product manager familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
+You are a **senior product owner familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
 ```
 
 ---
@@ -529,7 +529,7 @@ Each User Story should list at least **3 scenarios**, covering:
 
 ##  A - **Action Role（Role Assignment）**
 
-You are a **senior product manager familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
+You are a **senior product owner familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
 
 ---
 

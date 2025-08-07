@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-07T23:55:20+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html"></title><link href="http://0.0.0.0:4000/2025/08/07/2025-08-04-PrdSample-CN.html" rel="alternate" type="text/html" title="" /><published>2025-08-07T23:55:20+08:00</published><updated>2025-08-07T23:55:20+08:00</updated><id>http://0.0.0.0:4000/2025/08/07/2025-08-04-PrdSample-CN</id><content type="html" xml:base="http://0.0.0.0:4000/2025/08/07/2025-08-04-PrdSample-CN.html"><![CDATA[> **PRD Sample File**: [Download PRD Sample](https://docs.google.com/document/d/1qvCbIlO8ohEgQwkronFbNU04YiSdlSc77ElCsn97Y2U/edit?usp=sharing){:download="PRD-Sample-CN.docx"} - Sample product requirements document used in this training course
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-08T07:56:05+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">4Scrummaster.ai</title><subtitle>這個網站是為了提供 Scrum Master 在培訓 AI 在 Scrum 的應用而生，主要維護者是 Annie、Ethan、Yuming。 This website was created to support Scrum Masters in training AI for applications in Scrum. The primary maintainers are Annie, Ethan, and Yuming..</subtitle><entry><title type="html"></title><link href="http://0.0.0.0:4000/2025/08/08/2025-08-04-PrdSample-CN.html" rel="alternate" type="text/html" title="" /><published>2025-08-08T07:56:05+08:00</published><updated>2025-08-08T07:56:05+08:00</updated><id>http://0.0.0.0:4000/2025/08/08/2025-08-04-PrdSample-CN</id><content type="html" xml:base="http://0.0.0.0:4000/2025/08/08/2025-08-04-PrdSample-CN.html"><![CDATA[> **PRD Sample File**: [Download PRD Sample](https://docs.google.com/document/d/1qvCbIlO8ohEgQwkronFbNU04YiSdlSc77ElCsn97Y2U/edit?usp=sharing){:download="PRD-Sample-CN.docx"} - Sample product requirements document used in this training course
 
 
 # SingaHai Travel Buddy
@@ -120,7 +120,7 @@ Please transform the above concept content into a set of User Stories that compl
 
 <p><strong>Example</strong>:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## A - Action Role（Role Assignment）
-You are a senior agile product manager who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
+You are a senior agile product owner who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
 </code></pre></div></div>
 
 <hr />
@@ -187,7 +187,7 @@ Please organize the results in numbered list format, each Story using standard s
 Please read the following product concept. The background is a travel App that aims to help users easily plan independent travel arrangements including itineraries, accommodation, dining and transportation, providing smart, fashionable and customizable travel experiences.
 
 Background content:
-{paste complete background and concept}
+{paste complete background and concept} / Please refer to the uploaded file
 
 ---
 
@@ -199,7 +199,7 @@ Please transform the above concept content into a set of User Stories that compl
 ---
 
 ## A - Action Role（Role Assignment）
-You are a senior agile product manager who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
+You are a senior agile product owner who is good at transforming vague concepts into executable User Stories, ensuring the development team has clear objectives, value and acceptance criteria.
 
 ---
 
@@ -303,7 +303,7 @@ Prioritization judgment needs to balance two major objectives:
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## A - **Action Role（Role Assignment）**
 
-You are a **product manager proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
+You are a **product owner proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
 </code></pre></div></div>
 
 <hr />
@@ -393,7 +393,7 @@ Prioritization judgment needs to balance two major objectives:
 
 ## A - **Action Role（Role Assignment）**
 
-You are a **product manager proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
+You are a **product owner proficient in agile development and lean startup**, good at judging functional priorities, breaking down launch rhythms, and quickly identifying pain points and growth value from a user value perspective.
 
 ---
 
@@ -485,7 +485,7 @@ Each User Story should list at least **3 scenarios**, covering:
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##  A - **Action Role（Role Assignment）**
 
-You are a **senior product manager familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
+You are a **senior product owner familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
 </code></pre></div></div>
 
 <hr />
@@ -570,7 +570,7 @@ Each User Story should list at least **3 scenarios**, covering:
 
 ##  A - **Action Role（Role Assignment）**
 
-You are a **senior product manager familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
+You are a **senior product owner familiar with business requirements and user journeys**, good at clearly describing system behavior in non-technical language, ensuring the team has consistent understanding of functional completion standards.
 
 ---
 
