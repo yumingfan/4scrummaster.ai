@@ -238,7 +238,7 @@ Your task is:
 
 Prioritization judgment needs to balance two major objectives:
 
-1. **User Value**: Prioritize meeting the most core pain points in travel planning, improving efficiency, reducing anxiety or bringing key help.
+1. **User Value**: Prioritize meeting the most core pain points in travel planning, user stickiness, easier to make more travel plans, one stop for all.
 2. **Minimum Viable Product (MVP) Principle**: Find the minimum functional combination that constitutes V1.0 for early launch to validate product assumptions.
 ```
 
@@ -339,7 +339,7 @@ Your task is:
 
 Prioritization judgment needs to balance two major objectives:
 
-1. **User Value**: Prioritize meeting the most core pain points in travel planning, improving efficiency, reducing anxiety or bringing key help.
+1. **User Value**: Prioritize meeting the most core pain points in travel planning, user stickiness, easier to make more travel plans, one stop for all.
 2. **Minimum Viable Product (MVP) Principle**: Find the minimum functional combination that constitutes V1.0 for early launch to validate product assumptions.
 
 ---
